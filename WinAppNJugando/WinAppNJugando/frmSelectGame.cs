@@ -2,9 +2,11 @@
 using System.Windows.Forms;
 using RegiAnimal;
 using WinAppProject;
+
 /**
   * @Autor: Diego Borja.
-  * */
+  * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -23,6 +25,7 @@ namespace WinAppNiñitosEnAccion
             frmAutoevaluacion1 ObjFormularioAutoevaluacion1 = new frmAutoevaluacion1();
             ObjFormularioAutoevaluacion1.Show();
             Hide();
+            ObjInstruction.Player.Stop();
         }
 
         private void picExit_Click(object sender, EventArgs e)
@@ -63,12 +66,16 @@ namespace WinAppNiñitosEnAccion
             frmMenu menu = new frmMenu();
             menu.Show();
             Dispose();
+            ObjInstruction.Player.Stop();
+
+
         }
         private void picTuCasaoTuEscuelaGame_Click(object sender, EventArgs e)
         {
             frmMenuC menuc = new frmMenuC();
             menuc.Show();
             Dispose();
+            ObjInstruction.Player.Stop();
         }
 
         private void frmSelectGame_Load(object sender, EventArgs e)

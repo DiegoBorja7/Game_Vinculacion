@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 
 /**
- *@Autor Borja Diego
- * **/
+  * @Autor: Diego Borja.
+  * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -232,11 +233,6 @@ namespace WinAppNiñitosEnAccion
 
         }
 
-        private void picRegion1_DragDrop(object sender, DragEventArgs e)
-        {
-            picRegion1.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
-        }
-
         private void picRegion2_DragEnter(object sender, DragEventArgs e)
         {
             int i;
@@ -315,11 +311,6 @@ namespace WinAppNiñitosEnAccion
             }
         }
 
-        private void picRegion2_DragDrop(object sender, DragEventArgs e)
-        {
-            picRegion2.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
-        }
-
         private void picRegion3_DragEnter(object sender, DragEventArgs e)
         {
             int i;
@@ -396,11 +387,6 @@ namespace WinAppNiñitosEnAccion
                     }
                 }
             }
-        }
-
-        private void picRegion3_DragDrop(object sender, DragEventArgs e)
-        {
-            picRegion3.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
         }
 
         private void picRegion4_DragEnter(object sender, DragEventArgs e)

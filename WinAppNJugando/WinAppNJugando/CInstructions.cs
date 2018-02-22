@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Drawing;
 using System.Media;
-using System.Collections.Generic;
 using System.Windows.Forms;
 
 /**
- *@Autor Borja Diego
- * **/
+  * @Autor: Diego Borja.
+  * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -16,7 +16,6 @@ namespace WinAppNiñitosEnAccion
         private static int puntaje;
         private int clicks;
         private int aciertos;
-        private int i,j,k;
 
         private Bitmap myBitmap;
         private SoundPlayer player;
@@ -41,12 +40,19 @@ namespace WinAppNiñitosEnAccion
             get { return aciertos; }
             set { aciertos = value; }
         }
+
+        public SoundPlayer Player
+        {
+            get { return player; }
+            set { player = value; }
+        }
+
         #endregion
 
         #region Constructors of the class
         public CInstructions()
         {
-            clicks = 0; aciertos = 0;
+            clicks = 0; aciertos = 0;   
         }
         #endregion
 

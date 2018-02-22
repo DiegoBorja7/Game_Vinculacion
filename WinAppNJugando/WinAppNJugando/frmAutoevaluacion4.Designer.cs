@@ -115,7 +115,6 @@
             this.picRegion1.Size = new System.Drawing.Size(215, 210);
             this.picRegion1.TabIndex = 9;
             this.picRegion1.TabStop = false;
-            this.picRegion1.DragDrop += new System.Windows.Forms.DragEventHandler(this.picRegion1_DragDrop);
             this.picRegion1.DragEnter += new System.Windows.Forms.DragEventHandler(this.picRegion1_DragEnter);
             // 
             // picRegion2
@@ -126,7 +125,6 @@
             this.picRegion2.Size = new System.Drawing.Size(215, 210);
             this.picRegion2.TabIndex = 10;
             this.picRegion2.TabStop = false;
-            this.picRegion2.DragDrop += new System.Windows.Forms.DragEventHandler(this.picRegion2_DragDrop);
             this.picRegion2.DragEnter += new System.Windows.Forms.DragEventHandler(this.picRegion2_DragEnter);
             // 
             // picRegion3
@@ -137,7 +135,6 @@
             this.picRegion3.Size = new System.Drawing.Size(215, 210);
             this.picRegion3.TabIndex = 11;
             this.picRegion3.TabStop = false;
-            this.picRegion3.DragDrop += new System.Windows.Forms.DragEventHandler(this.picRegion3_DragDrop);
             this.picRegion3.DragEnter += new System.Windows.Forms.DragEventHandler(this.picRegion3_DragEnter);
             // 
             // picRegion4

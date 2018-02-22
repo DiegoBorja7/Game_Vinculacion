@@ -113,9 +113,9 @@
             // 
             this.picImage1.BackColor = System.Drawing.Color.Transparent;
             this.picImage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage1.Location = new System.Drawing.Point(121, 225);
+            this.picImage1.Location = new System.Drawing.Point(85, 185);
             this.picImage1.Name = "picImage1";
-            this.picImage1.Size = new System.Drawing.Size(70, 60);
+            this.picImage1.Size = new System.Drawing.Size(130, 120);
             this.picImage1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picImage1.TabIndex = 3;
             this.picImage1.TabStop = false;
@@ -125,9 +125,9 @@
             // 
             this.picImage2.BackColor = System.Drawing.Color.Transparent;
             this.picImage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage2.Location = new System.Drawing.Point(121, 321);
+            this.picImage2.Location = new System.Drawing.Point(85, 348);
             this.picImage2.Name = "picImage2";
-            this.picImage2.Size = new System.Drawing.Size(70, 60);
+            this.picImage2.Size = new System.Drawing.Size(130, 120);
             this.picImage2.TabIndex = 4;
             this.picImage2.TabStop = false;
             this.picImage2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage2_MouseDown);
@@ -136,9 +136,9 @@
             // 
             this.picImage3.BackColor = System.Drawing.Color.Transparent;
             this.picImage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage3.Location = new System.Drawing.Point(121, 408);
+            this.picImage3.Location = new System.Drawing.Point(85, 505);
             this.picImage3.Name = "picImage3";
-            this.picImage3.Size = new System.Drawing.Size(70, 60);
+            this.picImage3.Size = new System.Drawing.Size(130, 120);
             this.picImage3.TabIndex = 5;
             this.picImage3.TabStop = false;
             this.picImage3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage3_MouseDown);
