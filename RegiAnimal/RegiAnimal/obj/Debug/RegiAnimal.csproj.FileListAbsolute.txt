@@ -1,0 +1,170 @@
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Form1.resources
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\source\repos\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.RegiAnimal.resources
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.RegiAnimal.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\RegiAnimal-C-\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.RegiAnimal.resources
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.RegiAnimal.resources
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Labs-DECC\Desktop\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.RegiAnimal.resources
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+I:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.RegiAnimal.resources
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+G:\RegiAnimal-C--master (1)\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.RegiAnimal.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyecto\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Desktop\RegiAnimalC#\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.RegiAnimalFondo.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Menu.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.LevelSelection.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Help.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\3º Parcial\Proyecto\Proyectov1.1\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Help.resources
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.LevelSelection.resources
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Menu.resources
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb

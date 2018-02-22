@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{240D6B1B-5606-4D28-AE30-0C12FA104B7D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinAppNiñitosEnAccion</RootNamespace>
+    <AssemblyName>WinAppNJugando</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>gameICO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Control.Draggable, Version=1.0.5049.269, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Control.Draggable.1.0.5049.269\lib\net35-Client\Control.Draggable.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CImages.cs" />
+    <Compile Include="CInitializeThings.cs" />
+    <Compile Include="CInstructions.cs" />
+    <Compile Include="CPicCanvas.cs" />
+    <Compile Include="CSounds.cs" />
+    <Compile Include="frmAlerta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlerta.designer.cs">
+      <DependentUpon>frmAlerta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutoevaluacion1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutoevaluacion1.Designer.cs">
+      <DependentUpon>frmAutoevaluacion1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutoevaluacion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutoevaluacion2.Designer.cs">
+      <DependentUpon>frmAutoevaluacion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutoevaluacion3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutoevaluacion3.Designer.cs">
+      <DependentUpon>frmAutoevaluacion3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutoevaluacion4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutoevaluacion4.Designer.cs">
+      <DependentUpon>frmAutoevaluacion4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutoevaluacion5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutoevaluacion5.Designer.cs">
+      <DependentUpon>frmAutoevaluacion5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAyuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAyuda.Designer.cs">
+      <DependentUpon>frmAyuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJuego.Designer.cs">
+      <DependentUpon>frmJuego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLevelSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLevelSelection.Designer.cs">
+      <DependentUpon>frmLevelSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuC.Designer.cs">
+      <DependentUpon>frmMenuC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPuntajeAutoevaluacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPuntajeAutoevaluacion.Designer.cs">
+      <DependentUpon>frmPuntajeAutoevaluacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPuntuacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPuntuacion.Designer.cs">
+      <DependentUpon>frmPuntuacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegiAnimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegiAnimal.Designer.cs">
+      <DependentUpon>frmRegiAnimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectGame.Designer.cs">
+      <DependentUpon>frmSelectGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InitializeImages.cs" />
+    <Compile Include="InitializePictureBox.cs" />
+    <Compile Include="PictureSounds.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="Translation.cs" />
+    <EmbeddedResource Include="frmAlerta.resx">
+      <DependentUpon>frmAlerta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutoevaluacion1.resx">
+      <DependentUpon>frmAutoevaluacion1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutoevaluacion2.resx">
+      <DependentUpon>frmAutoevaluacion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutoevaluacion3.resx">
+      <DependentUpon>frmAutoevaluacion3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutoevaluacion4.resx">
+      <DependentUpon>frmAutoevaluacion4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutoevaluacion5.resx">
+      <DependentUpon>frmAutoevaluacion5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAyuda.resx">
+      <DependentUpon>frmAyuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJuego.resx">
+      <DependentUpon>frmJuego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLevelSelection.resx">
+      <DependentUpon>frmLevelSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuC.resx">
+      <DependentUpon>frmMenuC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPuntajeAutoevaluacion.resx">
+      <DependentUpon>frmPuntajeAutoevaluacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPuntuacion.resx">
+      <DependentUpon>frmPuntuacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegiAnimal.resx">
+      <DependentUpon>frmRegiAnimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectGame.resx">
+      <DependentUpon>frmSelectGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow.ani" />
+    <None Include="Resources\Puntero.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gameICO.ico" />
+    <None Include="Resources\icons8_Paper_Plane_48px.ico" />
+    <None Include="Resources\Picaflor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

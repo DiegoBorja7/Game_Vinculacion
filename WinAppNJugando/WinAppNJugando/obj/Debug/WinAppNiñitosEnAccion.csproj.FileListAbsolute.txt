@@ -1,0 +1,246 @@
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CoreCompileInputs.cache
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\ProyectGame\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.LevelSelection.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Menu.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Help.resources
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Help.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.LevelSelection.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Menu.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Regianimal.resources
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CoreCompileInputs.cache
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+H:\UNION\dsafgadfgdfg\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAlerta.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAlerta.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Help.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.LevelSelection.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Menu.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CoreCompileInputs.cache
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\RAMIRO BORJA F\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAlerta.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmAyuda.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmJuego.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmMenuC.resources
+C:\Users\Kevin111\Desktop\PROYECTO TODO\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmPuntuacion.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAlerta.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmAyuda.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmJuego.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmMenuC.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmPuntuacion.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\Windows 10 LTSB ®\Desktop\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAlerta.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmAyuda.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmJuego.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmMenuC.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmPuntuacion.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAlerta.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmAyuda.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmJuego.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmMenuC.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProject.frmPuntuacion.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\Kevin Taday\Desktop\final\NiñitosEnAccion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache

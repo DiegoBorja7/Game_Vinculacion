@@ -1,0 +1,2 @@
+picCosta1(Gaviota)
+picCosta2()
