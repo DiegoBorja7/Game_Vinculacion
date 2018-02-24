@@ -2,8 +2,9 @@
 using System.Windows.Forms;
 
 /**
- *@Autor Borja Diego
- * **/
+  * @Autor: Diego Borja.
+  * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -20,7 +21,7 @@ namespace WinAppNiñitosEnAccion
         {
             frmPuntajeAutoevaluacion ObjFormulario = new frmPuntajeAutoevaluacion();
             ObjFormulario.ShowDialog();
-            Hide();
+            this.Dispose();
         }
 
         private void btnNo_Click(object sender, EventArgs e)

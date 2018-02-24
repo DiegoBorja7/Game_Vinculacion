@@ -2,8 +2,9 @@
 using System.Windows.Forms;
 
 /**
- *@Autor Borja Diego
- * **/
+  * @Autor: Diego Borja.
+  * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -30,31 +31,50 @@ namespace WinAppNiñitosEnAccion
 
         private void picHome_Click(object sender, EventArgs e)
         {
+            frmSelectGame ObjFormulario = new frmSelectGame();
+            ObjFormulario.ShowDialog();
+            Hide();
+
             //Detecta los formularios abiertos.
             foreach (Form frm in Application.OpenForms)
             {
-                if (frm.GetType() == typeof(frmAutoevaluacion1) || frm.GetType() == typeof(frmAutoevaluacion2) || frm.GetType() == typeof(frmAutoevaluacion3) || frm.GetType() == typeof(frmAutoevaluacion4) || frm.GetType() == typeof(frmAutoevaluacion5))
+                if (frm.GetType() == typeof(frmAutoevaluacion1)) 
                 {
-                    frm.Close();
+                    frm.Hide();
+                    break;
+                }
+                if (frm.GetType() == typeof(frmAutoevaluacion2) )
+                {
+                    MessageBox.Show("esta abierto !");
+                    frm.Hide();
+                    break;
+                }
+                if (frm.GetType() == typeof(frmAutoevaluacion3)) 
+                {
+                    frm.Hide();
+                    break;
+                }
+                if (frm.GetType() == typeof(frmAutoevaluacion4))
+                {
+                    frm.Hide();
+                    break;
+                }
+                if (frm.GetType() == typeof(frmAutoevaluacion5))
+                {
+                    frm.Hide();
+                    break;
+                }
+                if (frm.GetType() == typeof(frmAlerta))
+                {
+                    frm.Hide();
                     break;
                 }
             }
-
-            frmSelectGame ObjFormulario = new frmSelectGame();
-            ObjFormulario.Show();
-            Hide();
         }
 
         private void picHome_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picHome);
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        
     }
 }

@@ -4,8 +4,9 @@ using System.Windows.Forms;
 using System.Drawing;
 
 /**
- *@Autor Borja Diego
- * **/
+  * @Autor: Diego Borja.
+  * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
