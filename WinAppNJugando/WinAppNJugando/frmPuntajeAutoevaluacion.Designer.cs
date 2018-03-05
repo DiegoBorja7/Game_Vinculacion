@@ -75,7 +75,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmPuntajeAutoevaluacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmPuntajeAutoevaluacion";
+            this.Text = "Puntaje Autoevaluación";
             this.Load += new System.EventHandler(this.frmPuntajeAutoevaluacion_Load);
             this.MouseEnter += new System.EventHandler(this.frmPuntajeAutoevaluacion_MouseEnter);
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).EndInit();

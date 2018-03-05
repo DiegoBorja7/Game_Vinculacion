@@ -38,6 +38,8 @@
             // btnNo
             // 
             this.btnNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnNo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNo.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNo.Location = new System.Drawing.Point(224, 178);
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(140, 45);
@@ -49,6 +51,8 @@
             // btnYes
             // 
             this.btnYes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnYes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnYes.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnYes.Location = new System.Drawing.Point(39, 178);
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(140, 45);
@@ -72,7 +76,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmAlerta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmAlerta";
+            this.Text = "Menú Principal";
             this.Load += new System.EventHandler(this.frmAlerta_Load);
             this.ResumeLayout(false);
 

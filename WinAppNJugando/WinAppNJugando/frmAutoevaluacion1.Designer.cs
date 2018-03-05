@@ -191,7 +191,7 @@
             // 
             this.picImage8.BackColor = System.Drawing.Color.Transparent;
             this.picImage8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage8.Location = new System.Drawing.Point(326, 588);
+            this.picImage8.Location = new System.Drawing.Point(326, 592);
             this.picImage8.Name = "picImage8";
             this.picImage8.Size = new System.Drawing.Size(130, 120);
             this.picImage8.TabIndex = 13;
@@ -202,7 +202,7 @@
             // 
             this.picImage9.BackColor = System.Drawing.Color.Transparent;
             this.picImage9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage9.Location = new System.Drawing.Point(567, 588);
+            this.picImage9.Location = new System.Drawing.Point(567, 592);
             this.picImage9.Name = "picImage9";
             this.picImage9.Size = new System.Drawing.Size(130, 120);
             this.picImage9.TabIndex = 14;
@@ -213,66 +213,61 @@
             // 
             this.picDormitorio.BackColor = System.Drawing.Color.Transparent;
             this.picDormitorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picDormitorio.Location = new System.Drawing.Point(397, 245);
+            this.picDormitorio.Location = new System.Drawing.Point(397, 259);
             this.picDormitorio.Name = "picDormitorio";
             this.picDormitorio.Size = new System.Drawing.Size(70, 60);
             this.picDormitorio.TabIndex = 16;
             this.picDormitorio.TabStop = false;
             this.picDormitorio.DragDrop += new System.Windows.Forms.DragEventHandler(this.picDormitorio_DragDrop);
             this.picDormitorio.DragEnter += new System.Windows.Forms.DragEventHandler(this.picDormitorio_DragEnter);
-            this.picDormitorio.MouseEnter += new System.EventHandler(this.picDormitorio_MouseEnter);
             // 
             // picSaladeEstudio
             // 
             this.picSaladeEstudio.BackColor = System.Drawing.Color.Transparent;
             this.picSaladeEstudio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picSaladeEstudio.Location = new System.Drawing.Point(379, 320);
+            this.picSaladeEstudio.Location = new System.Drawing.Point(379, 334);
             this.picSaladeEstudio.Name = "picSaladeEstudio";
             this.picSaladeEstudio.Size = new System.Drawing.Size(100, 87);
             this.picSaladeEstudio.TabIndex = 17;
             this.picSaladeEstudio.TabStop = false;
             this.picSaladeEstudio.DragDrop += new System.Windows.Forms.DragEventHandler(this.picSaladeEstudio_DragDrop);
             this.picSaladeEstudio.DragEnter += new System.Windows.Forms.DragEventHandler(this.picSaladeEstudio_DragEnter);
-            this.picSaladeEstudio.MouseEnter += new System.EventHandler(this.picSaladeEstudio_MouseEnter);
             // 
             // picBaño
             // 
             this.picBaño.BackColor = System.Drawing.Color.Transparent;
             this.picBaño.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBaño.Location = new System.Drawing.Point(533, 320);
+            this.picBaño.Location = new System.Drawing.Point(533, 334);
             this.picBaño.Name = "picBaño";
             this.picBaño.Size = new System.Drawing.Size(111, 88);
             this.picBaño.TabIndex = 18;
             this.picBaño.TabStop = false;
             this.picBaño.DragDrop += new System.Windows.Forms.DragEventHandler(this.picBaño_DragDrop);
             this.picBaño.DragEnter += new System.Windows.Forms.DragEventHandler(this.picBaño_DragEnter);
-            this.picBaño.MouseEnter += new System.EventHandler(this.picBaño_MouseEnter);
             // 
             // picSala
             // 
             this.picSala.BackColor = System.Drawing.Color.Transparent;
             this.picSala.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picSala.Location = new System.Drawing.Point(379, 438);
+            this.picSala.Location = new System.Drawing.Point(379, 452);
             this.picSala.Name = "picSala";
             this.picSala.Size = new System.Drawing.Size(100, 94);
             this.picSala.TabIndex = 19;
             this.picSala.TabStop = false;
             this.picSala.DragDrop += new System.Windows.Forms.DragEventHandler(this.picSala_DragDrop);
             this.picSala.DragEnter += new System.Windows.Forms.DragEventHandler(this.picSala_DragEnter);
-            this.picSala.MouseEnter += new System.EventHandler(this.picSala_MouseEnter);
             // 
             // picCocina
             // 
             this.picCocina.BackColor = System.Drawing.Color.Transparent;
             this.picCocina.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picCocina.Location = new System.Drawing.Point(533, 438);
+            this.picCocina.Location = new System.Drawing.Point(533, 452);
             this.picCocina.Name = "picCocina";
             this.picCocina.Size = new System.Drawing.Size(111, 94);
             this.picCocina.TabIndex = 20;
             this.picCocina.TabStop = false;
             this.picCocina.DragDrop += new System.Windows.Forms.DragEventHandler(this.picCocina_DragDrop);
             this.picCocina.DragEnter += new System.Windows.Forms.DragEventHandler(this.picCocina_DragEnter);
-            this.picCocina.MouseEnter += new System.EventHandler(this.picCocina_MouseEnter);
             // 
             // frmAutoevaluacion1
             // 
@@ -303,6 +298,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmAutoevaluacion1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Autoevaluación 1";
             this.MouseEnter += new System.EventHandler(this.frmAutoevaluacion1_MouseEnter);
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).EndInit();

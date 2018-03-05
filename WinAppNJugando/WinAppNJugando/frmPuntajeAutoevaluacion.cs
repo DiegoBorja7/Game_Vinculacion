@@ -34,42 +34,6 @@ namespace WinAppNiñitosEnAccion
             frmSelectGame ObjFormulario = new frmSelectGame();
             ObjFormulario.ShowDialog();
             Hide();
-
-            //Detecta los formularios abiertos.
-            foreach (Form frm in Application.OpenForms)
-            {
-                if (frm.GetType() == typeof(frmAutoevaluacion1)) 
-                {
-                    frm.Hide();
-                    break;
-                }
-                if (frm.GetType() == typeof(frmAutoevaluacion2) )
-                {
-                    MessageBox.Show("esta abierto !");
-                    frm.Hide();
-                    break;
-                }
-                if (frm.GetType() == typeof(frmAutoevaluacion3)) 
-                {
-                    frm.Hide();
-                    break;
-                }
-                if (frm.GetType() == typeof(frmAutoevaluacion4))
-                {
-                    frm.Hide();
-                    break;
-                }
-                if (frm.GetType() == typeof(frmAutoevaluacion5))
-                {
-                    frm.Hide();
-                    break;
-                }
-                if (frm.GetType() == typeof(frmAlerta))
-                {
-                    frm.Hide();
-                    break;
-                }
-            }
         }
 
         private void picHome_MouseEnter(object sender, EventArgs e)

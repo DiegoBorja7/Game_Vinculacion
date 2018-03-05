@@ -187,7 +187,7 @@
             // 
             this.picImage9.BackColor = System.Drawing.Color.Transparent;
             this.picImage9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage9.Location = new System.Drawing.Point(548, 587);
+            this.picImage9.Location = new System.Drawing.Point(548, 598);
             this.picImage9.Name = "picImage9";
             this.picImage9.Size = new System.Drawing.Size(130, 120);
             this.picImage9.TabIndex = 17;
@@ -198,7 +198,7 @@
             // 
             this.picImage8.BackColor = System.Drawing.Color.Transparent;
             this.picImage8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage8.Location = new System.Drawing.Point(309, 587);
+            this.picImage8.Location = new System.Drawing.Point(309, 598);
             this.picImage8.Name = "picImage8";
             this.picImage8.Size = new System.Drawing.Size(130, 120);
             this.picImage8.TabIndex = 16;
@@ -220,7 +220,7 @@
             // 
             this.picBoard.BackColor = System.Drawing.Color.Transparent;
             this.picBoard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBoard.Location = new System.Drawing.Point(602, 133);
+            this.picBoard.Location = new System.Drawing.Point(602, 156);
             this.picBoard.Name = "picBoard";
             this.picBoard.Size = new System.Drawing.Size(70, 60);
             this.picBoard.TabIndex = 18;
@@ -232,7 +232,7 @@
             // 
             this.picBooks.BackColor = System.Drawing.Color.Transparent;
             this.picBooks.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBooks.Location = new System.Drawing.Point(294, 281);
+            this.picBooks.Location = new System.Drawing.Point(294, 304);
             this.picBooks.Name = "picBooks";
             this.picBooks.Size = new System.Drawing.Size(70, 60);
             this.picBooks.TabIndex = 19;
@@ -244,7 +244,7 @@
             // 
             this.picPuzzle.BackColor = System.Drawing.Color.Transparent;
             this.picPuzzle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picPuzzle.Location = new System.Drawing.Point(581, 298);
+            this.picPuzzle.Location = new System.Drawing.Point(581, 321);
             this.picPuzzle.Name = "picPuzzle";
             this.picPuzzle.Size = new System.Drawing.Size(70, 60);
             this.picPuzzle.TabIndex = 20;
@@ -256,7 +256,7 @@
             // 
             this.picChair.BackColor = System.Drawing.Color.Transparent;
             this.picChair.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picChair.Location = new System.Drawing.Point(675, 263);
+            this.picChair.Location = new System.Drawing.Point(675, 286);
             this.picChair.Name = "picChair";
             this.picChair.Size = new System.Drawing.Size(71, 78);
             this.picChair.TabIndex = 21;
@@ -268,7 +268,7 @@
             // 
             this.picNotebooks.BackColor = System.Drawing.Color.Transparent;
             this.picNotebooks.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picNotebooks.Location = new System.Drawing.Point(466, 423);
+            this.picNotebooks.Location = new System.Drawing.Point(466, 446);
             this.picNotebooks.Name = "picNotebooks";
             this.picNotebooks.Size = new System.Drawing.Size(70, 60);
             this.picNotebooks.TabIndex = 22;
@@ -280,7 +280,7 @@
             // 
             this.picBag.BackColor = System.Drawing.Color.Transparent;
             this.picBag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBag.Location = new System.Drawing.Point(347, 298);
+            this.picBag.Location = new System.Drawing.Point(347, 321);
             this.picBag.Name = "picBag";
             this.picBag.Size = new System.Drawing.Size(70, 60);
             this.picBag.TabIndex = 23;
@@ -292,7 +292,7 @@
             // 
             this.picBall.BackColor = System.Drawing.Color.Transparent;
             this.picBall.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBall.Location = new System.Drawing.Point(347, 177);
+            this.picBall.Location = new System.Drawing.Point(347, 200);
             this.picBall.Name = "picBall";
             this.picBall.Size = new System.Drawing.Size(70, 60);
             this.picBall.TabIndex = 24;
@@ -304,7 +304,7 @@
             // 
             this.picClock.BackColor = System.Drawing.Color.Transparent;
             this.picClock.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picClock.Location = new System.Drawing.Point(294, 104);
+            this.picClock.Location = new System.Drawing.Point(294, 127);
             this.picClock.Name = "picClock";
             this.picClock.Size = new System.Drawing.Size(70, 60);
             this.picClock.TabIndex = 25;
@@ -316,7 +316,7 @@
             // 
             this.picCrayons.BackColor = System.Drawing.Color.Transparent;
             this.picCrayons.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picCrayons.Location = new System.Drawing.Point(387, 406);
+            this.picCrayons.Location = new System.Drawing.Point(387, 429);
             this.picCrayons.Name = "picCrayons";
             this.picCrayons.Size = new System.Drawing.Size(70, 60);
             this.picCrayons.TabIndex = 26;
@@ -357,6 +357,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmAutoevaluacion2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Autoevaluación 2";
             this.MouseEnter += new System.EventHandler(this.frmAutoevaluacion2_MouseEnter);
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).EndInit();

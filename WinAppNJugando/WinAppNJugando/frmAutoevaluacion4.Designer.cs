@@ -273,6 +273,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmAutoevaluacion4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Autoevaluación 4";
             this.MouseEnter += new System.EventHandler(this.frmAutoevaluacion4_MouseEnter);
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).EndInit();

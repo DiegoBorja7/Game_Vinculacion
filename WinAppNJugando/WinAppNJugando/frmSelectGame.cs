@@ -18,13 +18,14 @@ namespace WinAppNiñitosEnAccion
         public frmSelectGame()
         {
             InitializeComponent();
+            ObjInitialize.CloseAll();
         }
 
         private void picAutoevaluacion_Click(object sender, EventArgs e)
         {
             frmAutoevaluacion1 ObjFormularioAutoevaluacion1 = new frmAutoevaluacion1();
             ObjFormularioAutoevaluacion1.Show();
-            Hide();
+            Dispose();
             ObjInstruction.Player.Stop();
         }
 

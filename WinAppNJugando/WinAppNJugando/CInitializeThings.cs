@@ -475,11 +475,31 @@ namespace WinAppNiñitosEnAccion
             }
         }
 
+        //Activa la funcion AllowDrop a todos los PictureBox
         public void AllowDropAll(List<PictureBox> ListaUse)
         {
             for (int i = 0; i < ListaUse.Count; i++)
             {
                 ListaUse[i].AllowDrop = true;
+            }
+        }
+
+        //Detecta los formularios abiertos.
+        public void CloseAll()
+        {
+            int i;
+            List<Form> listaformularios = new List<Form>();
+            foreach (Form frm in Application.OpenForms)
+            {
+                listaformularios.Add(frm);                
+            }
+
+            for (i = 0; i < listaformularios.Count; i++)
+            {
+                if (listaformularios[i].GetType() == typeof(frmAutoevaluacion1) || listaformularios[i].GetType() == typeof(frmAutoevaluacion2) || listaformularios[i].GetType() == typeof(frmAutoevaluacion3) || listaformularios[i].GetType() == typeof(frmAutoevaluacion4) || listaformularios[i].GetType() == typeof(frmAutoevaluacion5) || listaformularios[i].GetType() == typeof(frmAlerta) || listaformularios[i].GetType() == typeof(frmPuntajeAutoevaluacion))
+                {
+                    listaformularios[i].Dispose();
+                }
             }
         }
 

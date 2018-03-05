@@ -270,32 +270,5 @@ namespace WinAppNiñitosEnAccion
 
         #endregion
 
-        #region Ayuda
-        private void picDormitorio_MouseEnter(object sender, EventArgs e)
-        {
-            ObjInstruction.playSound("Dormitorio");
-        }
-
-        private void picSaladeEstudio_MouseEnter(object sender, EventArgs e)
-        {
-            ObjInstruction.playSound("CuartodeEstudio");
-        }
-
-        private void picBaño_MouseEnter(object sender, EventArgs e)
-        {
-            ObjInstruction.playSound("Bano");
-        }
-
-        private void picSala_MouseEnter(object sender, EventArgs e)
-        {
-            ObjInstruction.playSound("Sala");
-        }
-
-        private void picCocina_MouseEnter(object sender, EventArgs e)
-        {
-            ObjInstruction.playSound("Cocina");
-        }
-
-        #endregion
     }
 }

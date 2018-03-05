@@ -19,14 +19,15 @@ namespace WinAppNiñitosEnAccion
 
         private void btnYes_Click(object sender, EventArgs e)
         {
-            frmPuntajeAutoevaluacion ObjFormulario = new frmPuntajeAutoevaluacion();
+            frmSelectGame ObjFormulario = new frmSelectGame();
             ObjFormulario.ShowDialog();
-            this.Dispose();
+            Dispose();
         }
 
         private void btnNo_Click(object sender, EventArgs e)
         {
             Close();
+            ObjInstruction.Player.Stop();
         }
 
         private void frmAlerta_Load(object sender, EventArgs e)
