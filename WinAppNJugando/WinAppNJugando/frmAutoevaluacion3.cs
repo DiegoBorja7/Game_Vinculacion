@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 
 /**
- *@Autor Borja Diego
- * **/
+  * @Autor: Diego Borja.
+  * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -42,7 +43,7 @@ namespace WinAppNiñitosEnAccion
         //Calificacion
         private void Calificacion()
         {
-            if (ObjInstruction.Puntaje >= 13 || ObjInstruction.Aciertos >= 3 || ObjInstruction.Clicks > 7)
+            if (ObjInstruction.Puntaje >= 13 || ObjInstruction.Aciertos >= 3 || ObjInstruction.Clicks >= 6)
             {
                 MessageBox.Show("Siguiente Autoevalaución");//un msj de muy bien hecho que indique ago
                 new frmAutoevaluacion4().Show();
@@ -51,6 +52,7 @@ namespace WinAppNiñitosEnAccion
         }
 
         #region Puntero Mouse
+
         private void picHome_Click(object sender, EventArgs e)
         {
             frmAlerta ObjFormulario = new frmAlerta();
@@ -75,6 +77,10 @@ namespace WinAppNiñitosEnAccion
             picHome.BorderStyle = BorderStyle.None;
             picNext.BorderStyle = BorderStyle.None;
             picHelp.BorderStyle = BorderStyle.None;
+
+            for (int i = 0; i < ListaPictureBoxObjetos.Count; i++)
+                ListaPictureBoxObjetos[i].BorderStyle = BorderStyle.None;
+
             Calificacion();
         }
 
@@ -93,89 +99,97 @@ namespace WinAppNiñitosEnAccion
             ObjInitialize.Seleccionar(this, picNext);
         }
 
-        #endregion
-
-        #region Drag & Drop
-        private void picImage1_MouseDown(object sender, MouseEventArgs e)
+        private void picImage1_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage1;
-            picImage1.DoDragDrop(picImage1.BackgroundImage, DragDropEffects.Move);
+            ObjInitialize.Seleccionar(this, picImage1);
         }
 
-        private void picImage2_MouseDown(object sender, MouseEventArgs e)
+        private void picImage2_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage2;
-            picImage2.DoDragDrop(picImage2.BackgroundImage, DragDropEffects.Move);
+            ObjInitialize.Seleccionar(this, picImage2);
         }
 
-        private void picImage3_MouseDown(object sender, MouseEventArgs e)
+        private void picImage3_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage3;
-            picImage3.DoDragDrop(picImage3.BackgroundImage, DragDropEffects.Move);
+            ObjInitialize.Seleccionar(this, picImage3);
         }
 
-        private void picImage4_MouseDown(object sender, MouseEventArgs e)
+        private void picImage4_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage4;
-            picImage4.DoDragDrop(picImage4.BackgroundImage, DragDropEffects.Move);
+            ObjInitialize.Seleccionar(this, picImage4);
         }
 
-        private void picImage5_MouseDown(object sender, MouseEventArgs e)
+        private void picImage5_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage5;
-            picImage5.DoDragDrop(picImage5.BackgroundImage, DragDropEffects.Move);
+            ObjInitialize.Seleccionar(this, picImage5);
         }
 
-        private void picImage6_MouseDown(object sender, MouseEventArgs e)
+        private void picImage6_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage6;
-            picImage6.DoDragDrop(picImage6.BackgroundImage, DragDropEffects.Move);
+            ObjInitialize.Seleccionar(this, picImage6);
         }
 
-        private void picImage7_MouseDown(object sender, MouseEventArgs e)
+        private void picImage7_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage7;
-            picImage7.DoDragDrop(picImage7.BackgroundImage, DragDropEffects.Move);
+            ObjInitialize.Seleccionar(this, picImage7);
         }
 
-        private void picImage8_MouseDown(object sender, MouseEventArgs e)
+        private void picImage8_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage8;
-            picImage8.DoDragDrop(picImage8.BackgroundImage, DragDropEffects.Move);
+            ObjInitialize.Seleccionar(this, picImage8);
         }
 
-        private void picImage9_MouseDown(object sender, MouseEventArgs e)
+        private void picImage9_MouseEnter(object sender, EventArgs e)
         {
-            picAux = picImage9;
-            picImage9.DoDragDrop(picImage9.BackgroundImage, DragDropEffects.Move);
-        }
-
-        private void picVowel_DragEnter(object sender, DragEventArgs e)
-        {
-            int i;
-
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = false;
-                    if (ListaPictureBoxObjetos[i].Name == "Almohada" || ListaPictureBoxObjetos[i].Name == "Aspiradora" || ListaPictureBoxObjetos[i].Name == "Arco" ||
-                        ListaPictureBoxObjetos[i].Name == "Escalera" || ListaPictureBoxObjetos[i].Name == "Escritorio" || ListaPictureBoxObjetos[i].Name == "Escuela" ||
-                        ListaPictureBoxObjetos[i].Name == "Impresora" || ListaPictureBoxObjetos[i].Name == "Iman" || ListaPictureBoxObjetos[i].Name == "Iguana" ||
-                        ListaPictureBoxObjetos[i].Name == "Olla" || ListaPictureBoxObjetos[i].Name == "Ocho" || ListaPictureBoxObjetos[i].Name == "Oso" ||
-                        ListaPictureBoxObjetos[i].Name == "Uvas" || ListaPictureBoxObjetos[i].Name == "Utiles" || ListaPictureBoxObjetos[i].Name == "Uno")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                    }
-                }
-            }
+            ObjInitialize.Seleccionar(this, picImage9);
         }
 
         #endregion
 
-        
+        private void picImage1_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage1, e);
+        }
+
+        private void picImage2_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage2, e);
+        }
+
+        private void picImage3_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage3, e);
+        }
+
+        private void picImage4_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage4, e);
+        }
+
+        private void picImage5_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage5, e);
+        }
+
+        private void picImage6_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage6, e);
+        }
+
+        private void picImage7_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage7, e);
+        }
+
+        private void picImage8_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage8, e);
+        }
+
+        private void picImage9_MouseUp(object sender, MouseEventArgs e)
+        {
+            ObjInstruction.CompararPictureBox1(picImage9, e);
+        }
+
     }
 }

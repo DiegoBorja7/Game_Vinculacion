@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 /**
  *@Autor Borja Diego
- * **/
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -57,6 +57,7 @@ namespace WinAppNiñitosEnAccion
         }
 
         #region Puntero Mouse
+
         private void picHome_Click(object sender, EventArgs e)
         {
             frmAlerta ObjFormulario = new frmAlerta();
@@ -149,7 +150,10 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInitialize.Seleccionar(this, picImage10);
         }
+
         #endregion
+
+        #region Comparar Los Picture Box's
 
         private void picImage1_MouseUp(object sender, MouseEventArgs e)
         {
@@ -201,6 +205,6 @@ namespace WinAppNiñitosEnAccion
             ObjInstruction.CompararPictureBox(picImage10, e);
         }
 
-       
+        #endregion
     }
 }

@@ -57,16 +57,165 @@ namespace WinAppNiñitosEnAccion
         #endregion
 
         #region Methods
-      
+
+        //Compara los PictureBox de la Autoevaluacion3
+        public void CompararPictureBox1(PictureBox PicComparate, MouseEventArgs e)
+        {
+            Bitmap myBitmap;
+
+            if (e.Button == MouseButtons.Left)
+            {
+                Clicks++;
+                if (PicComparate.Name == "Almohada" || PicComparate.Name == "Aspiradora" || PicComparate.Name == "Arco" ||
+                    PicComparate.Name == "Escalera" || PicComparate.Name == "Escritorio" || PicComparate.Name == "Escuela" ||
+                    PicComparate.Name == "Impresora" || PicComparate.Name == "Iman" || PicComparate.Name == "Iguana"||
+                    PicComparate.Name == "Olla" || PicComparate.Name == "Ocho" || PicComparate.Name == "Oso" ||
+                    PicComparate.Name == "Uvas" || PicComparate.Name == "Utiles" || PicComparate.Name == "Uno")
+                {
+                    switch(PicComparate.Name.ToString())
+                    {
+                        case "Almohada" :
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/AlmohadaAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Aspiradora":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/AspiradoraAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Arco":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/ArcoAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Escalera":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/EscaleraAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Escritorio":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/EscritorioAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Escuela":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/EscuelaAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Impresora":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/ImpresoraAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Iman":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/ImanAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Iguana":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/IguanaAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Olla":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/OllaAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Ocho":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/OchoAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Oso":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/OsoAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Uvas":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/UvasAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Utiles":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/UtilesAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Uno":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/UnoAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+                            
+                    }
+                    puntaje++;
+                    aciertos++;
+                }
+            }
+        }
+
         //Compara los PictureBox de la Autoevaluacion5
         public void CompararPictureBox(PictureBox PicComparate, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
                 Clicks++;
-                if (PicComparate.Name == "Tiburon" || PicComparate.Name == "Avion" || PicComparate.Name == "Pizarron" || PicComparate.Name == "Aspiradora" || PicComparate.Name == "Refrigeradora" || PicComparate.Name == "Licuadora" || PicComparate.Name == "Escalera" || PicComparate.Name == "Bandera" || PicComparate.Name == "Cafetera")
+                if (PicComparate.Name == "Tiburon" || PicComparate.Name == "Avion" || PicComparate.Name == "Pizarron" || 
+                    PicComparate.Name == "Aspiradora" || PicComparate.Name == "Refrigeradora" || PicComparate.Name == "Licuadora" ||
+                    PicComparate.Name == "Escalera" || PicComparate.Name == "Bandera" || PicComparate.Name == "Cafetera")
                 {
-                    PicComparate.Visible = false;
+
+                    switch (PicComparate.Name.ToString())
+                    {
+                        case "Tiburon":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/AlmohadaAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Avion":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/AspiradoraAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Pizarron":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/ArcoAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Aspiradora":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/EscaleraAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Refrigeradora":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/EscritorioAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Licuadora":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/EscuelaAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Escalera":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/ImpresoraAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Bandera":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/ImanAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        case "Cafetera":
+                            myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/IguanaAcierto.png");
+                            PicComparate.BackgroundImage = myBitmap;
+                            break;
+
+                        
+                    }
                     puntaje++;
                     aciertos++;
                 }

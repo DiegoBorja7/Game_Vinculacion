@@ -110,7 +110,6 @@
             this.picVowel.Size = new System.Drawing.Size(240, 260);
             this.picVowel.TabIndex = 6;
             this.picVowel.TabStop = false;
-            this.picVowel.DragEnter += new System.Windows.Forms.DragEventHandler(this.picVowel_DragEnter);
             // 
             // picImage1
             // 
@@ -121,7 +120,8 @@
             this.picImage1.Size = new System.Drawing.Size(120, 130);
             this.picImage1.TabIndex = 7;
             this.picImage1.TabStop = false;
-            this.picImage1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage1_MouseDown);
+            this.picImage1.MouseEnter += new System.EventHandler(this.picImage1_MouseEnter);
+            this.picImage1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage1_MouseUp);
             // 
             // picImage2
             // 
@@ -132,7 +132,8 @@
             this.picImage2.Size = new System.Drawing.Size(120, 130);
             this.picImage2.TabIndex = 8;
             this.picImage2.TabStop = false;
-            this.picImage2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage2_MouseDown);
+            this.picImage2.MouseEnter += new System.EventHandler(this.picImage2_MouseEnter);
+            this.picImage2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage2_MouseUp);
             // 
             // picImage3
             // 
@@ -143,7 +144,8 @@
             this.picImage3.Size = new System.Drawing.Size(120, 130);
             this.picImage3.TabIndex = 9;
             this.picImage3.TabStop = false;
-            this.picImage3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage3_MouseDown);
+            this.picImage3.MouseEnter += new System.EventHandler(this.picImage3_MouseEnter);
+            this.picImage3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage3_MouseUp);
             // 
             // picImage4
             // 
@@ -154,7 +156,8 @@
             this.picImage4.Size = new System.Drawing.Size(120, 130);
             this.picImage4.TabIndex = 10;
             this.picImage4.TabStop = false;
-            this.picImage4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage4_MouseDown);
+            this.picImage4.MouseEnter += new System.EventHandler(this.picImage4_MouseEnter);
+            this.picImage4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage4_MouseUp);
             // 
             // picImage5
             // 
@@ -165,7 +168,8 @@
             this.picImage5.Size = new System.Drawing.Size(120, 130);
             this.picImage5.TabIndex = 11;
             this.picImage5.TabStop = false;
-            this.picImage5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage5_MouseDown);
+            this.picImage5.MouseEnter += new System.EventHandler(this.picImage5_MouseEnter);
+            this.picImage5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage5_MouseUp);
             // 
             // picImage7
             // 
@@ -176,7 +180,8 @@
             this.picImage7.Size = new System.Drawing.Size(120, 130);
             this.picImage7.TabIndex = 12;
             this.picImage7.TabStop = false;
-            this.picImage7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage7_MouseDown);
+            this.picImage7.MouseEnter += new System.EventHandler(this.picImage7_MouseEnter);
+            this.picImage7.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage7_MouseUp);
             // 
             // picImage8
             // 
@@ -187,7 +192,8 @@
             this.picImage8.Size = new System.Drawing.Size(120, 130);
             this.picImage8.TabIndex = 13;
             this.picImage8.TabStop = false;
-            this.picImage8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage8_MouseDown);
+            this.picImage8.MouseEnter += new System.EventHandler(this.picImage8_MouseEnter);
+            this.picImage8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage8_MouseUp);
             // 
             // picImage9
             // 
@@ -198,7 +204,8 @@
             this.picImage9.Size = new System.Drawing.Size(120, 130);
             this.picImage9.TabIndex = 14;
             this.picImage9.TabStop = false;
-            this.picImage9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage9_MouseDown);
+            this.picImage9.MouseEnter += new System.EventHandler(this.picImage9_MouseEnter);
+            this.picImage9.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage9_MouseUp);
             // 
             // picImage6
             // 
@@ -209,7 +216,8 @@
             this.picImage6.Size = new System.Drawing.Size(120, 130);
             this.picImage6.TabIndex = 15;
             this.picImage6.TabStop = false;
-            this.picImage6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage6_MouseDown);
+            this.picImage6.MouseEnter += new System.EventHandler(this.picImage6_MouseEnter);
+            this.picImage6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage6_MouseUp);
             // 
             // frmAutoevaluacion3
             // 

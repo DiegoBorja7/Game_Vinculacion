@@ -55,6 +55,7 @@ namespace WinAppNiñitosEnAccion
         }
 
         #region Puntero Mouse
+
         private void picHome_Click(object sender, EventArgs e)
         {
             frmAlerta ObjFormulario = new frmAlerta();
@@ -79,6 +80,10 @@ namespace WinAppNiñitosEnAccion
             picHome.BorderStyle = BorderStyle.None;
             picNext.BorderStyle = BorderStyle.None;
             picHelp.BorderStyle = BorderStyle.None;
+
+            for (int i = 0; i < ListaPictureBoxObjetos.Count; i++)
+                ListaPictureBoxObjetos[i].BorderStyle = BorderStyle.None;
+
             Calificacion();
         }
 
@@ -96,6 +101,52 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInitialize.Seleccionar(this, picHelp);
         }
+
+        private void picImage1_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage1);
+        }
+
+        private void picImage2_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage2);
+        }
+
+        private void picImage3_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage3);
+        }
+
+        private void picImage4_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage4);
+        }
+
+        private void picImage5_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage5);
+        }
+
+        private void picImage6_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage6);
+        }
+
+        private void picImage7_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage7);
+        }
+
+        private void picImage8_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage8);
+        }
+
+        private void picImage9_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage9);
+        }
+
         #endregion
 
         #region Drag & Drop
@@ -468,5 +519,6 @@ namespace WinAppNiñitosEnAccion
         }
 
         #endregion
+
     }
 }

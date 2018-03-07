@@ -65,7 +65,7 @@
             this.picAutoevaluacion.Size = new System.Drawing.Size(147, 126);
             this.picAutoevaluacion.TabIndex = 5;
             this.picAutoevaluacion.TabStop = false;
-            this.toolTip1.SetToolTip(this.picAutoevaluacion, "Autoevaluacion");
+            this.toolTip1.SetToolTip(this.picAutoevaluacion, "Autoevaluación");
             this.picAutoevaluacion.Click += new System.EventHandler(this.picAutoevaluacion_Click);
             this.picAutoevaluacion.MouseEnter += new System.EventHandler(this.picAutoevaluacion_MouseEnter);
             // 

@@ -17,7 +17,10 @@ namespace WinAppNiñitosEnAccion
 
         private List<PictureBox> ListaPictureBoxObjetos = new List<PictureBox>();
         private List<PictureBox> ListaPictureBoxLugares = new List<PictureBox>();
+        private int i;
         private PictureBox picAux = new PictureBox();
+        private Color Acierto = Color.Green;
+        private Color Incorrecto = Color.Red;
 
         public frmAutoevaluacion1()
         {
@@ -77,6 +80,7 @@ namespace WinAppNiñitosEnAccion
         }
 
         #region Puntero Mouse
+
         private void frmAutoevaluacion1_MouseEnter(object sender, EventArgs e)
         {
             DoubleBuffered = true;
@@ -84,6 +88,10 @@ namespace WinAppNiñitosEnAccion
             picHome.BorderStyle = BorderStyle.None;
             picNext.BorderStyle = BorderStyle.None;
             picHelp.BorderStyle = BorderStyle.None;
+
+            for (int i = 0; i < ListaPictureBoxObjetos.Count; i++)
+                ListaPictureBoxObjetos[i].BorderStyle = BorderStyle.None;
+
             Calificacion();
         }
         
@@ -102,9 +110,55 @@ namespace WinAppNiñitosEnAccion
             ObjInitialize.Seleccionar(this, picHelp);
         }
 
+        private void picImage1_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage1);
+        }
+
+        private void picImage2_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage2);
+        }
+
+        private void picImage3_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage3);
+        }
+
+        private void picImage4_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage4);
+        }
+
+        private void picImage5_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage5);
+        }
+
+        private void picImage6_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage6);
+        }
+
+        private void picImage7_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage7);
+        }
+
+        private void picImage8_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage8);
+        }
+
+        private void picImage9_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picImage9);
+        }
+
         #endregion
 
         #region Drag & Drop
+
         private void picImage1_MouseDown(object sender, MouseEventArgs e)
         {
             picAux = picImage1;
@@ -161,17 +215,20 @@ namespace WinAppNiñitosEnAccion
 
         private void picDormitorio_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-            
             for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
             {
                 if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux==ListaPictureBoxObjetos[i]))
                 {
                     ObjInstruction.Clicks++;
                     e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = false;
-                    if(ListaPictureBoxObjetos[i].Name== "Cama"|| ListaPictureBoxObjetos[i].Name == "Lampara")
+                    ListaPictureBoxObjetos[i].Visible = true;
+                    if (ListaPictureBoxObjetos[i].Name == "Cama" || ListaPictureBoxObjetos[i].Name == "Lampara")
+                    {
                         ObjInstruction.Puntaje++;
+                        ListaPictureBoxObjetos[i].BackColor = Acierto; 
+                    }
+                    else
+                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;                    
                 }
             }
         }
@@ -183,17 +240,20 @@ namespace WinAppNiñitosEnAccion
 
         private void picSaladeEstudio_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-
             for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
             {
                 if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
                 {
                     ObjInstruction.Clicks++;
                     e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = false;
+                    ListaPictureBoxObjetos[i].Visible = true;
                     if (ListaPictureBoxObjetos[i].Name == "Silla" || ListaPictureBoxObjetos[i].Name == "Escritorio")
+                    {
                         ObjInstruction.Puntaje++;
+                        ListaPictureBoxObjetos[i].BackColor = Acierto;
+                    }
+                    else
+                        ListaPictureBoxObjetos[i].BackColor = Incorrecto; 
                 }
             }
         }
@@ -205,17 +265,20 @@ namespace WinAppNiñitosEnAccion
 
         private void picBaño_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-
             for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
             {
                 if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
                 {
                     ObjInstruction.Clicks++;
                     e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = false;
+                    ListaPictureBoxObjetos[i].Visible = true;
                     if (ListaPictureBoxObjetos[i].Name == "TinadeBaño" || ListaPictureBoxObjetos[i].Name == "Lavavo")
+                    {
                         ObjInstruction.Puntaje++;
+                        ListaPictureBoxObjetos[i].BackColor = Acierto;
+                    }
+                    else
+                        ListaPictureBoxObjetos[i].BackColor = Incorrecto; 
                 }
             }
         }
@@ -227,17 +290,20 @@ namespace WinAppNiñitosEnAccion
 
         private void picSala_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-
             for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
             {
                 if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
                 {
                     ObjInstruction.Clicks++;
                     e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = false;
+                    ListaPictureBoxObjetos[i].Visible = true;
                     if (ListaPictureBoxObjetos[i].Name == "Sofa" || ListaPictureBoxObjetos[i].Name == "Comedor")
+                    {
                         ObjInstruction.Puntaje++;
+                        ListaPictureBoxObjetos[i].BackColor = Acierto;
+                    }
+                    else
+                        ListaPictureBoxObjetos[i].BackColor = Incorrecto; 
                 }
             }
         }
@@ -248,17 +314,20 @@ namespace WinAppNiñitosEnAccion
 
         private void picCocina_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-
             for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
             {
                 if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
                 {
                     ObjInstruction.Clicks++;
                     e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = false;
+                    ListaPictureBoxObjetos[i].Visible = true;
                     if (ListaPictureBoxObjetos[i].Name == "Olla" || ListaPictureBoxObjetos[i].Name == "Refrigeradora")
+                    {
                         ObjInstruction.Puntaje++;
+                        ListaPictureBoxObjetos[i].BackColor = Acierto;
+                    }
+                    else
+                        ListaPictureBoxObjetos[i].BackColor = Incorrecto; 
                 }
             }
         }
