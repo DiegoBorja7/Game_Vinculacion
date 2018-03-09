@@ -26,7 +26,7 @@ namespace WinAppProyectoFinal.Clases
         {
             try
             {
-                archivo = new StreamReader(Application.StartupPath + @"/Resources/" + Seleccion + ".txt");
+                archivo = new StreamReader(Application.StartupPath + @"/Resources/" + Seleccion + ".txt",System.Text.Encoding.Default);
 
                 while (!archivo.EndOfStream)
                 {

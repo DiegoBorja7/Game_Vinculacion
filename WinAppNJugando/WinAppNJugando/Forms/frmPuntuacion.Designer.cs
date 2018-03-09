@@ -77,7 +77,7 @@
             // lblMessage
             // 
             this.lblMessage.BackColor = System.Drawing.Color.Transparent;
-            this.lblMessage.Font = new System.Drawing.Font("Hobo Std", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessage.ForeColor = System.Drawing.Color.Yellow;
             this.lblMessage.Location = new System.Drawing.Point(148, 57);
             this.lblMessage.Name = "lblMessage";

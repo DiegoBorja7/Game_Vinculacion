@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using RegiAnimal;
 using WinAppNiñitosEnAccion;
 
 namespace WinAppProyectoFinal.Forms
@@ -28,9 +27,8 @@ namespace WinAppProyectoFinal.Forms
             
         private void btnReturnHome1_Click(object sender, EventArgs e)
         {
-            frmSelectGame game = new frmSelectGame();
-            game.Show();
-            this.Dispose();
+            new frmSelectGame().Show();
+            Hide();
         }
 
         private void btnPlay_Click(object sender, EventArgs e)

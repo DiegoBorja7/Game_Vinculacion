@@ -14,7 +14,6 @@ namespace WinAppProyectoFinal.Clases
         #region Variables
         private String nombre, audio;
         private bool disponibilidad;
-
         
 
         #endregion
@@ -108,6 +107,8 @@ namespace WinAppProyectoFinal.Clases
 
             return (imagen);
         }
+
+
 
         #endregion
     }

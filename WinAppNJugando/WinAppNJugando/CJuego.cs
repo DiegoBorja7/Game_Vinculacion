@@ -10,6 +10,12 @@ namespace WinAppProyectoFinal.Clases
     class CJuego
     {
         private CPictures picImages;
+
+        internal CPictures PicImages
+        {
+            get { return picImages; }
+            set { picImages = value; }
+        }
         private int level;
         private int aciertos, fallos;
 

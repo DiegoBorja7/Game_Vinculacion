@@ -81,6 +81,7 @@
             this.picCanvas6.TabIndex = 11;
             this.picCanvas6.TabStop = false;
             this.picCanvas6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCanvas6_MouseDown);
+            this.picCanvas6.MouseHover += new System.EventHandler(this.picCanvas6_MouseHover);
             // 
             // picCanvas5
             // 
@@ -93,6 +94,7 @@
             this.picCanvas5.TabIndex = 10;
             this.picCanvas5.TabStop = false;
             this.picCanvas5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCanvas5_MouseDown);
+            this.picCanvas5.MouseHover += new System.EventHandler(this.picCanvas5_MouseHover);
             // 
             // picCanvas3
             // 
@@ -105,6 +107,7 @@
             this.picCanvas3.TabIndex = 9;
             this.picCanvas3.TabStop = false;
             this.picCanvas3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCanvas3_MouseDown);
+            this.picCanvas3.MouseHover += new System.EventHandler(this.picCanvas3_MouseHover);
             // 
             // picCanvas4
             // 
@@ -117,6 +120,7 @@
             this.picCanvas4.TabIndex = 8;
             this.picCanvas4.TabStop = false;
             this.picCanvas4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCanvas4_MouseDown);
+            this.picCanvas4.MouseHover += new System.EventHandler(this.picCanvas4_MouseHover);
             // 
             // picCanvas2
             // 
@@ -129,6 +133,7 @@
             this.picCanvas2.TabIndex = 7;
             this.picCanvas2.TabStop = false;
             this.picCanvas2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCanvas2_MouseDown);
+            this.picCanvas2.MouseHover += new System.EventHandler(this.picCanvas2_MouseHover);
             // 
             // picCanvas1
             // 
@@ -141,6 +146,8 @@
             this.picCanvas1.TabIndex = 6;
             this.picCanvas1.TabStop = false;
             this.picCanvas1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCanvas1_MouseDown);
+            this.picCanvas1.MouseHover += new System.EventHandler(this.picCanvas1_MouseHover);
+            this.picCanvas1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picCanvas1_MouseUp);
             // 
             // picCanvasCasa
             // 

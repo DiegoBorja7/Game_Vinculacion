@@ -18,7 +18,9 @@ namespace WinAppProyectoFinal.Clases
         private List<CImage> mArrayImagesEscuela;
         private List<CImage> mArrayImagesCasa;
         private List<PictureBox> mPictures;
+        private List<CImage> mArrayTotal;
         private ArrayList mNombres;
+        private SoundPlayer mPlayer;
 
         #endregion
 
@@ -26,6 +28,8 @@ namespace WinAppProyectoFinal.Clases
 
         public CPictures(List<PictureBox> Pictures)
         {
+            mArrayTotal = new List<CImage>();
+
             //IGUALAMOS LISTA DE PICTUREBOXES PARA LUEGO TRABAjAR CON ELLOS
             mPictures = Pictures;
 
@@ -121,14 +125,40 @@ namespace WinAppProyectoFinal.Clases
                     mPictures[i].Image = mArrayImagesCasa[num].obtenerImagen("Casa");
                     mArrayImagesCasa[num].Disponibilidad = false;
                     mPictures[i].Tag = "Casa";
+                    mArrayTotal.Add(mArrayImagesCasa[num]);
                 }
                 else
                 {
                     mPictures[i].Image = mArrayImagesEscuela[num].obtenerImagen("Escuela");
                     mArrayImagesEscuela[num].Disponibilidad = false;
                     mPictures[i].Tag = "Escuela";
+                    mArrayTotal.Add(mArrayImagesEscuela[num]);
                 }
             }
+        }
+
+        public void reproducirAudio(PictureBox image)
+        {
+            string nombre = Directory.GetCurrentDirectory()+"\\Resources\\audios\\";
+            try
+            {
+                mPlayer.Stop();
+            }
+            catch { }
+            try
+            {
+                for (int i = 0; i < mPictures.Count; i++)
+                {
+                    if (image == mPictures[i])
+                    {
+                        nombre += mArrayTotal[i].Audio + ".wav";
+                        //MessageBox.Show(nombre);
+                    }
+                }
+                mPlayer = new SoundPlayer(nombre);
+                mPlayer.Play();
+            }
+            catch { }
         }
 
     }

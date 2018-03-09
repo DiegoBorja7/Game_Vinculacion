@@ -138,11 +138,20 @@ namespace WinAppProyectoFinal.Clases
 
             PicAux.Select();
 
+            PicAux.Visible = false;
+
             try
             {
                 PicAux.DoDragDrop(PicAux.Image, DragDropEffects.Move);
             }
             catch { }
+
+            PicAux.Visible = true;
+        }
+
+        public void mouseSuelto()
+        {
+            PicAux.Visible = true;
         }
 
         public void dragEnter(DragEventArgs e)

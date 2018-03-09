@@ -225,6 +225,41 @@ namespace WinAppProyectoFinal.Forms
             objfrm.ShowDialog();
         }
 
+        private void picCanvas1_MouseHover(object sender, EventArgs e)
+        {
+            juego.PicImages.reproducirAudio((PictureBox)sender);
+        }
+
+        private void picCanvas2_MouseHover(object sender, EventArgs e)
+        {
+            juego.PicImages.reproducirAudio((PictureBox)sender);
+        }
+
+        private void picCanvas3_MouseHover(object sender, EventArgs e)
+        {
+            juego.PicImages.reproducirAudio((PictureBox)sender);
+        }
+
+        private void picCanvas4_MouseHover(object sender, EventArgs e)
+        {
+            juego.PicImages.reproducirAudio((PictureBox)sender);
+        }
+
+        private void picCanvas5_MouseHover(object sender, EventArgs e)
+        {
+            juego.PicImages.reproducirAudio((PictureBox)sender);
+        }
+
+        private void picCanvas6_MouseHover(object sender, EventArgs e)
+        {
+            juego.PicImages.reproducirAudio((PictureBox)sender);
+        }
+
+        private void picCanvas1_MouseUp(object sender, MouseEventArgs e)
+        {
+            picCanvas1.Visible = true;
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (contador > 0)
