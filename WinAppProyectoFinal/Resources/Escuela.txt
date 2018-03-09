@@ -1,0 +1,6 @@
+bancasescuela
+grapaescuela
+lapizescuela
+pizarronescuela
+sacaescuela
+tijeraescuela

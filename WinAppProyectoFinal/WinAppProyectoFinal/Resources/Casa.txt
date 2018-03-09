@@ -1,0 +1,6 @@
+camacasa
+lavadoracasa
+licuadoracasa
+microcasa
+ollacasa
+planchacasa

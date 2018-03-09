@@ -1,0 +1,6 @@
+cafetera
+lavadora
+licuadora
+microondas
+refrigeradora
+tostadora

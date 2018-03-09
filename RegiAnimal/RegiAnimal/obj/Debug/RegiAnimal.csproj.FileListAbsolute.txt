@@ -130,60 +130,150 @@ C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\Reg
 C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
 C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
 C:\Users\Kevin111\Music\RegiAnimal-C--master\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
-C:\Users\Kevin111\Desktop\PROYECTO TODO\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Music\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Labs-DECC\Desktop\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+E:\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+E:\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+E:\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+E:\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+E:\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+E:\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+E:\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+E:\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+E:\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Labs-DECC\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Labs-DECC\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Kevin111\Desktop\Cambios1\Cambios\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache

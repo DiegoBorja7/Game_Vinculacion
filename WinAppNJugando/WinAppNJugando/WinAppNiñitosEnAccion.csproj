@@ -85,11 +85,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CImages.cs" />
+    <Compile Include="CArchivos.cs" />
+    <Compile Include="CDestino.cs" />
+    <Compile Include="CDragNDrop.cs" />
+    <Compile Include="CImage.cs" />
+    <Compile Include="CInitializeImages.cs" />
+    <Compile Include="CInitializePictureBox.cs" />
     <Compile Include="CInitializeThings.cs" />
     <Compile Include="CInstructions.cs" />
-    <Compile Include="CPicCanvas.cs" />
-    <Compile Include="CSounds.cs" />
+    <Compile Include="CJuego.cs" />
+    <Compile Include="CMenuLevel.cs" />
+    <Compile Include="CPictures.cs" />
+    <Compile Include="CPictureSounds.cs" />
+    <Compile Include="CPuntuacion.cs" />
+    <Compile Include="CTranslation.cs" />
     <Compile Include="frmAlerta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,11 +135,11 @@
     <Compile Include="frmAutoevaluacion5.Designer.cs">
       <DependentUpon>frmAutoevaluacion5.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAyuda.cs">
+    <Compile Include="frmFinTime.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAyuda.Designer.cs">
-      <DependentUpon>frmAyuda.cs</DependentUpon>
+    <Compile Include="frmFinTime.Designer.cs">
+      <DependentUpon>frmFinTime.cs</DependentUpon>
     </Compile>
     <Compile Include="frmHelp.cs">
       <SubType>Form</SubType>
@@ -144,6 +153,12 @@
     <Compile Include="frmInicio.Designer.cs">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInstrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstrucciones.Designer.cs">
+      <DependentUpon>frmInstrucciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmJuego.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,17 +171,29 @@
     <Compile Include="frmLevelSelection.Designer.cs">
       <DependentUpon>frmLevelSelection.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMensaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMensaje.Designer.cs">
+      <DependentUpon>frmMensaje.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMenuC.cs">
+    <Compile Include="frmMenuLevel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMenuC.Designer.cs">
-      <DependentUpon>frmMenuC.cs</DependentUpon>
+    <Compile Include="frmMenuLevel.Designer.cs">
+      <DependentUpon>frmMenuLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.Designer.cs">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPuntajeAutoevaluacion.cs">
       <SubType>Form</SubType>
@@ -186,19 +213,20 @@
     <Compile Include="frmRegiAnimal.Designer.cs">
       <DependentUpon>frmRegiAnimal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRepeatGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepeatGame.Designer.cs">
+      <DependentUpon>frmRepeatGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSelectGame.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmSelectGame.Designer.cs">
       <DependentUpon>frmSelectGame.cs</DependentUpon>
     </Compile>
-    <Compile Include="InitializeImages.cs" />
-    <Compile Include="InitializePictureBox.cs" />
-    <Compile Include="PictureSounds.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Time.cs" />
-    <Compile Include="Translation.cs" />
     <EmbeddedResource Include="frmAlerta.resx">
       <DependentUpon>frmAlerta.cs</DependentUpon>
     </EmbeddedResource>
@@ -217,8 +245,8 @@
     <EmbeddedResource Include="frmAutoevaluacion5.resx">
       <DependentUpon>frmAutoevaluacion5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAyuda.resx">
-      <DependentUpon>frmAyuda.cs</DependentUpon>
+    <EmbeddedResource Include="frmFinTime.resx">
+      <DependentUpon>frmFinTime.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHelp.resx">
       <DependentUpon>frmHelp.cs</DependentUpon>
@@ -226,17 +254,26 @@
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmInstrucciones.resx">
+      <DependentUpon>frmInstrucciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmJuego.resx">
       <DependentUpon>frmJuego.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLevelSelection.resx">
       <DependentUpon>frmLevelSelection.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMensaje.resx">
+      <DependentUpon>frmMensaje.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMenuC.resx">
-      <DependentUpon>frmMenuC.cs</DependentUpon>
+    <EmbeddedResource Include="frmMenuLevel.resx">
+      <DependentUpon>frmMenuLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPuntajeAutoevaluacion.resx">
       <DependentUpon>frmPuntajeAutoevaluacion.cs</DependentUpon>
@@ -246,6 +283,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegiAnimal.resx">
       <DependentUpon>frmRegiAnimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepeatGame.resx">
+      <DependentUpon>frmRepeatGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSelectGame.resx">
       <DependentUpon>frmSelectGame.cs</DependentUpon>

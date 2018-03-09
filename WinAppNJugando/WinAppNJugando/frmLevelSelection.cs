@@ -14,8 +14,9 @@ namespace RegiAnimal
     public partial class frmLevelSelection : Form
     {
         private int level ;
-        private frmMenu menu;
-        private CInitializeThings ObjInitialize = new CInitializeThings();
+        private Regianimal regiAnimal;
+        private CPictureSounds sound = new CPictureSounds();
+        private CInitializeThings ms = new CInitializeThings();
         public frmLevelSelection()
         {
             InitializeComponent();
@@ -24,40 +25,69 @@ namespace RegiAnimal
             picLvlEasy.BackColor = Color.Transparent;
             picLvlMedium.BackColor = Color.Transparent;
             picLvlHard.BackColor = Color.Transparent;
+            grbeasy.BackColor = Color.Transparent;
+            grbmedium.BackColor = Color.Transparent;
+            grbHard.BackColor = Color.Transparent;
         }
 
         private void Mouse()
         {
-            ObjInitialize.Mouse(this, 2);
-        }
-
-        private void LevelSelection_Load(object sender, EventArgs e)
-        {
-
+            ms.Mouse(this, 2);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            
             this.level = 1;
-            menu = new frmMenu(level);
-            menu.Show();
+            regiAnimal = new Regianimal(level);
+            regiAnimal.Show();
             this.Dispose();
         }
 
         private void picLvlMedium_Click(object sender, EventArgs e)
         {
             this.level = 2;
-            menu = new frmMenu(level);
-            menu.Show();
+            regiAnimal = new Regianimal(level);
+            regiAnimal.Show();
             this.Dispose();
         }
 
         private void picLvlHard_Click(object sender, EventArgs e)
         {
             this.level = 3;
-            menu = new frmMenu(level);
-            menu.Show();
+            regiAnimal = new Regianimal(level);
+            regiAnimal.Show();
             this.Dispose();
+        }
+
+        private void picLvlEasy_MouseHover(object sender, EventArgs e)
+        {
+            picLvlEasy.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        private void picLvlMedium_MouseHover(object sender, EventArgs e)
+        {
+            picLvlMedium.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        private void picLvlHard_MouseHover(object sender, EventArgs e)
+        {
+            picLvlHard.BorderStyle = BorderStyle.Fixed3D;
+        }
+
+        private void picLvlEasy_MouseLeave(object sender, EventArgs e)
+        {
+            picLvlEasy.BorderStyle = BorderStyle.None;
+        }
+
+        private void picLvlMedium_MouseLeave(object sender, EventArgs e)
+        {
+            picLvlMedium.BorderStyle = BorderStyle.None;
+        }
+
+        private void picLvlHard_MouseLeave(object sender, EventArgs e)
+        {
+            picLvlHard.BorderStyle = BorderStyle.None;
         }
     }
 }

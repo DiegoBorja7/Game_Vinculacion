@@ -1,0 +1,6 @@
+cuadernos
+pintura
+regla
+resaltador
+sacapuntas
+tijera

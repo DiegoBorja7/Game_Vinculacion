@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 using RegiAnimal;
-using WinAppProject;
+using WinAppProyectoFinal.Forms;
+
 
 /**
   * @Autor: Diego Borja.
@@ -14,6 +15,7 @@ namespace WinAppNiñitosEnAccion
     {
         private CInitializeThings ObjInitialize = new CInitializeThings();
         private CInstructions ObjInstruction = new CInstructions();
+
 
         public frmSelectGame()
         {
@@ -73,7 +75,7 @@ namespace WinAppNiñitosEnAccion
         }
         private void picTuCasaoTuEscuelaGame_Click(object sender, EventArgs e)
         {
-            frmMenuC menuc = new frmMenuC();
+            frmMenuPrincipal menuc = new frmMenuPrincipal();
             menuc.Show();
             Dispose();
             ObjInstruction.Player.Stop();

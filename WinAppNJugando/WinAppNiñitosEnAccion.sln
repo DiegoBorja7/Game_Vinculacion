@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppNiñitosEnAccion", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegiAnimal", "..\RegiAnimal\RegiAnimal\RegiAnimal.csproj", "{5D4F2E52-3057-4779-B0AB-1FD7DA96435B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppProject", "..\WinAppProject\WinAppProject\WinAppProject.csproj", "{459B7088-73D8-4BE1-9014-C11DFA6D0D44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppProyectoFinal", "..\WinAppProyectoFinal\WinAppProyectoFinal\WinAppProyectoFinal.csproj", "{3B293B66-55C0-4C6B-9E72-B52E66B00FB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,15 +23,15 @@ Global
 		{5D4F2E52-3057-4779-B0AB-1FD7DA96435B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D4F2E52-3057-4779-B0AB-1FD7DA96435B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D4F2E52-3057-4779-B0AB-1FD7DA96435B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{459B7088-73D8-4BE1-9014-C11DFA6D0D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{459B7088-73D8-4BE1-9014-C11DFA6D0D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{459B7088-73D8-4BE1-9014-C11DFA6D0D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{459B7088-73D8-4BE1-9014-C11DFA6D0D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B293B66-55C0-4C6B-9E72-B52E66B00FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B293B66-55C0-4C6B-9E72-B52E66B00FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B293B66-55C0-4C6B-9E72-B52E66B00FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B293B66-55C0-4C6B-9E72-B52E66B00FB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {152E3E28-E7E5-4E2F-A23C-0F750B2AA228}
+		SolutionGuid = {EABC3A6F-30F3-44F9-BD3D-00207379B63F}
 	EndGlobalSection
 EndGlobal

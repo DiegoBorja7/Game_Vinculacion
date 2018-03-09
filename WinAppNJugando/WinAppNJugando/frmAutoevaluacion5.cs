@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 
 /**
- *@Autor Borja Diego
+  * @Autor: Diego Borja.
+  * 
 **/
 
 namespace WinAppNiñitosEnAccion

@@ -15,25 +15,25 @@ namespace RegiAnimal
     {
         private int level = 2;
 
-        private Regianimal regi;
-        private InitializeImages im = new InitializeImages();
+        private CInitializeImages im = new CInitializeImages();
         private frmLevelSelection ls;
-        private CInitializeThings ObjInitialize = new CInitializeThings();
+        private CPictureSounds sound = new CPictureSounds();
+        private CInitializeThings ms = new CInitializeThings();
+
         public frmMenu()
         {
             
             InitializeComponent();
-            im.menuButtons(picBtnLevel, picBtnPlay, picBtnHome);
+            im.menuButtons(picBtnPlay, picBtnHome);
             picRegianimal.BackColor = Color.Transparent;
             Mouse();
         }
 
         public frmMenu(int level)
         {
-            
-            
+  
             InitializeComponent();
-            im.menuButtons(picBtnLevel, picBtnPlay, picBtnHome);
+            im.menuButtons(picBtnPlay, picBtnHome);
             picRegianimal.BackColor = Color.Transparent;
 
             Mouse();
@@ -43,19 +43,14 @@ namespace RegiAnimal
 
         private void Mouse()
         {
-            ObjInitialize.Mouse(this, 2);
-        }
-
-        private void Menu_Load(object sender, EventArgs e)
-        {
-          
+            ms.Mouse(this, 2);
         }
 
         private void picBtnPlay_Click(object sender, EventArgs e)
         {
-            regi = new Regianimal(level);
-            regi.Show();
-            this.Visible = false;
+            ls = new frmLevelSelection();
+            ls.Show();
+            this.Visible=false;
         }
 
         private void picBtnLevel_Click(object sender, EventArgs e)
@@ -63,37 +58,39 @@ namespace RegiAnimal
             ls = new frmLevelSelection();
             ls.Show();
             this.Visible = false;
-
         }
 
         private void picBtnHome_Click(object sender, EventArgs e)
         {
-            frmSelectGame selecgame = new frmSelectGame();
-            selecgame.Show();
+            frmSelectGame lvl = new frmSelectGame();
+            lvl.Show();
             this.Dispose();
         }
 
-        private void picBtnLevel_MouseEnter(object sender, EventArgs e)
+        private void picBtnPlay_MouseHover(object sender, EventArgs e)
         {
-            ObjInitialize.Seleccionar(this, picBtnLevel);
+            im.menuButtonshover(picBtnPlay,0);
+            picBtnPlay.BorderStyle = BorderStyle.Fixed3D;
+            sound.playSound(picBtnPlay, "Pop");
         }
 
-        private void picBtnPlay_MouseEnter(object sender, EventArgs e)
+        private void picBtnPlay_MouseLeave(object sender, EventArgs e)
         {
-            ObjInitialize.Seleccionar(this, picBtnPlay);
-        }
-
-        private void picBtnHome_MouseEnter(object sender, EventArgs e)
-        {
-            ObjInitialize.Seleccionar(this, picBtnHome);
-        }
-
-        private void frmMenu_MouseEnter(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Default;
-            picBtnLevel.BorderStyle = BorderStyle.None;
+            im.menuButtonsleave(picBtnPlay,0);
             picBtnPlay.BorderStyle = BorderStyle.None;
+        }
+
+        private void picBtnHome_MouseLeave(object sender, EventArgs e)
+        {
+            im.menuButtonsleave(picBtnHome, 1);
             picBtnHome.BorderStyle = BorderStyle.None;
+        }
+
+        private void picBtnHome_MouseHover(object sender, EventArgs e)
+        {
+            im.menuButtonshover(picBtnHome, 1);
+            picBtnHome.BorderStyle = BorderStyle.Fixed3D;
+            sound.playSound(picBtnHome, "Pop");
         }
     }
 }

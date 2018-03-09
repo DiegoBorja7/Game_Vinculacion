@@ -121,10 +121,10 @@
   <data name="icons8_Paper_Plane_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_Paper_Plane_48px.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Picaflor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Picaflor.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Puntero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Puntero.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Picaflor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Picaflor.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
