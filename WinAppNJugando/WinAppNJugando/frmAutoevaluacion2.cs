@@ -17,10 +17,7 @@ namespace WinAppNiñitosEnAccion
 
         private List<PictureBox> ListaPictureBoxObjetos = new List<PictureBox>();
         private List<PictureBox> ListaPictureBoxLugares = new List<PictureBox>();
-        private int i;
         private PictureBox picAux = new PictureBox();
-        private Color Acierto = Color.Green;
-        private Color Incorrecto = Color.Red;
 
         public frmAutoevaluacion2()
         {
@@ -56,15 +53,22 @@ namespace WinAppNiñitosEnAccion
         //Calificacion
         private void Calificacion()
         {
-            if (ObjInstruction.Puntaje >= 10 || ObjInstruction.Aciertos >= 5 )
+            if (ObjInstruction.Aciertos == 5)
             {
-                MessageBox.Show("Siguiente Autoevalaución");//un msj de muy bien hecho que indique ago
+                //un msj de muy bien hecho
+                //ObjInstruction.playSound("BienAutoevaluacion");
+                MessageBox.Show("muy bien hecho...Siguiente Autoevalaución");
+                new frmAutoevaluacion3().Show(); 
+                Hide();
+            }
+            else if (ObjInstruction.Clicks >= 15)
+            {
+                //excediste en los intentos
+                MessageBox.Show("excediste en los intentos...Siguiente Autoevalaución");
                 new frmAutoevaluacion3().Show();
                 Hide();
             }
         }
-
-        #region Puntero Mouse
 
         private void picHome_Click(object sender, EventArgs e)
         {
@@ -81,9 +85,10 @@ namespace WinAppNiñitosEnAccion
 
         private void picHelp_Click(object sender, EventArgs e)
         {
-            ObjInstruction.playSound("Autoevaluacion2");
+            //ObjInstruction.playSound("Autoevaluacion2");
         }
 
+        #region Puntero Mouse
         private void frmAutoevaluacion2_MouseEnter(object sender, EventArgs e)
         {
             DoubleBuffered = true;
@@ -218,23 +223,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picClock_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "Relog")
-                    { 
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picClock, picAux, e);
         }
 
         private void picClock_DragDrop(object sender, DragEventArgs e)
@@ -244,23 +233,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picBoard_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "Pizarron")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picBoard, picAux, e);
         }
 
         private void picBoard_DragDrop(object sender, DragEventArgs e)
@@ -270,23 +243,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picBag_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "Mochila")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picBag, picAux, e);
         }
 
         private void picBag_DragDrop(object sender, DragEventArgs e)
@@ -296,23 +253,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picBooks_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "Libros")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picBooks, picAux, e);
         }
 
         private void picBooks_DragDrop(object sender, DragEventArgs e)
@@ -322,24 +263,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picPuzzle_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "Rompecabezas")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picPuzzle, picAux, e);
         }
 
         private void picPuzzle_DragDrop(object sender, DragEventArgs e)
@@ -349,23 +273,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picChair_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "SillaAula")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picChair, picAux, e);
         }
 
         private void picChair_DragDrop(object sender, DragEventArgs e)
@@ -375,23 +283,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picCrayons_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "Crayones")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picCrayons, picAux, e);
         }
 
         private void picCrayons_DragDrop(object sender, DragEventArgs e)
@@ -401,23 +293,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picNotebooks_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "Cuadernos")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picNotebooks, picAux, e);
         }
 
         private void picNotebooks_DragDrop(object sender, DragEventArgs e)
@@ -427,23 +303,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picBall_DragEnter(object sender, DragEventArgs e)
         {
-            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-            {
-                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                {
-                    ObjInstruction.Clicks++;
-                    e.Effect = DragDropEffects.Move;
-                    ListaPictureBoxObjetos[i].Visible = true;
-                    if (ListaPictureBoxObjetos[i].Name == "Pelota")
-                    {
-                        ObjInstruction.Puntaje++;
-                        ObjInstruction.Aciertos++;
-                        ListaPictureBoxObjetos[i].BackColor = Acierto;
-                    }
-                    else
-                        ListaPictureBoxObjetos[i].BackColor = Incorrecto;
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picBall, picAux, e);
         }
 
         private void picBall_DragDrop(object sender, DragEventArgs e)

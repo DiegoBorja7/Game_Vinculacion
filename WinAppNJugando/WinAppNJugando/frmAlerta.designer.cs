@@ -30,36 +30,40 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAlerta));
-            this.btnNo = new System.Windows.Forms.Button();
-            this.btnYes = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.picBtnYes = new System.Windows.Forms.PictureBox();
+            this.picBtnNo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnYes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnNo)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnNo
+            // picBtnYes
             // 
-            this.btnNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnNo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNo.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNo.Location = new System.Drawing.Point(224, 178);
-            this.btnNo.Name = "btnNo";
-            this.btnNo.Size = new System.Drawing.Size(140, 45);
-            this.btnNo.TabIndex = 0;
-            this.btnNo.Text = "No";
-            this.btnNo.UseVisualStyleBackColor = false;
-            this.btnNo.Click += new System.EventHandler(this.btnNo_Click);
+            this.picBtnYes.BackColor = System.Drawing.Color.Transparent;
+            this.picBtnYes.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBtnYes.BackgroundImage")));
+            this.picBtnYes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBtnYes.Location = new System.Drawing.Point(93, 164);
+            this.picBtnYes.Name = "picBtnYes";
+            this.picBtnYes.Size = new System.Drawing.Size(75, 75);
+            this.picBtnYes.TabIndex = 2;
+            this.picBtnYes.TabStop = false;
+            this.toolTip1.SetToolTip(this.picBtnYes, "Si");
+            this.picBtnYes.Click += new System.EventHandler(this.picBtnYes_Click);
+            this.picBtnYes.MouseEnter += new System.EventHandler(this.picBtnYes_MouseEnter);
             // 
-            // btnYes
+            // picBtnNo
             // 
-            this.btnYes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnYes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnYes.Font = new System.Drawing.Font("Footlight MT Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnYes.Location = new System.Drawing.Point(39, 178);
-            this.btnYes.Name = "btnYes";
-            this.btnYes.Size = new System.Drawing.Size(140, 45);
-            this.btnYes.TabIndex = 1;
-            this.btnYes.Text = "Si";
-            this.btnYes.UseVisualStyleBackColor = false;
-            this.btnYes.Click += new System.EventHandler(this.btnYes_Click);
+            this.picBtnNo.BackColor = System.Drawing.Color.Transparent;
+            this.picBtnNo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBtnNo.BackgroundImage")));
+            this.picBtnNo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBtnNo.Location = new System.Drawing.Point(242, 164);
+            this.picBtnNo.Name = "picBtnNo";
+            this.picBtnNo.Size = new System.Drawing.Size(75, 75);
+            this.picBtnNo.TabIndex = 3;
+            this.picBtnNo.TabStop = false;
+            this.toolTip1.SetToolTip(this.picBtnNo, "No");
+            this.picBtnNo.Click += new System.EventHandler(this.picBtnNo_Click);
+            this.picBtnNo.MouseEnter += new System.EventHandler(this.picBtnNo_MouseEnter);
             // 
             // frmAlerta
             // 
@@ -69,23 +73,27 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(410, 250);
-            this.Controls.Add(this.btnYes);
-            this.Controls.Add(this.btnNo);
+            this.Controls.Add(this.picBtnNo);
+            this.Controls.Add(this.picBtnYes);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAlerta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menú Principal";
             this.Load += new System.EventHandler(this.frmAlerta_Load);
+            this.MouseEnter += new System.EventHandler(this.frmAlerta_MouseEnter);
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnYes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnNo)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnNo;
-        private System.Windows.Forms.Button btnYes;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.PictureBox picBtnYes;
+        private System.Windows.Forms.PictureBox picBtnNo;
     }
 }

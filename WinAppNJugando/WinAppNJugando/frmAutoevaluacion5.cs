@@ -41,23 +41,22 @@ namespace WinAppNiñitosEnAccion
         {
             frmPuntajeAutoevaluacion ObjFormulario = new frmPuntajeAutoevaluacion();
 
-            if (ObjInstruction.Aciertos == 3 || (ObjInstruction.Aciertos == 3 && ObjInstruction.Clicks > 6))
+            if (ObjInstruction.Aciertos == 3)
             {
                 //un msj de muy bien hecho
+                //ObjInstruction.playSound("BienAutoevaluacion");
+                MessageBox.Show("muy bien hecho...FinAutoevaluacion");
                 ObjFormulario.Show();
                 Hide();
             }
-            else
-                if (ObjInstruction.Clicks > 5)
+            else if (ObjInstruction.Clicks > 6)
             {
                 //excediste en los intentos
+                MessageBox.Show("excediste en los intentos...FinAutoevaluacion");
                 ObjFormulario.Show();
                 Hide();
             }
         }
-
-        #region Puntero Mouse
-
         private void picHome_Click(object sender, EventArgs e)
         {
             frmAlerta ObjFormulario = new frmAlerta();
@@ -73,9 +72,10 @@ namespace WinAppNiñitosEnAccion
 
         private void picHelp_Click(object sender, EventArgs e)
         {
-            ObjInstruction.playSound("Autoevaluacion5");
+            //ObjInstruction.playSound("Autoevaluacion5");
         }
 
+        #region Puntero Mouse
         private void frmAutoevaluacion5_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Mouse(this,1);

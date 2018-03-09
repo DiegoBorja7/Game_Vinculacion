@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
@@ -43,9 +42,18 @@ namespace WinAppNiñitosEnAccion
         //Calificacion
         private void Calificacion()
         {
-            if (ObjInstruction.Puntaje >= 13 || ObjInstruction.Aciertos >= 3 || ObjInstruction.Clicks >= 6)
+            if (ObjInstruction.Aciertos == 3)
             {
-                MessageBox.Show("Siguiente Autoevalaución");//un msj de muy bien hecho que indique ago
+                //un msj de muy bien hecho
+                //ObjInstruction.playSound("BienAutoevaluacion");
+                MessageBox.Show("muy bien hecho...Siguiente Autoevalaución");
+                new frmAutoevaluacion4().Show();
+                Hide();
+            }
+            else if (ObjInstruction.Clicks >= 6)
+            {
+                //excediste en los intentos
+                MessageBox.Show("excediste en los intentos...Siguiente Autoevalaución");
                 new frmAutoevaluacion4().Show();
                 Hide();
             }
@@ -68,7 +76,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picHelp_Click(object sender, EventArgs e)
         {
-            ObjInstruction.playSound("Autoevaluacion3");
+            //ObjInstruction.playSound("Autoevaluacion3");
         }
 
         private void frmAutoevaluacion3_MouseEnter(object sender, EventArgs e)
@@ -96,7 +104,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picHelp_MouseEnter(object sender, EventArgs e)
         {
-            ObjInitialize.Seleccionar(this, picNext);
+            ObjInitialize.Seleccionar(this, picHelp);
         }
 
         private void picImage1_MouseEnter(object sender, EventArgs e)

@@ -42,9 +42,9 @@
             this.picExit.BackColor = System.Drawing.Color.Transparent;
             this.picExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picExit.BackgroundImage")));
             this.picExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picExit.Location = new System.Drawing.Point(1177, 12);
+            this.picExit.Location = new System.Drawing.Point(1133, 12);
             this.picExit.Name = "picExit";
-            this.picExit.Size = new System.Drawing.Size(75, 75);
+            this.picExit.Size = new System.Drawing.Size(119, 111);
             this.picExit.TabIndex = 3;
             this.picExit.TabStop = false;
             this.toolTip1.SetToolTip(this.picExit, "Salir del Juego");

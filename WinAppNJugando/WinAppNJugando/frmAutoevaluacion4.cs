@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
@@ -46,15 +45,22 @@ namespace WinAppNiñitosEnAccion
 
         private void Calificacion()
         {
-            if (ObjInstruction.Puntaje >= 17 || ObjInstruction.Aciertos >= 4 || ObjInstruction.Clicks > 7)
+            if (ObjInstruction.Aciertos == 4)
             {
-                MessageBox.Show("Siguiente Autoevalaución");//un msj de muy bien hecho que indique ago
+                //un msj de muy bien hecho
+                //ObjInstruction.playSound("BienAutoevaluacion");
+                MessageBox.Show("muy bien hecho...Siguiente Autoevalaución");
+                new frmAutoevaluacion5().Show();
+                Hide();
+            }
+            else if (ObjInstruction.Clicks > 7)
+            {
+                //excediste en los intentos
+                MessageBox.Show("excediste en los intentos...Siguiente Autoevalaución");
                 new frmAutoevaluacion5().Show();
                 Hide();
             }
         }
-
-        #region Puntero Mouse
 
         private void picHome_Click(object sender, EventArgs e)
         {
@@ -71,9 +77,10 @@ namespace WinAppNiñitosEnAccion
 
         private void picHelp_Click(object sender, EventArgs e)
         {
-            ObjInstruction.playSound("Autoevaluacion4");
+            //ObjInstruction.playSound("Autoevaluacion4");
         }
 
+        #region Puntero Mouse
         private void frmAutoevaluacion4_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Mouse(this,1);
@@ -207,315 +214,23 @@ namespace WinAppNiñitosEnAccion
 
         private void picRegion1_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-            string name = picRegion1.Name.ToString();
-
-            if(name=="Costa")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Delfin"|| ListaPictureBoxObjetos[i].Name == "Gaviota" || ListaPictureBoxObjetos[i].Name == "Langosta" || ListaPictureBoxObjetos[i].Name == "Ballena")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-             else
-                if(name == "Sierra")
-                {
-                    for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                    {
-                        if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                        {
-                            ObjInstruction.Clicks++;
-                            e.Effect = DragDropEffects.Move;
-                            ListaPictureBoxObjetos[i].Visible = false;
-                            if (ListaPictureBoxObjetos[i].Name == "Condor" || ListaPictureBoxObjetos[i].Name == "Conejo" || ListaPictureBoxObjetos[i].Name == "Pato" || ListaPictureBoxObjetos[i].Name == "Raton")
-                            {
-                                ObjInstruction.Puntaje++;
-                                ObjInstruction.Aciertos++;
-                            }
-                        }
-                    }
-                }
-                else
-                    if (name == "Oriente")
-                    {
-                        for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                        {
-                            if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                            {
-                                ObjInstruction.Clicks++;
-                                e.Effect = DragDropEffects.Move;
-                                ListaPictureBoxObjetos[i].Visible = false;
-                                if (ListaPictureBoxObjetos[i].Name == "Mono" || ListaPictureBoxObjetos[i].Name == "OsoPerezoso" || ListaPictureBoxObjetos[i].Name == "Rana" || ListaPictureBoxObjetos[i].Name == "Serpiente")
-                                {
-                                    ObjInstruction.Puntaje++;
-                                    ObjInstruction.Aciertos++;
-                                }
-                            }
-                        }
-                    }
-                    else
-                        if (name == "Insular")
-                        {
-                            for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                            {
-                                if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                                {
-                                    ObjInstruction.Clicks++;
-                                    e.Effect = DragDropEffects.Move;
-                                    ListaPictureBoxObjetos[i].Visible = false;
-                                    if (ListaPictureBoxObjetos[i].Name == "DelfinGalapagos" || ListaPictureBoxObjetos[i].Name == "Pinguino" || ListaPictureBoxObjetos[i].Name == "Tiburon" || ListaPictureBoxObjetos[i].Name == "Tortuga")
-                                    {
-                                        ObjInstruction.Puntaje++;
-                                        ObjInstruction.Aciertos++;
-                                    }
-                                }
-                            }
-                        }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion1, picAux, e);
 
         }
 
         private void picRegion2_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-            string name = picRegion2.Name.ToString();
-
-            if (name == "Costa")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Delfin" || ListaPictureBoxObjetos[i].Name == "Gaviota" || ListaPictureBoxObjetos[i].Name == "Langosta" || ListaPictureBoxObjetos[i].Name == "Ballena")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-                if (name == "Sierra")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Condor" || ListaPictureBoxObjetos[i].Name == "Conejo" || ListaPictureBoxObjetos[i].Name == "Pato" || ListaPictureBoxObjetos[i].Name == "Raton")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-                    if (name == "Oriente")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Mono" || ListaPictureBoxObjetos[i].Name == "OsoPerezoso" || ListaPictureBoxObjetos[i].Name == "Rana" || ListaPictureBoxObjetos[i].Name == "Serpiente")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-                        if (name == "Insular")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "DelfinGalapagos" || ListaPictureBoxObjetos[i].Name == "Pinguino" || ListaPictureBoxObjetos[i].Name == "Tiburon" || ListaPictureBoxObjetos[i].Name == "Tortuga")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion2, picAux, e);
         }
 
         private void picRegion3_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-            string name = picRegion3.Name.ToString();
-
-            if (name == "Costa")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Delfin" || ListaPictureBoxObjetos[i].Name == "Gaviota" || ListaPictureBoxObjetos[i].Name == "Langosta" || ListaPictureBoxObjetos[i].Name == "Ballena")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-                if (name == "Sierra")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Condor" || ListaPictureBoxObjetos[i].Name == "Conejo" || ListaPictureBoxObjetos[i].Name == "Pato" || ListaPictureBoxObjetos[i].Name == "Raton")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-            if (name == "Oriente")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Mono" || ListaPictureBoxObjetos[i].Name == "OsoPerezoso" || ListaPictureBoxObjetos[i].Name == "Rana" || ListaPictureBoxObjetos[i].Name == "Serpiente")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-            if (name == "Insular")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "DelfinGalapagos" || ListaPictureBoxObjetos[i].Name == "Pinguino" || ListaPictureBoxObjetos[i].Name == "Tiburon" || ListaPictureBoxObjetos[i].Name == "Tortuga")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion3, picAux, e);
         }
 
         private void picRegion4_DragEnter(object sender, DragEventArgs e)
         {
-            int i;
-            string name = picRegion4.Name.ToString();
-
-            if (name == "Costa")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Delfin" || ListaPictureBoxObjetos[i].Name == "Gaviota" || ListaPictureBoxObjetos[i].Name == "Langosta" || ListaPictureBoxObjetos[i].Name == "Ballena")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-                if (name == "Sierra")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Condor" || ListaPictureBoxObjetos[i].Name == "Conejo" || ListaPictureBoxObjetos[i].Name == "Pato" || ListaPictureBoxObjetos[i].Name == "Raton")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-            if (name == "Oriente")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "Mono" || ListaPictureBoxObjetos[i].Name == "OsoPerezoso" || ListaPictureBoxObjetos[i].Name == "Rana" || ListaPictureBoxObjetos[i].Name == "Serpiente")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
-            else
-            if (name == "Insular")
-            {
-                for (i = 0; i < ListaPictureBoxObjetos.Count; i++)
-                {
-                    if (e.Data.GetDataPresent(DataFormats.Bitmap) && (picAux == ListaPictureBoxObjetos[i]))
-                    {
-                        ObjInstruction.Clicks++;
-                        e.Effect = DragDropEffects.Move;
-                        ListaPictureBoxObjetos[i].Visible = false;
-                        if (ListaPictureBoxObjetos[i].Name == "DelfinGalapagos" || ListaPictureBoxObjetos[i].Name == "Pinguino" || ListaPictureBoxObjetos[i].Name == "Tiburon" || ListaPictureBoxObjetos[i].Name == "Tortuga")
-                        {
-                            ObjInstruction.Puntaje++;
-                            ObjInstruction.Aciertos++;
-                        }
-                    }
-                }
-            }
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion4, picAux, e);
         }
 
         #endregion

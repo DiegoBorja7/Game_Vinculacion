@@ -37,3 +37,17 @@ C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyec
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.exe
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ExtraFiles\Proyecto\NiñitosEnAccion V2.0\NiñitosEnAccion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\bin\Debug\WinAppProject.exe.config
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\bin\Debug\WinAppProject.exe
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\bin\Debug\WinAppProject.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\bin\Debug\Control.Draggable.dll
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.frmAyuda.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.frmJuego.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.frmMenuC.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.frmPuntuacion.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.Properties.Resources.resources
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.exe
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Vinculacion\WinAppProject\WinAppProject\obj\Debug\WinAppProject.pdb

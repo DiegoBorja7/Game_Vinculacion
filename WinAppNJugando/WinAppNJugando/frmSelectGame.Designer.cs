@@ -78,7 +78,7 @@
             this.picRegiAnimalGame.Size = new System.Drawing.Size(344, 422);
             this.picRegiAnimalGame.TabIndex = 7;
             this.picRegiAnimalGame.TabStop = false;
-            this.toolTip1.SetToolTip(this.picRegiAnimalGame, "Juego Regi-Animal");
+            this.toolTip1.SetToolTip(this.picRegiAnimalGame, "Juego RegiAnimal");
             this.picRegiAnimalGame.Click += new System.EventHandler(this.picRegiAnimalGame_Click);
             this.picRegiAnimalGame.MouseEnter += new System.EventHandler(this.picRegiAnimalGame_MouseEnter);
             // 
@@ -91,7 +91,7 @@
             this.picTuCasaoTuEscuelaGame.Size = new System.Drawing.Size(347, 422);
             this.picTuCasaoTuEscuelaGame.TabIndex = 8;
             this.picTuCasaoTuEscuelaGame.TabStop = false;
-            this.toolTip1.SetToolTip(this.picTuCasaoTuEscuelaGame, "Juego Tu Casa o Tu Escuela");
+            this.toolTip1.SetToolTip(this.picTuCasaoTuEscuelaGame, "Juego En Casa o En Escuela");
             this.picTuCasaoTuEscuelaGame.Click += new System.EventHandler(this.picTuCasaoTuEscuelaGame_Click);
             this.picTuCasaoTuEscuelaGame.MouseEnter += new System.EventHandler(this.picTuCasaoTuEscuelaGame_MouseEnter);
             // 

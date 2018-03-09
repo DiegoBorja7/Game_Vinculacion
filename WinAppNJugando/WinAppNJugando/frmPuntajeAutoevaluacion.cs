@@ -27,7 +27,6 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInitialize.Mouse(this,1);
             picHome.BorderStyle = BorderStyle.None;
-            label1.Text = ObjInstruction.Puntaje.ToString();
         }
 
         private void picHome_Click(object sender, EventArgs e)

@@ -1,20 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Media;
-using System.Reflection;
-using System.Diagnostics;
-using System.IO;
 
 /**
- *@Autor: Borja Diego
- * **/
+  * @Autor: Diego Borja.
+  * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -50,7 +42,7 @@ namespace WinAppNiñitosEnAccion
 
         private string[] regions = new string[] { "Costa", "Sierra", "Oriente","Insular"};
 
-        private string[] costaAnimals = new string[] { "Delfin", "Gaviota", "Langosta", "Ballena" };
+        private string[] costaAnimals = new string[] { "Cangrejo", "Gaviota", "Langosta", "Ballena" };
 
         private string[] sierraAnimals = new string[] { "Condor", "Conejo", "Pato", "Raton" };
 
@@ -79,18 +71,20 @@ namespace WinAppNiñitosEnAccion
                 visto = Properties.Resources.Puntero;
                 frmUse.Cursor = new Cursor(visto.Handle);
             }
-            else if(x==2)
-            {
-                Icon visto;
-                visto = Properties.Resources.Picaflor;
-                frmUse.Cursor = new Cursor(visto.Handle);
-            }
-            else if(x==3)
-            {
-                Icon visto;
-                visto = Properties.Resources.icons8_Paper_Plane_48px;
-                frmUse.Cursor = new Cursor(visto.Handle);
-            }
+            else 
+                if(x==2)
+                {
+                    Icon visto;
+                    visto = Properties.Resources.Picaflor;
+                    frmUse.Cursor = new Cursor(visto.Handle);
+                }
+                else
+                    if(x==3)
+                    {
+                        Icon visto;
+                        visto = Properties.Resources.icons8_Paper_Plane_48px;
+                        frmUse.Cursor = new Cursor(visto.Handle);
+                    }
 
         }
 
