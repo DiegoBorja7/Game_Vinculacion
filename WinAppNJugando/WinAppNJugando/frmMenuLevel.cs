@@ -47,7 +47,7 @@ namespace WinAppProyectoFinal.Forms
         private void pic1_Click(object sender, EventArgs e)
         {
             ObjForm = new frmJuego(menuLevel.Level);
-            this.Close();
+            Close();
             ObjForm.StartPosition = FormStartPosition.CenterScreen;
             ObjForm.Show();
 

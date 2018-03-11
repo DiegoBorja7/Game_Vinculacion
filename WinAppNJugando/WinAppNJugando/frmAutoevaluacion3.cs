@@ -44,16 +44,13 @@ namespace WinAppNiñitosEnAccion
         {
             if (ObjInstruction.Aciertos == 3)
             {
-                //un msj de muy bien hecho
-                //ObjInstruction.playSound("BienAutoevaluacion");
-                MessageBox.Show("muy bien hecho...Siguiente Autoevalaución");
+                new frmMessageAutoevaluacion("Correcto").ShowDialog();
                 new frmAutoevaluacion4().Show();
                 Hide();
             }
             else if (ObjInstruction.Clicks >= 6)
             {
-                //excediste en los intentos
-                MessageBox.Show("excediste en los intentos...Siguiente Autoevalaución");
+                new frmMessageAutoevaluacion("Inorrecto").ShowDialog();
                 new frmAutoevaluacion4().Show();
                 Hide();
             }

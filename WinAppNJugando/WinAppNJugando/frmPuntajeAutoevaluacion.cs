@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 /**
   * @Autor: Diego Borja.
@@ -13,14 +14,25 @@ namespace WinAppNiñitosEnAccion
         private CInitializeThings ObjInitialize = new CInitializeThings();
         private CInstructions ObjInstruction = new CInstructions();
 
+        private List<PictureBox> ListaEstrellas = new List<PictureBox>();
+
         public frmPuntajeAutoevaluacion()
         {
             InitializeComponent();
+            InsertarDatosLista();
+        }
+
+        private void InsertarDatosLista()
+        {
+            ListaEstrellas.Add(picStar1);
+            ListaEstrellas.Add(picStar2);
+            ListaEstrellas.Add(picStar3);
+            ListaEstrellas.Add(picStar4);
         }
 
         private void frmPuntajeAutoevaluacion_Load(object sender, EventArgs e)
         {
-            ObjInstruction.Puntuacion(picCalification);
+            ObjInstruction.Puntuacion(picCalification, ListaEstrellas);
         }
 
         private void frmPuntajeAutoevaluacion_MouseEnter(object sender, EventArgs e)

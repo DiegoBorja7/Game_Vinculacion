@@ -19,7 +19,7 @@ namespace WinAppNiñitosEnAccion
         private string[] things = new string[] { "Avion", "Bandera", "Barco", "Carro", "Estadio", "Headphone",
                                                  "Monumento", "Mundo", "Piano", "Puente", "Santa", "Sol", "Torre", "Tren" };
 
-        private string[] thingsWithoutVowels = new string[] { "Bandera", "Barco", "Carro", "Headphone","Monumento", "Mundo", "Piano",
+        private string[] thingsWithoutVowels = new string[] { "Bandera", "Barco", "Robot", "Tesoro","Laptop", "Mundo", "Piano",
                                                               "Puente", "Santa", "Sol", "Torre", "Tren" };
 
         private string[] houseThings = new string[] { "Cama", "Lampara","Silla", "Escritorio", "TinadeBaño", "Lavavo","Sofa","Comedor",

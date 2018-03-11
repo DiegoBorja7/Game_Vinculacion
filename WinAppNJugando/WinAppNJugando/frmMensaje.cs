@@ -50,7 +50,7 @@ namespace WinAppProyectoFinal.Forms
         {
             try { tmrError.Stop(); }
             catch { }
-            this.Dispose();
+            Dispose();
         }
     }
 }

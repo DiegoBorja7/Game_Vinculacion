@@ -19,12 +19,6 @@ namespace WinAppProyectoFinal.Forms
 
         }
 
-
-        private void frmMenuPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-            
         private void btnReturnHome1_Click(object sender, EventArgs e)
         {
             new frmSelectGame().Show();
@@ -36,7 +30,7 @@ namespace WinAppProyectoFinal.Forms
             frmMenuLevel ObjForm = new frmMenuLevel();
             ObjForm.StartPosition = FormStartPosition.CenterScreen;
             ObjForm.Show();
-            this.Visible=false;
+            Visible=false;
         }
 
         private void btnReturnHome1_MouseMove(object sender, MouseEventArgs e)

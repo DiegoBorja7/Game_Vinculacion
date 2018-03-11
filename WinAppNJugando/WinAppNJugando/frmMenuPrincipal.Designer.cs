@@ -75,8 +75,8 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmMenuPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMenuPrincipal";
-            this.Load += new System.EventHandler(this.frmMenuPrincipal_Load);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmMenuPrincipal_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.btnReturnHome1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).EndInit();

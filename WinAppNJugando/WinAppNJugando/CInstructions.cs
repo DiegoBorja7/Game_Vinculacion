@@ -718,39 +718,48 @@ namespace WinAppNiñitosEnAccion
         }
 
         //Funcion para asignar el puntaje del frmPuntajeAutoevaluacion.
-        public void Puntuacion(PictureBox picUse)
+        public void Puntuacion(PictureBox picUse, List<PictureBox> ListaUse)
         {
-            if (puntaje == 20)
+            if (puntaje >= 20)
             { 
                 myBitmap = new Bitmap(Application.StartupPath + @"/Image/PuntuacionAlta.png");
                 picUse.BackgroundImage = myBitmap;
                 picUse.Name = "PuntuacionAlta";
                 playSound("Excelente");
+                for (int i = 0; i < ListaUse.Count; i++)
+                    ListaUse[i].Visible = true;
             }
-            else
-                if(puntaje>=15 && puntaje<20)
-                {
-                    myBitmap = new Bitmap(Application.StartupPath + @"/Image/PuntuacionMedia.png");
-                    picUse.BackgroundImage = myBitmap;
-                    picUse.Name = "PuntuacionMedia";
-                    playSound("MuyBien");
-                }
-                else
-                    if (puntaje >= 5 && puntaje < 15)
-                    {
-                        myBitmap = new Bitmap(Application.StartupPath + @"/Image/PuntuacionBaja.png");
-                        picUse.BackgroundImage = myBitmap;
-                        picUse.Name = "PuntuacionBaja";
-                        playSound("LaProxima");
-                    }
-                    else
-                        if(puntaje<5)
-                        {
-                            myBitmap = new Bitmap(Application.StartupPath + @"/Image/PuntuacionCero.png");
-                            picUse.BackgroundImage = myBitmap;
-                            picUse.Name = "PuntuacionCero";
-                            playSound("IntentaloNuevamente");
-                        }
+            else if(puntaje>=15 && puntaje<20)
+            {
+                myBitmap = new Bitmap(Application.StartupPath + @"/Image/PuntuacionMedia.png");
+                picUse.BackgroundImage = myBitmap;
+                picUse.Name = "PuntuacionMedia";
+                playSound("MuyBien");
+                ListaUse[0].Location = new Point(160, 285);
+                ListaUse[1].Location = new Point(240, 285); ;
+                ListaUse[2].Location = new Point(320, 285); ;
+                ListaUse[0].Visible = true;
+                ListaUse[1].Visible = true;
+                ListaUse[2].Visible = true;
+            }
+            else if (puntaje >= 5 && puntaje < 15)
+            {
+                myBitmap = new Bitmap(Application.StartupPath + @"/Image/PuntuacionBaja.png");
+                picUse.BackgroundImage = myBitmap;
+                picUse.Name = "PuntuacionBaja";
+                playSound("LaProxima");
+                ListaUse[1].Visible = true;
+                ListaUse[2].Visible = true;
+            }
+            else if(puntaje<5)
+            {
+                myBitmap = new Bitmap(Application.StartupPath + @"/Image/PuntuacionCero.png");
+                picUse.BackgroundImage = myBitmap;
+                picUse.Name = "PuntuacionCero";
+                playSound("IntentaloNuevamente");
+                ListaUse[0].Location = new Point(240, 285);
+                ListaUse[0].Visible = true;
+            }
         }
 
         #endregion

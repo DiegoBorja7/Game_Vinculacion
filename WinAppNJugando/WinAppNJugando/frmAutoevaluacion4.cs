@@ -45,18 +45,15 @@ namespace WinAppNiñitosEnAccion
 
         private void Calificacion()
         {
-            if (ObjInstruction.Aciertos == 4)
+            if (ObjInstruction.Aciertos >= 4)
             {
-                //un msj de muy bien hecho
-                //ObjInstruction.playSound("BienAutoevaluacion");
-                MessageBox.Show("muy bien hecho...Siguiente Autoevalaución");
+                new frmMessageAutoevaluacion("Correcto").ShowDialog();
                 new frmAutoevaluacion5().Show();
                 Hide();
             }
-            else if (ObjInstruction.Clicks > 7)
+            else if (ObjInstruction.Clicks > 8)
             {
-                //excediste en los intentos
-                MessageBox.Show("excediste en los intentos...Siguiente Autoevalaución");
+                new frmMessageAutoevaluacion("Incorrecto").ShowDialog();
                 new frmAutoevaluacion5().Show();
                 Hide();
             }
