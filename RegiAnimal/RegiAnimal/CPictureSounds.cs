@@ -29,5 +29,16 @@ namespace RegiAnimal
             player.Play();
         }
 
+        public void playIntro()
+        {
+            player = new SoundPlayer(Application.StartupPath + @"/Audio/intro.wav");
+            player.Play();
+        }
+
+        public void playIntruction()
+        {
+            player = new SoundPlayer(Application.StartupPath + @"/Audio/instruction.wav");
+            player.Play();
+        }
     }
 }

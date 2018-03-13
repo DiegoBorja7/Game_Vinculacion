@@ -277,3 +277,22 @@ C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmM
 C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
 C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
 C:\Users\Labs-DECC\Desktop\Union\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe.config
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.exe
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\RegiAnimal.pdb
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\Control.Draggable.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\Interop.WMPLib.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csprojResolveAssemblyReference.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\Interop.WMPLib.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.ResolveComReference.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.Properties.Resources.resources
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.GenerateResource.Cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
+C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Proyecto Integrador\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb

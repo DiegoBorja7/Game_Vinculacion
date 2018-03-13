@@ -17,25 +17,15 @@ namespace RegiAnimal
         private CInitializeImages im = new CInitializeImages();
         private frmLevelSelection ls;
         private CPictureSounds sound = new CPictureSounds();
+
         public frmMenu()
         {
             
             InitializeComponent();
             im.menuButtons(picBtnPlay, picBtnHome);
             picRegianimal.BackColor = Color.Transparent;
+            sound.playIntro();
             Mouse();
-        }
-
-        public frmMenu(int level)
-        {
-  
-            InitializeComponent();
-            im.menuButtons(picBtnPlay, picBtnHome);
-            picRegianimal.BackColor = Color.Transparent;
-
-            Mouse();
-
-            this.level = level;
         }
 
         private void Mouse()
