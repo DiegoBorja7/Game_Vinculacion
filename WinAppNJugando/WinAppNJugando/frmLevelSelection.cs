@@ -28,6 +28,7 @@ namespace RegiAnimal
             grbeasy.BackColor = Color.Transparent;
             grbmedium.BackColor = Color.Transparent;
             grbHard.BackColor = Color.Transparent;
+            sound.playIntruction();
         }
 
         private void Mouse()

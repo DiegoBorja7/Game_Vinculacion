@@ -15,6 +15,7 @@ namespace WinAppNiñitosEnAccion
     {
         private CInitializeThings ObjInitialize = new CInitializeThings();
         private CInstructions ObjInstruction = new CInstructions();
+        private CPictureSounds sound = new CPictureSounds();
 
 
         public frmSelectGame()
@@ -70,6 +71,7 @@ namespace WinAppNiñitosEnAccion
             menu.Show();
             Dispose();
             ObjInstruction.Player.Stop();
+            sound.playIntro();
 
 
         }

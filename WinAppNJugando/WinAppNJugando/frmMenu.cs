@@ -22,24 +22,14 @@ namespace RegiAnimal
 
         public frmMenu()
         {
+            InitializeComponent();
+            im.menuButtons(picBtnPlay, picBtnHome);
+            picRegianimal.BackColor = Color.Transparent;
+            Mouse();
+            sound.playIntro();
             
-            InitializeComponent();
-            im.menuButtons(picBtnPlay, picBtnHome);
-            picRegianimal.BackColor = Color.Transparent;
-            Mouse();
         }
 
-        public frmMenu(int level)
-        {
-  
-            InitializeComponent();
-            im.menuButtons(picBtnPlay, picBtnHome);
-            picRegianimal.BackColor = Color.Transparent;
-
-            Mouse();
-
-            this.level = level;
-        }
 
         private void Mouse()
         {
@@ -71,7 +61,6 @@ namespace RegiAnimal
         {
             im.menuButtonshover(picBtnPlay,0);
             picBtnPlay.BorderStyle = BorderStyle.Fixed3D;
-            sound.playSound(picBtnPlay, "Pop");
         }
 
         private void picBtnPlay_MouseLeave(object sender, EventArgs e)
@@ -90,7 +79,6 @@ namespace RegiAnimal
         {
             im.menuButtonshover(picBtnHome, 1);
             picBtnHome.BorderStyle = BorderStyle.Fixed3D;
-            sound.playSound(picBtnHome, "Pop");
         }
     }
 }
