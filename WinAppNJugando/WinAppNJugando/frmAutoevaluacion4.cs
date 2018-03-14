@@ -211,23 +211,22 @@ namespace WinAppNiñitosEnAccion
 
         private void picRegion1_DragEnter(object sender, DragEventArgs e)
         {
-            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion1, picAux, e);
-
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion1, picResult1, picAux, e);
         }
 
         private void picRegion2_DragEnter(object sender, DragEventArgs e)
         {
-            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion2, picAux, e);
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion2, picResult2, picAux, e);
         }
 
         private void picRegion3_DragEnter(object sender, DragEventArgs e)
         {
-            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion3, picAux, e);
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion3, picResult3, picAux, e);
         }
 
         private void picRegion4_DragEnter(object sender, DragEventArgs e)
         {
-            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion4, picAux, e);
+            ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion4, picResult4, picAux, e);
         }
 
         #endregion

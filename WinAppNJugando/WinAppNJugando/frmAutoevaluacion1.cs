@@ -222,7 +222,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picDormitorio_DragDrop(object sender, DragEventArgs e)
         {
-            picDormitorio.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picDormitorio.BackgroundImage = null;//(Bitmap)e.Data.GetData(DataFormats.Bitmap);
         }
 
         private void picSaladeEstudio_DragEnter(object sender, DragEventArgs e)

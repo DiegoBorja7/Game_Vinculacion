@@ -47,6 +47,10 @@
             this.picImage4 = new System.Windows.Forms.PictureBox();
             this.picImage9 = new System.Windows.Forms.PictureBox();
             this.picImage8 = new System.Windows.Forms.PictureBox();
+            this.picResult2 = new System.Windows.Forms.PictureBox();
+            this.picResult3 = new System.Windows.Forms.PictureBox();
+            this.picResult4 = new System.Windows.Forms.PictureBox();
+            this.picResult1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).BeginInit();
@@ -63,6 +67,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.picImage4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult1)).BeginInit();
             this.SuspendLayout();
             // 
             // picHelp
@@ -109,6 +117,7 @@
             // 
             // picRegion1
             // 
+            this.picRegion1.BackColor = System.Drawing.Color.Transparent;
             this.picRegion1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picRegion1.Location = new System.Drawing.Point(27, 120);
             this.picRegion1.Name = "picRegion1";
@@ -119,6 +128,7 @@
             // 
             // picRegion2
             // 
+            this.picRegion2.BackColor = System.Drawing.Color.Transparent;
             this.picRegion2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picRegion2.Location = new System.Drawing.Point(276, 226);
             this.picRegion2.Name = "picRegion2";
@@ -129,6 +139,7 @@
             // 
             // picRegion3
             // 
+            this.picRegion3.BackColor = System.Drawing.Color.Transparent;
             this.picRegion3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picRegion3.Location = new System.Drawing.Point(526, 120);
             this.picRegion3.Name = "picRegion3";
@@ -139,6 +150,7 @@
             // 
             // picRegion4
             // 
+            this.picRegion4.BackColor = System.Drawing.Color.Transparent;
             this.picRegion4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picRegion4.Location = new System.Drawing.Point(775, 226);
             this.picRegion4.Name = "picRegion4";
@@ -255,6 +267,54 @@
             this.picImage8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picImage8_MouseDown);
             this.picImage8.MouseEnter += new System.EventHandler(this.picImage8_MouseEnter);
             // 
+            // picResult2
+            // 
+            this.picResult2.BackColor = System.Drawing.Color.Transparent;
+            this.picResult2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picResult2.Location = new System.Drawing.Point(312, 271);
+            this.picResult2.Name = "picResult2";
+            this.picResult2.Size = new System.Drawing.Size(145, 125);
+            this.picResult2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picResult2.TabIndex = 23;
+            this.picResult2.TabStop = false;
+            this.picResult2.Visible = false;
+            // 
+            // picResult3
+            // 
+            this.picResult3.BackColor = System.Drawing.Color.Transparent;
+            this.picResult3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picResult3.Location = new System.Drawing.Point(561, 163);
+            this.picResult3.Name = "picResult3";
+            this.picResult3.Size = new System.Drawing.Size(145, 125);
+            this.picResult3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picResult3.TabIndex = 24;
+            this.picResult3.TabStop = false;
+            this.picResult3.Visible = false;
+            // 
+            // picResult4
+            // 
+            this.picResult4.BackColor = System.Drawing.Color.Transparent;
+            this.picResult4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picResult4.Location = new System.Drawing.Point(812, 271);
+            this.picResult4.Name = "picResult4";
+            this.picResult4.Size = new System.Drawing.Size(145, 125);
+            this.picResult4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picResult4.TabIndex = 25;
+            this.picResult4.TabStop = false;
+            this.picResult4.Visible = false;
+            // 
+            // picResult1
+            // 
+            this.picResult1.BackColor = System.Drawing.Color.Transparent;
+            this.picResult1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picResult1.Location = new System.Drawing.Point(62, 163);
+            this.picResult1.Name = "picResult1";
+            this.picResult1.Size = new System.Drawing.Size(145, 125);
+            this.picResult1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picResult1.TabIndex = 26;
+            this.picResult1.TabStop = false;
+            this.picResult1.Visible = false;
+            // 
             // frmAutoevaluacion4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -262,6 +322,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 720);
+            this.Controls.Add(this.picResult1);
+            this.Controls.Add(this.picResult4);
+            this.Controls.Add(this.picResult2);
+            this.Controls.Add(this.picResult3);
             this.Controls.Add(this.picImage8);
             this.Controls.Add(this.picImage9);
             this.Controls.Add(this.picImage4);
@@ -271,13 +335,13 @@
             this.Controls.Add(this.picImage2);
             this.Controls.Add(this.picImage5);
             this.Controls.Add(this.picImage1);
-            this.Controls.Add(this.picRegion4);
-            this.Controls.Add(this.picRegion3);
-            this.Controls.Add(this.picRegion2);
-            this.Controls.Add(this.picRegion1);
             this.Controls.Add(this.picHelp);
             this.Controls.Add(this.picNext);
             this.Controls.Add(this.picHome);
+            this.Controls.Add(this.picRegion1);
+            this.Controls.Add(this.picRegion3);
+            this.Controls.Add(this.picRegion2);
+            this.Controls.Add(this.picRegion4);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -301,6 +365,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.picImage4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -324,5 +392,9 @@
         private System.Windows.Forms.PictureBox picImage4;
         private System.Windows.Forms.PictureBox picImage9;
         private System.Windows.Forms.PictureBox picImage8;
+        private System.Windows.Forms.PictureBox picResult2;
+        private System.Windows.Forms.PictureBox picResult3;
+        private System.Windows.Forms.PictureBox picResult4;
+        private System.Windows.Forms.PictureBox picResult1;
     }
 }

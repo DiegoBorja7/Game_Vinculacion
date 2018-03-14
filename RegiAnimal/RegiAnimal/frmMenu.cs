@@ -1,26 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RegiAnimal
 {
     public partial class frmMenu : Form
     {
-        private int level = 2;
-
         private CInitializeImages im = new CInitializeImages();
         private frmLevelSelection ls;
         private CPictureSounds sound = new CPictureSounds();
 
         public frmMenu()
         {
-            
             InitializeComponent();
             im.menuButtons(picBtnPlay, picBtnHome);
             picRegianimal.BackColor = Color.Transparent;

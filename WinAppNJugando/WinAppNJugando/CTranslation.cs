@@ -12,7 +12,6 @@ using System.Reflection;
 
 namespace RegiAnimal
 {
-
     class CTranslation
     {
         private SoundPlayer player = new SoundPlayer();

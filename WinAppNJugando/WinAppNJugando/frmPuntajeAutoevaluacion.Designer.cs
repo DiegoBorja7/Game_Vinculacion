@@ -63,7 +63,7 @@
             // 
             this.picCalification.BackColor = System.Drawing.Color.Transparent;
             this.picCalification.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picCalification.Location = new System.Drawing.Point(152, 60);
+            this.picCalification.Location = new System.Drawing.Point(152, 68);
             this.picCalification.Name = "picCalification";
             this.picCalification.Size = new System.Drawing.Size(243, 213);
             this.picCalification.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -74,7 +74,7 @@
             // 
             this.picStar1.BackColor = System.Drawing.Color.Transparent;
             this.picStar1.Image = ((System.Drawing.Image)(resources.GetObject("picStar1.Image")));
-            this.picStar1.Location = new System.Drawing.Point(112, 283);
+            this.picStar1.Location = new System.Drawing.Point(112, 287);
             this.picStar1.Name = "picStar1";
             this.picStar1.Size = new System.Drawing.Size(80, 70);
             this.picStar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -86,7 +86,7 @@
             // 
             this.picStar2.BackColor = System.Drawing.Color.Transparent;
             this.picStar2.Image = ((System.Drawing.Image)(resources.GetObject("picStar2.Image")));
-            this.picStar2.Location = new System.Drawing.Point(193, 283);
+            this.picStar2.Location = new System.Drawing.Point(193, 287);
             this.picStar2.Name = "picStar2";
             this.picStar2.Size = new System.Drawing.Size(80, 70);
             this.picStar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -98,7 +98,7 @@
             // 
             this.picStar3.BackColor = System.Drawing.Color.Transparent;
             this.picStar3.Image = ((System.Drawing.Image)(resources.GetObject("picStar3.Image")));
-            this.picStar3.Location = new System.Drawing.Point(274, 283);
+            this.picStar3.Location = new System.Drawing.Point(274, 287);
             this.picStar3.Name = "picStar3";
             this.picStar3.Size = new System.Drawing.Size(80, 70);
             this.picStar3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,7 +110,7 @@
             // 
             this.picStar4.BackColor = System.Drawing.Color.Transparent;
             this.picStar4.Image = ((System.Drawing.Image)(resources.GetObject("picStar4.Image")));
-            this.picStar4.Location = new System.Drawing.Point(355, 283);
+            this.picStar4.Location = new System.Drawing.Point(355, 287);
             this.picStar4.Name = "picStar4";
             this.picStar4.Size = new System.Drawing.Size(80, 70);
             this.picStar4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

@@ -222,9 +222,9 @@
             // 
             this.picDormitorio.BackColor = System.Drawing.Color.Transparent;
             this.picDormitorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picDormitorio.Location = new System.Drawing.Point(397, 259);
+            this.picDormitorio.Location = new System.Drawing.Point(379, 259);
             this.picDormitorio.Name = "picDormitorio";
-            this.picDormitorio.Size = new System.Drawing.Size(70, 60);
+            this.picDormitorio.Size = new System.Drawing.Size(100, 60);
             this.picDormitorio.TabIndex = 16;
             this.picDormitorio.TabStop = false;
             this.picDormitorio.DragDrop += new System.Windows.Forms.DragEventHandler(this.picDormitorio_DragDrop);

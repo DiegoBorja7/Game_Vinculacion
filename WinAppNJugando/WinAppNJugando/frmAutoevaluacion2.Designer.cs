@@ -229,9 +229,9 @@
             // 
             this.picBoard.BackColor = System.Drawing.Color.Transparent;
             this.picBoard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBoard.Location = new System.Drawing.Point(602, 156);
+            this.picBoard.Location = new System.Drawing.Point(572, 156);
             this.picBoard.Name = "picBoard";
-            this.picBoard.Size = new System.Drawing.Size(70, 60);
+            this.picBoard.Size = new System.Drawing.Size(137, 104);
             this.picBoard.TabIndex = 18;
             this.picBoard.TabStop = false;
             this.picBoard.DragDrop += new System.Windows.Forms.DragEventHandler(this.picBoard_DragDrop);

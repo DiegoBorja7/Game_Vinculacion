@@ -163,7 +163,6 @@ namespace WinAppNiñitosEnAccion
         #endregion
 
         #region Drag & Drop
-                
         private void picImage1_MouseDown(object sender, MouseEventArgs e)
         {
             picAux = picImage1;
@@ -225,7 +224,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picClock_DragDrop(object sender, DragEventArgs e)
         {
-            picClock.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picClock.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/Relog.png");
         }
 
         private void picBoard_DragEnter(object sender, DragEventArgs e)
@@ -235,7 +234,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picBoard_DragDrop(object sender, DragEventArgs e)
         {
-            picBoard.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picBoard.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/Pizarron.png");
         }
 
         private void picBag_DragEnter(object sender, DragEventArgs e)
@@ -245,7 +244,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picBag_DragDrop(object sender, DragEventArgs e)
         {
-            picBag.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picBag.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/Mochila.png");
         }
 
         private void picBooks_DragEnter(object sender, DragEventArgs e)
@@ -255,7 +254,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picBooks_DragDrop(object sender, DragEventArgs e)
         {
-            picBooks.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picBooks.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/Libros.png");
         }
 
         private void picPuzzle_DragEnter(object sender, DragEventArgs e)
@@ -265,7 +264,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picPuzzle_DragDrop(object sender, DragEventArgs e)
         {
-            picPuzzle.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picPuzzle.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/Rompecabezas.png");
         }
 
         private void picChair_DragEnter(object sender, DragEventArgs e)
@@ -275,7 +274,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picChair_DragDrop(object sender, DragEventArgs e)
         {
-            picChair.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picChair.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/SillaAula.png");
         }
 
         private void picCrayons_DragEnter(object sender, DragEventArgs e)
@@ -285,7 +284,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picCrayons_DragDrop(object sender, DragEventArgs e)
         {
-            picCrayons.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picCrayons.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/Crayones.png");
         }
 
         private void picNotebooks_DragEnter(object sender, DragEventArgs e)
@@ -295,7 +294,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picNotebooks_DragDrop(object sender, DragEventArgs e)
         {
-            picNotebooks.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picNotebooks.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/Cuadernos.png");
         }
 
         private void picBall_DragEnter(object sender, DragEventArgs e)
@@ -305,7 +304,7 @@ namespace WinAppNiñitosEnAccion
 
         private void picBall_DragDrop(object sender, DragEventArgs e)
         {
-            picBall.BackgroundImage = (Bitmap)e.Data.GetData(DataFormats.Bitmap);
+            picBall.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/Pelota.png");
         }
 
         #endregion
