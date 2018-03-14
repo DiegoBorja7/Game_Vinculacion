@@ -168,6 +168,7 @@ namespace RegiAnimal
         private void picCost1_MouseUp(object sender, MouseEventArgs e)
         {
             this.DoubleBuffered = true;
+            hits++;
             notPush = translation.translateTotalCO((PictureBox)sender, ref destination, 0 ,1 ,2 , ref hits, ref hitsok, ref lblScore);
             if(notPush == false)
             {
@@ -178,6 +179,7 @@ namespace RegiAnimal
         private void picCost2_MouseUp(object sender, MouseEventArgs e)
         {
             this.DoubleBuffered = true;
+            hits++;
             notPush = translation.translateTotalCO((PictureBox)sender, ref destination, 0, 1, 2, ref hits, ref hitsok, ref lblScore);
             if (notPush == false)
             {
@@ -193,6 +195,7 @@ namespace RegiAnimal
         private void picSierra1_MouseUp(object sender, MouseEventArgs e)
         {
             this.DoubleBuffered = true;
+            hits++;
             notPush = translation.translateTotalS((PictureBox)sender, ref destination, 3, 4, 5, 6, ref hits, ref hitsok, ref lblScore);
             if (notPush == false)
             {
@@ -203,6 +206,7 @@ namespace RegiAnimal
         private void picSierra2_MouseUp(object sender, MouseEventArgs e)
         {
             this.DoubleBuffered = true;
+            hits++;
             notPush = translation.translateTotalS((PictureBox)sender, ref destination, 3, 4, 5, 6, ref hits, ref hitsok, ref lblScore);
             if (notPush == false)
             {
@@ -218,6 +222,7 @@ namespace RegiAnimal
         {
             this.DoubleBuffered = true;
             picGalapagos1.BringToFront();
+            hits++;
             notPush = translation.translateTotalG((PictureBox)sender, ref destination, 10, 11, ref hits, ref hitsok, ref lblScore);
             if (notPush == false)
             {
@@ -230,6 +235,7 @@ namespace RegiAnimal
         {
             this.DoubleBuffered = true;
             picGalapagos2.BringToFront();
+            hits++;
             notPush = translation.translateTotalG((PictureBox)sender, ref destination, 10, 11, ref hits, ref hitsok, ref lblScore);
             if (notPush == false)
             {
@@ -244,6 +250,7 @@ namespace RegiAnimal
         private void picOriente1_MouseUp(object sender, MouseEventArgs e)
         {
             this.DoubleBuffered = true;
+            hits++;
             notPush = translation.translateTotalCO((PictureBox)sender, ref destination, 7, 8, 9, ref hits, ref hitsok, ref lblScore);
             if (notPush == false)
             {
@@ -254,6 +261,7 @@ namespace RegiAnimal
         private void picOriente2_MouseUp(object sender, MouseEventArgs e)
         {
             this.DoubleBuffered = true;
+            hits++;
             notPush = translation.translateTotalCO((PictureBox)sender, ref destination, 7, 8, 9, ref hits, ref hitsok, ref lblScore);
             if (notPush == false)
             {
