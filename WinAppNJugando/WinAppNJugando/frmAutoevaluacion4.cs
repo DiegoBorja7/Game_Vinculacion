@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Drawing;
 
 /**
-  * @Autor: Diego Borja.
-  * 
+ * @Autor: Diego Borja.
+ * 
 **/
 
 namespace WinAppNiñitosEnAccion
@@ -23,6 +24,7 @@ namespace WinAppNiñitosEnAccion
             InitializeComponent();
             InsertarDatosLista();
             ObjInitialize.Regiones(ListaPictureBoxLugares, ListaPictureBoxObjetos);
+            ObjInstruction.playSound("Autoevaluacion4");
         }
 
         //Insertar todos los PictureBox en una lista.
@@ -74,7 +76,13 @@ namespace WinAppNiñitosEnAccion
 
         private void picHelp_Click(object sender, EventArgs e)
         {
-            //ObjInstruction.playSound("Autoevaluacion4");
+            ObjInstruction.Player.Stop();
+            new frmHelpAutoevaluacion("Autoevaluacion4").ShowDialog();
+        }
+
+        private void picBtnAudioHelp_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound("Autoevaluacion4");
         }
 
         #region Puntero Mouse
@@ -84,11 +92,20 @@ namespace WinAppNiñitosEnAccion
             picHome.BorderStyle = BorderStyle.None;
             picNext.BorderStyle = BorderStyle.None;
             picHelp.BorderStyle = BorderStyle.None;
+            picBtnAudioHelp.Location = new Point(10, 10);
+            picBtnAudioHelp.Size = new Size(75, 75);
 
             for (int i = 0; i < ListaPictureBoxObjetos.Count; i++)
                 ListaPictureBoxObjetos[i].BorderStyle = BorderStyle.None;
 
             Calificacion();
+        }
+
+        private void picBtnAudioHelp_MouseEnter(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+            picBtnAudioHelp.Location = new Point(5, 5);
+            picBtnAudioHelp.Size = new Size(85, 85);
         }
 
         private void picHome_MouseEnter(object sender, EventArgs e)
@@ -150,11 +167,9 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInitialize.Seleccionar(this, picImage9);
         }
-
         #endregion
 
         #region Drag & Drop
-
         private void picImage1_MouseDown(object sender, MouseEventArgs e)
         {
             picAux = picImage1;
@@ -209,26 +224,25 @@ namespace WinAppNiñitosEnAccion
             picImage9.DoDragDrop(picImage9.BackgroundImage, DragDropEffects.Move);
         }
 
-        private void picRegion1_DragEnter(object sender, DragEventArgs e)
+        private void picRegion1_DragEnter_1(object sender, DragEventArgs e)
         {
             ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion1, picResult1, picAux, e);
         }
 
-        private void picRegion2_DragEnter(object sender, DragEventArgs e)
+        private void picRegion2_DragEnter_1(object sender, DragEventArgs e)
         {
             ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion2, picResult2, picAux, e);
         }
 
-        private void picRegion3_DragEnter(object sender, DragEventArgs e)
+        private void picRegion3_DragEnter_1(object sender, DragEventArgs e)
         {
             ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion3, picResult3, picAux, e);
         }
 
-        private void picRegion4_DragEnter(object sender, DragEventArgs e)
+        private void picRegion4_DragEnter_1(object sender, DragEventArgs e)
         {
             ObjInstruction.ValidateDragDrop(ListaPictureBoxObjetos, picRegion4, picResult4, picAux, e);
         }
-
         #endregion
 
     }

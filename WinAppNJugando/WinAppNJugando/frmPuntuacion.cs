@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Media;
 using WinAppProyectoFinal.Clases;
 
 namespace WinAppProyectoFinal.Forms
@@ -15,11 +17,18 @@ namespace WinAppProyectoFinal.Forms
     {
         CPuntuacion puntuacion;
         private string message;
+        SoundPlayer player;
 
         public frmPuntuacion(int fallos)
         {
             InitializeComponent();
             puntuacion = new CPuntuacion();
+            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\alegria.wav");
+            try
+            {
+                player.Play();
+            }
+            catch { }
         }
 
         private void frmPuntuacion_Load(object sender, EventArgs e)

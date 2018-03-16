@@ -4,8 +4,8 @@ using System.Drawing;
 using System.Windows.Forms;
 
 /**
-  * @Autor: Diego Borja.
-  * 
+ * @Autor: Diego Borja.
+ * 
 **/
 
 namespace WinAppNiñitosEnAccion
@@ -13,14 +13,13 @@ namespace WinAppNiñitosEnAccion
     class CInitializeThings
     {
         #region Atributes of the class
-
         private Random random = new Random();
         private Bitmap myBitmap;
-        private string[] things = new string[] { "Avion", "Bandera", "Barco", "Carro", "Estadio", "Headphone",
-                                                 "Monumento", "Mundo", "Piano", "Puente", "Santa", "Sol", "Torre", "Tren" };
+        private string[] things = new string[] { "Avion", "Bandera", "Barco", "Robot", "Estadio", "Headphone",
+                                                 "Monumento", "Mundo", "Piano", "Puente", "Santa", "Dinero", "Torre", "Tren" };
 
         private string[] thingsWithoutVowels = new string[] { "Bandera", "Barco", "Robot", "Tesoro","Laptop", "Mundo", "Piano",
-                                                              "Puente", "Santa", "Sol", "Torre", "Tren" };
+                                                              "Puente", "Santa", "Dinero", "Torre", "Tren" };
 
         private string[] houseThings = new string[] { "Cama", "Lampara","Silla", "Escritorio", "TinadeBaño", "Lavavo","Sofa","Comedor",
                                                       "Olla", "Refrigeradora"};
@@ -56,9 +55,8 @@ namespace WinAppNiñitosEnAccion
 
         private string[] solution3 = new string[] { "Escalera", "Bandera", "Cafetera"};
 
-        private string[] things2 = new string[] { "Ventana", "Mochila", "Barco", "Carro", "Estadio", "Headphone",
-                                                 "Monumento", "Mundo", "Piano", "Puente", "Santa", "Sol", "Torre", "Tren" };
-        
+        private string[] things2 = new string[] { "Ventana", "Mochila", "Barco", "Robot", "Estadio", "Headphone",
+                                                 "Monumento", "Mundo", "Piano", "Puente", "Santa", "Dinero", "Torre", "Tren" };
         #endregion
 
         #region Methods
@@ -221,7 +219,7 @@ namespace WinAppNiñitosEnAccion
         }
         
         //Cargar imagenes de la Autoevaluacion3
-        public void Vocales(List<PictureBox> ListaUse)
+        public string Vocales(List<PictureBox> ListaUse)
         {
             string[] Ubicacion = new string[9] { "-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1", "-1"};
             string vocal;
@@ -319,9 +317,9 @@ namespace WinAppNiñitosEnAccion
                 myBitmap = new Bitmap(Application.StartupPath + @"/Image/" + Ubicacion[i-1] + ".png");
                 ListaUse[i].BackgroundImage= myBitmap;
                 ListaUse[i].Name = Ubicacion[i-1];
-                //ControlExtension.Draggable(ListaUse[i], true);
                 ListaUse[i].AllowDrop = true;
             }
+            return vocal;
         }
         
         //Cargar imagenes de la Autoevaluacion4

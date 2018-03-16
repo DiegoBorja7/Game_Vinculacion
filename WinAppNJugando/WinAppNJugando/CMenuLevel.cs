@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinAppProyectoFinal.Clases
@@ -73,8 +76,8 @@ namespace WinAppProyectoFinal.Clases
         public void iniciarPics()
         {
             InitializePic(MPictures[0], "11");
-            InitializePic(MPictures[1], "3");
-            InitializePic(MPictures[2], "2");
+            InitializePic(MPictures[1], "31");
+            InitializePic(MPictures[2], "21");
             MPictures[0].Tag = "1";
         }
 

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInstrucciones));
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblInstructions = new System.Windows.Forms.Label();
             this.picMouse = new System.Windows.Forms.PictureBox();
             this.lblButtonJugarAyuda = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picMouse)).BeginInit();
@@ -45,17 +45,15 @@
             this.label1.Size = new System.Drawing.Size(55, 54);
             this.label1.TabIndex = 3;
             // 
-            // label3
+            // lblInstructions
             // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label3.Location = new System.Drawing.Point(101, 170);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(194, 188);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Haz clic sobre el objeto y arrastralo hacia la casa o escuela donde tu creas que " +
-    "sea correcto";
+            this.lblInstructions.BackColor = System.Drawing.Color.Transparent;
+            this.lblInstructions.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstructions.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.lblInstructions.Location = new System.Drawing.Point(101, 170);
+            this.lblInstructions.Name = "lblInstructions";
+            this.lblInstructions.Size = new System.Drawing.Size(194, 188);
+            this.lblInstructions.TabIndex = 5;
             // 
             // picMouse
             // 
@@ -87,7 +85,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.lblButtonJugarAyuda);
             this.Controls.Add(this.picMouse);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblInstructions);
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -104,7 +102,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblInstructions;
         private System.Windows.Forms.PictureBox picMouse;
         private System.Windows.Forms.Label lblButtonJugarAyuda;
     }

@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Drawing;
 
 /**
-  * @Autor: Diego Borja.
-  * 
+ * @Autor: Diego Borja.
+ * 
 **/
 
 namespace WinAppNiñitosEnAccion
@@ -21,6 +22,7 @@ namespace WinAppNiñitosEnAccion
             InitializeComponent();
             InsertarDatosLista();
             ObjInitialize.TerminanEn(ListaPictureBoxObjetos);
+            ObjInstruction.playSound("Autoevaluacion5");
         }
 
         //Insertar todos los PictureBox en una lista.
@@ -55,6 +57,7 @@ namespace WinAppNiñitosEnAccion
                 Hide();
             }
         }
+
         private void picHome_Click(object sender, EventArgs e)
         {
             frmAlerta ObjFormulario = new frmAlerta();
@@ -70,7 +73,13 @@ namespace WinAppNiñitosEnAccion
 
         private void picHelp_Click(object sender, EventArgs e)
         {
-            //ObjInstruction.playSound("Autoevaluacion5");
+            ObjInstruction.Player.Stop();
+            new frmHelpAutoevaluacion("Autoevaluacion5").ShowDialog();
+        }
+
+        private void picBtnAudioHelp_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound("Autoevaluacion5");
         }
 
         #region Puntero Mouse
@@ -81,9 +90,18 @@ namespace WinAppNiñitosEnAccion
             picHome.BorderStyle = BorderStyle.None;
             picNext.BorderStyle = BorderStyle.None;
             picHelp.BorderStyle = BorderStyle.None;
+            picBtnAudioHelp.Location = new Point(10, 10);
+            picBtnAudioHelp.Size = new Size(75, 75);
 
-            for(int i=0; i<ListaPictureBoxObjetos.Count;i++)
+            for (int i=0; i<ListaPictureBoxObjetos.Count;i++)
                 ListaPictureBoxObjetos[i].BorderStyle= BorderStyle.None;
+        }
+
+        private void picBtnAudioHelp_MouseEnter(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+            picBtnAudioHelp.Location = new Point(5, 5);
+            picBtnAudioHelp.Size = new Size(85, 85);
         }
 
         private void picHome_MouseEnter(object sender, EventArgs e)
@@ -148,11 +166,9 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInitialize.Seleccionar(this, picImage10);
         }
-
         #endregion
 
         #region Comparar Los Picture Box's
-
         private void picImage1_MouseUp(object sender, MouseEventArgs e)
         {
             ObjInstruction.CompararPictureBox(picImage1, e);
@@ -202,7 +218,7 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInstruction.CompararPictureBox(picImage10, e);
         }
-
         #endregion
+
     }
 }

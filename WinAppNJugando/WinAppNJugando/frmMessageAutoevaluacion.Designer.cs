@@ -54,7 +54,7 @@
             // 
             // lblResult
             // 
-            this.lblResult.Font = new System.Drawing.Font("Oswald", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.Font = new System.Drawing.Font("Oswald", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResult.Location = new System.Drawing.Point(12, 11);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(395, 44);

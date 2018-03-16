@@ -4,8 +4,8 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 
 /**
-  * @Autor: Diego Borja.
-  * 
+ * @Autor: Diego Borja.
+ * 
 **/
 
 namespace WinAppNiñitosEnAccion
@@ -25,6 +25,7 @@ namespace WinAppNiñitosEnAccion
             InsertarDatosLista();
             ObjInitialize.CosasdelaEscuela(ListaPictureBoxObjetos);
             ObjInitialize.AllowDropAll(ListaPictureBoxLugares);
+            ObjInstruction.playSound("Autoevaluacion2");
         }
 
         //Insertar todos los PictureBox en una lista.
@@ -82,7 +83,13 @@ namespace WinAppNiñitosEnAccion
 
         private void picHelp_Click(object sender, EventArgs e)
         {
-            //ObjInstruction.playSound("Autoevaluacion2");
+            ObjInstruction.Player.Stop();
+            new frmHelpAutoevaluacion("Autoevaluacion2").ShowDialog();
+        }
+
+        private void picBtnAudioHelp_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound("Autoevaluacion2");
         }
 
         #region Puntero Mouse
@@ -93,11 +100,20 @@ namespace WinAppNiñitosEnAccion
             picHome.BorderStyle = BorderStyle.None;
             picNext.BorderStyle = BorderStyle.None;
             picHelp.BorderStyle = BorderStyle.None;
+            picBtnAudioHelp.Location = new Point(10, 10);
+            picBtnAudioHelp.Size = new Size(75, 75);
 
             for (int i = 0; i < ListaPictureBoxObjetos.Count; i++)
                 ListaPictureBoxObjetos[i].BorderStyle = BorderStyle.None;
 
             Calificacion();
+        }
+
+        private void picBtnAudioHelp_MouseEnter(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+            picBtnAudioHelp.Location = new Point(5, 5);
+            picBtnAudioHelp.Size = new Size(85, 85);
         }
 
         private void picHome_MouseEnter(object sender, EventArgs e)

@@ -56,9 +56,9 @@
             this.picBtnPlay.BackColor = System.Drawing.Color.Transparent;
             this.picBtnPlay.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBtnPlay.BackgroundImage")));
             this.picBtnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBtnPlay.Location = new System.Drawing.Point(459, 259);
+            this.picBtnPlay.Location = new System.Drawing.Point(480, 315);
             this.picBtnPlay.Name = "picBtnPlay";
-            this.picBtnPlay.Size = new System.Drawing.Size(370, 182);
+            this.picBtnPlay.Size = new System.Drawing.Size(335, 140);
             this.picBtnPlay.TabIndex = 4;
             this.picBtnPlay.TabStop = false;
             this.toolTip1.SetToolTip(this.picBtnPlay, "Comencemos el Juego");
@@ -76,7 +76,7 @@
             this.Controls.Add(this.picBtnPlay);
             this.Controls.Add(this.picExit);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

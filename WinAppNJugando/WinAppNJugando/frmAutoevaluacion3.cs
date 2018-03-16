@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Drawing;
 
 /**
-  * @Autor: Diego Borja.
-  * 
+ * @Autor: Diego Borja.
+ * 
 **/
 
 namespace WinAppNiñitosEnAccion
@@ -16,12 +17,14 @@ namespace WinAppNiñitosEnAccion
 
         private List<PictureBox> ListaPictureBoxObjetos = new List<PictureBox>();
         private PictureBox picAux = new PictureBox();
+        private string vocal;
 
         public frmAutoevaluacion3()
         {
             InitializeComponent();
             InsertarDatosLista();
-            ObjInitialize.Vocales(ListaPictureBoxObjetos);
+            vocal = ObjInitialize.Vocales(ListaPictureBoxObjetos);
+            ObjInstruction.playSound("Autoevaluacion3");
         }
 
         //Insertar todos los PictureBox en una lista.
@@ -56,12 +59,11 @@ namespace WinAppNiñitosEnAccion
             }
         }
 
-        #region Puntero Mouse
-
         private void picHome_Click(object sender, EventArgs e)
         {
             frmAlerta ObjFormulario = new frmAlerta();
             ObjFormulario.ShowDialog();
+            Timer.Enabled = false;
         }
 
         private void picNext_Click(object sender, EventArgs e)
@@ -69,19 +71,37 @@ namespace WinAppNiñitosEnAccion
             frmAutoevaluacion4 ObjFormulario = new frmAutoevaluacion4();
             ObjFormulario.Show();
             Hide();
+            Timer.Enabled = false;
         }
 
         private void picHelp_Click(object sender, EventArgs e)
         {
-            //ObjInstruction.playSound("Autoevaluacion3");
+            ObjInstruction.Player.Stop();
+            Timer.Enabled = false;
+            new frmHelpAutoevaluacion("Autoevaluacion3").ShowDialog();
         }
 
+        private void picBtnAudioHelp_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound("Autoevaluacion3");
+            Timer.Enabled = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound("Fail");
+            Timer.Enabled = false;
+        }
+
+        #region Puntero Mouse
         private void frmAutoevaluacion3_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Mouse(this,1);
             picHome.BorderStyle = BorderStyle.None;
             picNext.BorderStyle = BorderStyle.None;
             picHelp.BorderStyle = BorderStyle.None;
+            picBtnAudioHelp.Location = new Point(10, 10);
+            picBtnAudioHelp.Size = new Size(75, 75);
 
             for (int i = 0; i < ListaPictureBoxObjetos.Count; i++)
                 ListaPictureBoxObjetos[i].BorderStyle = BorderStyle.None;
@@ -89,6 +109,12 @@ namespace WinAppNiñitosEnAccion
             Calificacion();
         }
 
+        private void picBtnAudioHelp_MouseEnter(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+            picBtnAudioHelp.Location = new Point(5, 5);
+            picBtnAudioHelp.Size = new Size(85, 85);
+        }
         private void picHome_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picHome);
@@ -151,6 +177,7 @@ namespace WinAppNiñitosEnAccion
 
         #endregion
 
+        #region Comparar Los Picture Box's
         private void picImage1_MouseUp(object sender, MouseEventArgs e)
         {
             ObjInstruction.CompararPictureBox1(picImage1, e);
@@ -195,6 +222,8 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInstruction.CompararPictureBox1(picImage9, e);
         }
+
+        #endregion
 
     }
 }

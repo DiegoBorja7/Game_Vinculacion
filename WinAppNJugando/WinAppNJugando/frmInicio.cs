@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
- /**
-  * @Autor: Diego Borja.
-  * */
+/**
+ * @Autor: Diego Borja.
+ * 
+**/
 
 namespace WinAppNiñitosEnAccion
 {
@@ -20,9 +22,10 @@ namespace WinAppNiñitosEnAccion
 
         private void picBtnPlay_Click(object sender, EventArgs e)
         {
+            ObjInstruction.playSound("Clic");
             frmSelectGame ObjFormulario = new frmSelectGame();
             ObjFormulario.Show();
-            Hide(); //Oculta el formulario
+            Hide();
         }
         
         private void picExit_Click(object sender, EventArgs e)
@@ -33,13 +36,16 @@ namespace WinAppNiñitosEnAccion
         private void frmInicio_MouseEnter(object sender, EventArgs e)
         {
             Cursor = Cursors.Default;
-            picBtnPlay.BorderStyle = BorderStyle.None;
+            picBtnPlay.Size = new Size(335, 140); 
+            picBtnPlay.Location = new Point(480, 315);
             picExit.BorderStyle = BorderStyle.None;
         }
 
         private void picBtnPlay_MouseEnter(object sender, EventArgs e)
         {
-            ObjInitialize.Seleccionar(this, picBtnPlay);
+            Cursor = Cursors.Hand;
+            picBtnPlay.Location = new Point(470, 305);
+            picBtnPlay.Size = new Size(365, 170);
         }
 
         private void picExit_MouseEnter(object sender, EventArgs e)

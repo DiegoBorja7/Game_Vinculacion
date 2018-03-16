@@ -17,6 +17,7 @@ namespace WinAppProyectoFinal.Forms
         {
             InitializeComponent();
             this.frm = frm;
+            frm.Enabled = false;
         }
 
         private void frmRepeatGame_Load(object sender, EventArgs e)

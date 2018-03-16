@@ -29,80 +29,57 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenuLevel));
-            this.btnSelectLevel2 = new System.Windows.Forms.Button();
-            this.btnSelectLevel1 = new System.Windows.Forms.Button();
-            this.pic3 = new System.Windows.Forms.PictureBox();
-            this.pic2 = new System.Windows.Forms.PictureBox();
-            this.pic1 = new System.Windows.Forms.PictureBox();
+            this.picMedio = new System.Windows.Forms.PictureBox();
+            this.picDificil = new System.Windows.Forms.PictureBox();
+            this.picFacil = new System.Windows.Forms.PictureBox();
             this.btnReturnGame = new System.Windows.Forms.PictureBox();
             this.btnHelp = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMedio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDificil)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFacil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnReturnGame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHelp)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnSelectLevel2
+            // picMedio
             // 
-            this.btnSelectLevel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSelectLevel2.BackgroundImage")));
-            this.btnSelectLevel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSelectLevel2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnSelectLevel2.FlatAppearance.BorderSize = 0;
-            this.btnSelectLevel2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSelectLevel2.Location = new System.Drawing.Point(24, 261);
-            this.btnSelectLevel2.Name = "btnSelectLevel2";
-            this.btnSelectLevel2.Size = new System.Drawing.Size(83, 85);
-            this.btnSelectLevel2.TabIndex = 0;
-            this.btnSelectLevel2.UseVisualStyleBackColor = true;
-            this.btnSelectLevel2.Click += new System.EventHandler(this.btnSelectLevel2_Click);
+            this.picMedio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picMedio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picMedio.Location = new System.Drawing.Point(125, 115);
+            this.picMedio.Name = "picMedio";
+            this.picMedio.Size = new System.Drawing.Size(150, 150);
+            this.picMedio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picMedio.TabIndex = 2;
+            this.picMedio.TabStop = false;
+            this.picMedio.Click += new System.EventHandler(this.picMedio_Click);
+            this.picMedio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picMedio_MouseMove);
             // 
-            // btnSelectLevel1
+            // picDificil
             // 
-            this.btnSelectLevel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSelectLevel1.BackgroundImage")));
-            this.btnSelectLevel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSelectLevel1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnSelectLevel1.FlatAppearance.BorderSize = 0;
-            this.btnSelectLevel1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSelectLevel1.Location = new System.Drawing.Point(628, 261);
-            this.btnSelectLevel1.Name = "btnSelectLevel1";
-            this.btnSelectLevel1.Size = new System.Drawing.Size(83, 85);
-            this.btnSelectLevel1.TabIndex = 1;
-            this.btnSelectLevel1.UseVisualStyleBackColor = true;
-            this.btnSelectLevel1.Click += new System.EventHandler(this.btnSelectLevel1_Click);
+            this.picDificil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDificil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picDificil.Location = new System.Drawing.Point(525, 115);
+            this.picDificil.Name = "picDificil";
+            this.picDificil.Size = new System.Drawing.Size(150, 150);
+            this.picDificil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDificil.TabIndex = 3;
+            this.picDificil.TabStop = false;
+            this.picDificil.Click += new System.EventHandler(this.picDificil_Click);
+            this.picDificil.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picDificil_MouseMove);
             // 
-            // pic3
+            // picFacil
             // 
-            this.pic3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic3.Location = new System.Drawing.Point(129, 115);
-            this.pic3.Name = "pic3";
-            this.pic3.Size = new System.Drawing.Size(132, 154);
-            this.pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic3.TabIndex = 2;
-            this.pic3.TabStop = false;
-            // 
-            // pic2
-            // 
-            this.pic2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic2.Location = new System.Drawing.Point(465, 128);
-            this.pic2.Name = "pic2";
-            this.pic2.Size = new System.Drawing.Size(137, 154);
-            this.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic2.TabIndex = 3;
-            this.pic2.TabStop = false;
-            // 
-            // pic1
-            // 
-            this.pic1.BackColor = System.Drawing.SystemColors.Control;
-            this.pic1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pic1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pic1.Location = new System.Drawing.Point(223, 233);
-            this.pic1.Name = "pic1";
-            this.pic1.Size = new System.Drawing.Size(265, 262);
-            this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pic1.TabIndex = 4;
-            this.pic1.TabStop = false;
-            this.pic1.Click += new System.EventHandler(this.pic1_Click);
+            this.picFacil.BackColor = System.Drawing.SystemColors.Control;
+            this.picFacil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picFacil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picFacil.Location = new System.Drawing.Point(275, 233);
+            this.picFacil.Name = "picFacil";
+            this.picFacil.Size = new System.Drawing.Size(250, 250);
+            this.picFacil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picFacil.TabIndex = 4;
+            this.picFacil.TabStop = false;
+            this.picFacil.Click += new System.EventHandler(this.picFacil_Click);
+            this.picFacil.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picFacil_MouseMove);
             // 
             // btnReturnGame
             // 
@@ -138,22 +115,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(723, 498);
+            this.ClientSize = new System.Drawing.Size(800, 500);
             this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.btnReturnGame);
-            this.Controls.Add(this.pic1);
-            this.Controls.Add(this.pic2);
-            this.Controls.Add(this.pic3);
-            this.Controls.Add(this.btnSelectLevel1);
-            this.Controls.Add(this.btnSelectLevel2);
+            this.Controls.Add(this.picFacil);
+            this.Controls.Add(this.picDificil);
+            this.Controls.Add(this.picMedio);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmMenuLevel";
             this.Text = "frmMenuLevel";
             this.Load += new System.EventHandler(this.frmMenuLevel_Load);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmMenuLevel_MouseMove);
-            ((System.ComponentModel.ISupportInitialize)(this.pic3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMedio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDificil)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFacil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnReturnGame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHelp)).EndInit();
             this.ResumeLayout(false);
@@ -161,12 +136,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnSelectLevel2;
-        private System.Windows.Forms.Button btnSelectLevel1;
-        private System.Windows.Forms.PictureBox pic3;
-        private System.Windows.Forms.PictureBox pic2;
-        private System.Windows.Forms.PictureBox pic1;
+        private System.Windows.Forms.PictureBox picMedio;
+        private System.Windows.Forms.PictureBox picDificil;
+        private System.Windows.Forms.PictureBox picFacil;
         private System.Windows.Forms.PictureBox btnReturnGame;
         private System.Windows.Forms.PictureBox btnHelp;
     }

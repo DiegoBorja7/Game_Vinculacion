@@ -39,7 +39,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[referencia1].Enabled = false;
-                        hits++;
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -58,7 +57,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[referencia2].Enabled = false;
-                        hits++;
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -77,7 +75,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[referencia3].Enabled = false;
-                        hits++;
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -96,7 +93,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[i].Enabled = false;
-                        hits++;
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Wrong.wav");
                         player.Play();
                         return true;
@@ -130,7 +126,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[referencia1].Enabled = false;
-                        hits++;
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -149,7 +144,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[referencia2].Enabled = false;
-                        hits++;
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -167,8 +161,7 @@ namespace RegiAnimal
                         origen.Location = punto;
                         notPush = true;
                         origen.Enabled = false;
-                        destinos[referencia3].Enabled = false;
-                        hits++;
+                        destinos[referencia3].Enabled = false;              
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -187,7 +180,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[referencia4].Enabled = false;
-                        hits++;
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -205,7 +197,6 @@ namespace RegiAnimal
                         origen.Location = punto;
                         notPush = true;
                         origen.Enabled = false;
-                        hits++;
                         destinos[i].Enabled = false;
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Wrong.wav");
                         player.Play();
@@ -239,7 +230,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[referencia1].Enabled = false;
-                        hits++;
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -258,7 +248,6 @@ namespace RegiAnimal
                         notPush = true;
                         origen.Enabled = false;
                         destinos[referencia2].Enabled = false;
-                        hits++;
                         hitsok++;
                         score.Text = hitsok.ToString();
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Correct.wav");
@@ -275,7 +264,6 @@ namespace RegiAnimal
                         Point punto = new Point(destinos[i].Location.X, destinos[i].Location.Y);
                         origen.Location = punto;
                         notPush = true;
-                        hits++;
                         origen.Enabled = false;
                         destinos[i].Enabled = false;
                         player = new SoundPlayer(Application.StartupPath + @"/EspecialSounds/Wrong.wav");

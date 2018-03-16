@@ -387,6 +387,11 @@ namespace RegiAnimal
             
             grbClock.BackColor = Color.Transparent;
         }
+        private void picHelp_Click(object sender, EventArgs e)
+        {
+            sound.playHelp();
+        }
+
         #endregion
 
         #region Tiempo
@@ -410,7 +415,6 @@ namespace RegiAnimal
             if (timeHelp == 0)
             {
                 lblBegin.ForeColor = System.Drawing.Color.Blue;
-                lblBegin.Text = "!GO!";
                 initializePictureBox.setDraggable(ref images);
 
                 clock.Enabled = true;
@@ -499,5 +503,6 @@ namespace RegiAnimal
             picVolUp.BorderStyle = BorderStyle.None;
         }
         #endregion
+        
     }
 }

@@ -39,9 +39,9 @@
             // 
             // picBtnPlay
             // 
-            this.picBtnPlay.Location = new System.Drawing.Point(660, 353);
+            this.picBtnPlay.Location = new System.Drawing.Point(500, 289);
             this.picBtnPlay.Name = "picBtnPlay";
-            this.picBtnPlay.Size = new System.Drawing.Size(125, 125);
+            this.picBtnPlay.Size = new System.Drawing.Size(300, 261);
             this.picBtnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBtnPlay.TabIndex = 1;
             this.picBtnPlay.TabStop = false;
@@ -51,9 +51,9 @@
             // 
             // picBtnHome
             // 
-            this.picBtnHome.Location = new System.Drawing.Point(954, 523);
+            this.picBtnHome.Location = new System.Drawing.Point(25, 10);
             this.picBtnHome.Name = "picBtnHome";
-            this.picBtnHome.Size = new System.Drawing.Size(125, 125);
+            this.picBtnHome.Size = new System.Drawing.Size(120, 120);
             this.picBtnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBtnHome.TabIndex = 2;
             this.picBtnHome.TabStop = false;
@@ -64,7 +64,7 @@
             // picRegianimal
             // 
             this.picRegianimal.Image = ((System.Drawing.Image)(resources.GetObject("picRegianimal.Image")));
-            this.picRegianimal.Location = new System.Drawing.Point(435, 25);
+            this.picRegianimal.Location = new System.Drawing.Point(395, 14);
             this.picRegianimal.Name = "picRegianimal";
             this.picRegianimal.Size = new System.Drawing.Size(516, 116);
             this.picRegianimal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

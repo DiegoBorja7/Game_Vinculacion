@@ -50,6 +50,8 @@
             this.btnHomeGame = new System.Windows.Forms.PictureBox();
             this.btnReturnGame = new System.Windows.Forms.PictureBox();
             this.btnHelp = new System.Windows.Forms.PictureBox();
+            this.btnDownVolume = new System.Windows.Forms.PictureBox();
+            this.btnUpVolume = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas3)).BeginInit();
@@ -68,13 +70,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnHomeGame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnReturnGame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHelp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDownVolume)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnUpVolume)).BeginInit();
             this.SuspendLayout();
             // 
             // picCanvas6
             // 
             this.picCanvas6.BackColor = System.Drawing.Color.Transparent;
             this.picCanvas6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picCanvas6.Location = new System.Drawing.Point(1032, 483);
+            this.picCanvas6.Location = new System.Drawing.Point(1017, 476);
             this.picCanvas6.Name = "picCanvas6";
             this.picCanvas6.Size = new System.Drawing.Size(231, 150);
             this.picCanvas6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -87,7 +91,7 @@
             // 
             this.picCanvas5.BackColor = System.Drawing.Color.Transparent;
             this.picCanvas5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picCanvas5.Location = new System.Drawing.Point(969, 273);
+            this.picCanvas5.Location = new System.Drawing.Point(943, 295);
             this.picCanvas5.Name = "picCanvas5";
             this.picCanvas5.Size = new System.Drawing.Size(231, 150);
             this.picCanvas5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,7 +117,7 @@
             // 
             this.picCanvas4.BackColor = System.Drawing.Color.Transparent;
             this.picCanvas4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picCanvas4.Location = new System.Drawing.Point(1076, 61);
+            this.picCanvas4.Location = new System.Drawing.Point(1075, 119);
             this.picCanvas4.Name = "picCanvas4";
             this.picCanvas4.Size = new System.Drawing.Size(231, 150);
             this.picCanvas4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -305,6 +309,34 @@
             this.btnHelp.TabStop = false;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
+            // btnDownVolume
+            // 
+            this.btnDownVolume.BackColor = System.Drawing.Color.Transparent;
+            this.btnDownVolume.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDownVolume.BackgroundImage")));
+            this.btnDownVolume.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnDownVolume.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDownVolume.Location = new System.Drawing.Point(1163, 12);
+            this.btnDownVolume.Name = "btnDownVolume";
+            this.btnDownVolume.Size = new System.Drawing.Size(75, 75);
+            this.btnDownVolume.TabIndex = 25;
+            this.btnDownVolume.TabStop = false;
+            this.btnDownVolume.Click += new System.EventHandler(this.btnDownVolume_Click);
+            this.btnDownVolume.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnDownVolume_MouseMove);
+            // 
+            // btnUpVolume
+            // 
+            this.btnUpVolume.BackColor = System.Drawing.Color.Transparent;
+            this.btnUpVolume.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUpVolume.BackgroundImage")));
+            this.btnUpVolume.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnUpVolume.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpVolume.Location = new System.Drawing.Point(1257, 12);
+            this.btnUpVolume.Name = "btnUpVolume";
+            this.btnUpVolume.Size = new System.Drawing.Size(75, 75);
+            this.btnUpVolume.TabIndex = 26;
+            this.btnUpVolume.TabStop = false;
+            this.btnUpVolume.Click += new System.EventHandler(this.btnUpVolume_Click);
+            this.btnUpVolume.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnUpVolume_MouseMove);
+            // 
             // frmJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -312,6 +344,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1362, 701);
+            this.Controls.Add(this.btnUpVolume);
+            this.Controls.Add(this.btnDownVolume);
             this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.btnReturnGame);
             this.Controls.Add(this.btnHomeGame);
@@ -355,6 +389,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnHomeGame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnReturnGame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHelp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDownVolume)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnUpVolume)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -380,5 +416,7 @@
         private System.Windows.Forms.PictureBox btnHomeGame;
         private System.Windows.Forms.PictureBox btnReturnGame;
         private System.Windows.Forms.PictureBox btnHelp;
+        private System.Windows.Forms.PictureBox btnDownVolume;
+        private System.Windows.Forms.PictureBox btnUpVolume;
     }
 }

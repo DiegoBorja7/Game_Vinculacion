@@ -39,5 +39,11 @@ namespace RegiAnimal
             player = new SoundPlayer(Application.StartupPath + @"/Audio/instruction.wav");
             player.Play();
         }
+
+        public void playHelp()
+        {
+            player = new SoundPlayer(Application.StartupPath + @"/Audio/HelpRegi.wav");
+            player.Play();
+        }
     }
 }

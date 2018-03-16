@@ -48,6 +48,7 @@
             this.picBaño = new System.Windows.Forms.PictureBox();
             this.picSala = new System.Windows.Forms.PictureBox();
             this.picCocina = new System.Windows.Forms.PictureBox();
+            this.picBtnAudioHelp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).BeginInit();
@@ -65,6 +66,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBaño)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSala)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCocina)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // picHome
@@ -113,7 +115,7 @@
             // 
             this.picImage1.BackColor = System.Drawing.Color.Transparent;
             this.picImage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage1.Location = new System.Drawing.Point(89, 116);
+            this.picImage1.Location = new System.Drawing.Point(68, 105);
             this.picImage1.Name = "picImage1";
             this.picImage1.Size = new System.Drawing.Size(130, 120);
             this.picImage1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -126,7 +128,7 @@
             // 
             this.picImage2.BackColor = System.Drawing.Color.Transparent;
             this.picImage2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage2.Location = new System.Drawing.Point(89, 272);
+            this.picImage2.Location = new System.Drawing.Point(68, 261);
             this.picImage2.Name = "picImage2";
             this.picImage2.Size = new System.Drawing.Size(130, 120);
             this.picImage2.TabIndex = 4;
@@ -138,7 +140,7 @@
             // 
             this.picImage3.BackColor = System.Drawing.Color.Transparent;
             this.picImage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage3.Location = new System.Drawing.Point(89, 427);
+            this.picImage3.Location = new System.Drawing.Point(68, 416);
             this.picImage3.Name = "picImage3";
             this.picImage3.Size = new System.Drawing.Size(130, 120);
             this.picImage3.TabIndex = 5;
@@ -150,7 +152,7 @@
             // 
             this.picImage4.BackColor = System.Drawing.Color.Transparent;
             this.picImage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage4.Location = new System.Drawing.Point(810, 116);
+            this.picImage4.Location = new System.Drawing.Point(824, 105);
             this.picImage4.Name = "picImage4";
             this.picImage4.Size = new System.Drawing.Size(130, 120);
             this.picImage4.TabIndex = 6;
@@ -162,7 +164,7 @@
             // 
             this.picImage5.BackColor = System.Drawing.Color.Transparent;
             this.picImage5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage5.Location = new System.Drawing.Point(810, 272);
+            this.picImage5.Location = new System.Drawing.Point(824, 261);
             this.picImage5.Name = "picImage5";
             this.picImage5.Size = new System.Drawing.Size(130, 120);
             this.picImage5.TabIndex = 7;
@@ -174,7 +176,7 @@
             // 
             this.picImage6.BackColor = System.Drawing.Color.Transparent;
             this.picImage6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage6.Location = new System.Drawing.Point(810, 427);
+            this.picImage6.Location = new System.Drawing.Point(824, 416);
             this.picImage6.Name = "picImage6";
             this.picImage6.Size = new System.Drawing.Size(130, 120);
             this.picImage6.TabIndex = 11;
@@ -186,7 +188,7 @@
             // 
             this.picImage7.BackColor = System.Drawing.Color.Transparent;
             this.picImage7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage7.Location = new System.Drawing.Point(89, 588);
+            this.picImage7.Location = new System.Drawing.Point(68, 570);
             this.picImage7.Name = "picImage7";
             this.picImage7.Size = new System.Drawing.Size(130, 120);
             this.picImage7.TabIndex = 12;
@@ -198,7 +200,7 @@
             // 
             this.picImage8.BackColor = System.Drawing.Color.Transparent;
             this.picImage8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage8.Location = new System.Drawing.Point(326, 592);
+            this.picImage8.Location = new System.Drawing.Point(327, 570);
             this.picImage8.Name = "picImage8";
             this.picImage8.Size = new System.Drawing.Size(130, 120);
             this.picImage8.TabIndex = 13;
@@ -210,7 +212,7 @@
             // 
             this.picImage9.BackColor = System.Drawing.Color.Transparent;
             this.picImage9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picImage9.Location = new System.Drawing.Point(567, 592);
+            this.picImage9.Location = new System.Drawing.Point(565, 570);
             this.picImage9.Name = "picImage9";
             this.picImage9.Size = new System.Drawing.Size(130, 120);
             this.picImage9.TabIndex = 14;
@@ -222,61 +224,69 @@
             // 
             this.picDormitorio.BackColor = System.Drawing.Color.Transparent;
             this.picDormitorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picDormitorio.Location = new System.Drawing.Point(379, 259);
+            this.picDormitorio.Location = new System.Drawing.Point(364, 147);
             this.picDormitorio.Name = "picDormitorio";
-            this.picDormitorio.Size = new System.Drawing.Size(100, 60);
+            this.picDormitorio.Size = new System.Drawing.Size(101, 83);
             this.picDormitorio.TabIndex = 16;
             this.picDormitorio.TabStop = false;
-            this.picDormitorio.DragDrop += new System.Windows.Forms.DragEventHandler(this.picDormitorio_DragDrop);
             this.picDormitorio.DragEnter += new System.Windows.Forms.DragEventHandler(this.picDormitorio_DragEnter);
             // 
             // picSaladeEstudio
             // 
             this.picSaladeEstudio.BackColor = System.Drawing.Color.Transparent;
             this.picSaladeEstudio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picSaladeEstudio.Location = new System.Drawing.Point(379, 334);
+            this.picSaladeEstudio.Location = new System.Drawing.Point(354, 240);
             this.picSaladeEstudio.Name = "picSaladeEstudio";
-            this.picSaladeEstudio.Size = new System.Drawing.Size(100, 87);
+            this.picSaladeEstudio.Size = new System.Drawing.Size(126, 103);
             this.picSaladeEstudio.TabIndex = 17;
             this.picSaladeEstudio.TabStop = false;
-            this.picSaladeEstudio.DragDrop += new System.Windows.Forms.DragEventHandler(this.picSaladeEstudio_DragDrop);
             this.picSaladeEstudio.DragEnter += new System.Windows.Forms.DragEventHandler(this.picSaladeEstudio_DragEnter);
             // 
             // picBaño
             // 
             this.picBaño.BackColor = System.Drawing.Color.Transparent;
             this.picBaño.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBaño.Location = new System.Drawing.Point(533, 334);
+            this.picBaño.Location = new System.Drawing.Point(535, 235);
             this.picBaño.Name = "picBaño";
-            this.picBaño.Size = new System.Drawing.Size(111, 88);
+            this.picBaño.Size = new System.Drawing.Size(137, 110);
             this.picBaño.TabIndex = 18;
             this.picBaño.TabStop = false;
-            this.picBaño.DragDrop += new System.Windows.Forms.DragEventHandler(this.picBaño_DragDrop);
             this.picBaño.DragEnter += new System.Windows.Forms.DragEventHandler(this.picBaño_DragEnter);
             // 
             // picSala
             // 
             this.picSala.BackColor = System.Drawing.Color.Transparent;
             this.picSala.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picSala.Location = new System.Drawing.Point(379, 452);
+            this.picSala.Location = new System.Drawing.Point(346, 373);
             this.picSala.Name = "picSala";
-            this.picSala.Size = new System.Drawing.Size(100, 94);
+            this.picSala.Size = new System.Drawing.Size(140, 118);
             this.picSala.TabIndex = 19;
             this.picSala.TabStop = false;
-            this.picSala.DragDrop += new System.Windows.Forms.DragEventHandler(this.picSala_DragDrop);
             this.picSala.DragEnter += new System.Windows.Forms.DragEventHandler(this.picSala_DragEnter);
             // 
             // picCocina
             // 
             this.picCocina.BackColor = System.Drawing.Color.Transparent;
             this.picCocina.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picCocina.Location = new System.Drawing.Point(533, 452);
+            this.picCocina.Location = new System.Drawing.Point(529, 373);
             this.picCocina.Name = "picCocina";
-            this.picCocina.Size = new System.Drawing.Size(111, 94);
+            this.picCocina.Size = new System.Drawing.Size(146, 118);
             this.picCocina.TabIndex = 20;
             this.picCocina.TabStop = false;
-            this.picCocina.DragDrop += new System.Windows.Forms.DragEventHandler(this.picCocina_DragDrop);
             this.picCocina.DragEnter += new System.Windows.Forms.DragEventHandler(this.picCocina_DragEnter);
+            // 
+            // picBtnAudioHelp
+            // 
+            this.picBtnAudioHelp.BackColor = System.Drawing.Color.Transparent;
+            this.picBtnAudioHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBtnAudioHelp.BackgroundImage")));
+            this.picBtnAudioHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBtnAudioHelp.Location = new System.Drawing.Point(10, 10);
+            this.picBtnAudioHelp.Name = "picBtnAudioHelp";
+            this.picBtnAudioHelp.Size = new System.Drawing.Size(75, 75);
+            this.picBtnAudioHelp.TabIndex = 21;
+            this.picBtnAudioHelp.TabStop = false;
+            this.picBtnAudioHelp.Click += new System.EventHandler(this.picBtnAudioHelp_Click);
+            this.picBtnAudioHelp.MouseEnter += new System.EventHandler(this.picBtnAudioHelp_MouseEnter);
             // 
             // frmAutoevaluacion1
             // 
@@ -286,6 +296,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 720);
             this.ControlBox = false;
+            this.Controls.Add(this.picBtnAudioHelp);
             this.Controls.Add(this.picCocina);
             this.Controls.Add(this.picSala);
             this.Controls.Add(this.picBaño);
@@ -327,8 +338,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBaño)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSala)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCocina)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).EndInit();
             this.ResumeLayout(false);
-
         }
 
         #endregion
@@ -351,5 +362,6 @@
         private System.Windows.Forms.PictureBox picBaño;
         private System.Windows.Forms.PictureBox picSala;
         private System.Windows.Forms.PictureBox picCocina;
+        private System.Windows.Forms.PictureBox picBtnAudioHelp;
     }
 }

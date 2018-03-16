@@ -10,12 +10,6 @@ namespace WinAppProyectoFinal.Clases
     class CJuego
     {
         private CPictures picImages;
-
-        internal CPictures PicImages
-        {
-            get { return picImages; }
-            set { picImages = value; }
-        }
         private int level;
         private int aciertos, fallos;
 
@@ -58,21 +52,38 @@ namespace WinAppProyectoFinal.Clases
             }
         }
 
+        internal CPictures PicImages
+        {
+            get
+            {
+                return picImages;
+            }
+
+            set
+            {
+                picImages = value;
+            }
+        }
+
+
+
+        //internal CPictures PicImages { get => picImages; set => picImages = value; }
+
         public CJuego(List<PictureBox> Pictures)
         {
-            picImages = new CPictures(Pictures);
+            PicImages = new CPictures(Pictures);
             Level = 1;
         }
 
         public CJuego(List<PictureBox> Pictures, int nivel)
         {
-            picImages = new CPictures(Pictures);
+            PicImages = new CPictures(Pictures);
             Level = nivel;
         }
 
         public void mostrarImagenes()
         {
-            picImages.imgRandom();
+            PicImages.imgRandom();
         }
     }
 }

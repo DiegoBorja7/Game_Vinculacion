@@ -73,6 +73,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblScore = new System.Windows.Forms.Label();
+            this.picHelp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picCost2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCost1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGalapagos1)).BeginInit();
@@ -111,6 +112,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // picCost2
@@ -405,7 +407,7 @@
             // picBtnHome
             // 
             this.picBtnHome.BackColor = System.Drawing.Color.Transparent;
-            this.picBtnHome.Location = new System.Drawing.Point(979, 562);
+            this.picBtnHome.Location = new System.Drawing.Point(810, 562);
             this.picBtnHome.Name = "picBtnHome";
             this.picBtnHome.Size = new System.Drawing.Size(103, 86);
             this.picBtnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -452,7 +454,7 @@
             // 
             this.picVolDown.BackColor = System.Drawing.Color.Transparent;
             this.picVolDown.Image = ((System.Drawing.Image)(resources.GetObject("picVolDown.Image")));
-            this.picVolDown.Location = new System.Drawing.Point(457, 570);
+            this.picVolDown.Location = new System.Drawing.Point(430, 570);
             this.picVolDown.Name = "picVolDown";
             this.picVolDown.Size = new System.Drawing.Size(87, 68);
             this.picVolDown.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -466,7 +468,7 @@
             // 
             this.picVolUp.BackColor = System.Drawing.Color.Transparent;
             this.picVolUp.Image = ((System.Drawing.Image)(resources.GetObject("picVolUp.Image")));
-            this.picVolUp.Location = new System.Drawing.Point(757, 570);
+            this.picVolUp.Location = new System.Drawing.Point(615, 570);
             this.picVolUp.Name = "picVolUp";
             this.picVolUp.Size = new System.Drawing.Size(87, 68);
             this.picVolUp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -505,9 +507,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(17, 75);
+            this.pictureBox3.Location = new System.Drawing.Point(6, 75);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(107, 38);
+            this.pictureBox3.Size = new System.Drawing.Size(148, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 43;
             this.pictureBox3.TabStop = false;
@@ -525,9 +527,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(186, 75);
+            this.pictureBox1.Location = new System.Drawing.Point(171, 75);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(129, 38);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 41;
             this.pictureBox1.TabStop = false;
@@ -544,6 +546,18 @@
             this.lblScore.TabIndex = 40;
             this.lblScore.Text = "00";
             // 
+            // picHelp
+            // 
+            this.picHelp.BackColor = System.Drawing.Color.Transparent;
+            this.picHelp.Image = ((System.Drawing.Image)(resources.GetObject("picHelp.Image")));
+            this.picHelp.Location = new System.Drawing.Point(999, 562);
+            this.picHelp.Name = "picHelp";
+            this.picHelp.Size = new System.Drawing.Size(103, 86);
+            this.picHelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picHelp.TabIndex = 41;
+            this.picHelp.TabStop = false;
+            this.picHelp.Click += new System.EventHandler(this.picHelp_Click);
+            // 
             // Regianimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -551,6 +565,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1300, 660);
+            this.Controls.Add(this.picHelp);
             this.Controls.Add(this.picScore);
             this.Controls.Add(this.lblBegin);
             this.Controls.Add(this.picCost2);
@@ -630,6 +645,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picHelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -679,6 +695,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblScore;
+        private System.Windows.Forms.PictureBox picHelp;
     }
 }
 

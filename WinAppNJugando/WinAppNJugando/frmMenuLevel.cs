@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.IO;
+using System.Media;
 using WinAppProyectoFinal.Clases;
 
 namespace WinAppProyectoFinal.Forms
@@ -17,6 +19,7 @@ namespace WinAppProyectoFinal.Forms
         List<PictureBox> pictures;
         CMenuLevel menuLevel;
         frmJuego ObjForm;
+        SoundPlayer player;
 
         public frmMenuLevel()
         {
@@ -29,28 +32,9 @@ namespace WinAppProyectoFinal.Forms
 
         private void frmMenuLevel_Load(object sender, EventArgs e)
         {
-            pictures.Add(pic1); pictures.Add(pic2); pictures.Add(pic3);
+            pictures.Add(picFacil); pictures.Add(picDificil); pictures.Add(picMedio);
             menuLevel.MPictures = pictures;
             menuLevel.iniciarPics();
-        }
-
-        private void btnSelectLevel1_Click(object sender, EventArgs e)
-        {
-            menuLevel.moveNext();
-        }
-
-        private void btnSelectLevel2_Click(object sender, EventArgs e)
-        {
-            menuLevel.moveAnt();
-        }
-
-        private void pic1_Click(object sender, EventArgs e)
-        {
-            ObjForm = new frmJuego(menuLevel.Level);
-            Close();
-            ObjForm.StartPosition = FormStartPosition.CenterScreen;
-            ObjForm.Show();
-
         }
 
         private void btnReturnGame_Click_1(object sender, EventArgs e)
@@ -62,7 +46,7 @@ namespace WinAppProyectoFinal.Forms
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            frmInstrucciones objfrm = new Forms.frmInstrucciones();
+            frmInstrucciones objfrm = new Forms.frmInstrucciones("Haz clic sobre el nivel que quieras jugar");
             objfrm.StartPosition = FormStartPosition.CenterScreen;
             objfrm.ShowDialog();
         }
@@ -81,6 +65,85 @@ namespace WinAppProyectoFinal.Forms
         {
             btnReturnGame.Size = new Size(74, 74);
             btnHelp.Size = new Size(74, 74);
+        }
+
+        private void picFacil_MouseMove(object sender, MouseEventArgs e)
+        {
+            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\facil.wav");
+            try
+            {
+                player.Play();
+            
+            picFacil.Size = new Size(265, 265);
+            picFacil.Location = new Point(275, 233);
+
+            picMedio.Size = new Size(140, 140);
+            picMedio.Location = new Point(125, 115);
+            picDificil.Size = new Size(140, 140);
+            picDificil.Location = new Point(525, 115);
+            }
+            catch { }
+        }
+
+        private void picMedio_MouseMove(object sender, MouseEventArgs e)
+        {
+            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\medio.wav");
+            try
+            {
+                player.Play();
+            
+            picMedio.Size = new Size(265, 265);
+            picMedio.Location = new Point(75, 115);
+
+            picFacil.Size = new Size(140, 140);
+            picFacil.Location = new Point(325, 233);
+            picDificil.Size = new Size(140, 140);
+            picDificil.Location = new Point(525, 115);
+
+            }
+            catch { }
+        }
+
+        private void picDificil_MouseMove(object sender, MouseEventArgs e)
+        {
+            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\dificil.wav");
+            try
+            {
+                player.Play();
+
+            picDificil.Size = new Size(265, 265);
+            picDificil.Location = new Point(475, 115);
+
+            picFacil.Size = new Size(140, 140);
+            picFacil.Location = new Point(325, 233);
+            picMedio.Size = new Size(140, 140);
+            picMedio.Location = new Point(125, 115);
+            }
+            catch { }
+
+        }
+
+        private void picFacil_Click(object sender, EventArgs e)
+        {
+            iniciarGame(1);
+        }
+
+        private void picMedio_Click(object sender, EventArgs e)
+        {
+            iniciarGame(2);
+        }
+
+        private void picDificil_Click(object sender, EventArgs e)
+        {
+            iniciarGame(3);
+        }
+
+        public void iniciarGame(int Leve)
+        {
+            ObjForm = new frmJuego(Leve);
+            this.Close();
+            ObjForm.StartPosition = FormStartPosition.CenterScreen;
+            ObjForm.Show();
         }
     }
 }

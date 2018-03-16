@@ -5,8 +5,8 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 
 /**
-  * @Autor: Diego Borja.
-  * 
+ * @Autor: Diego Borja.
+ * 
 **/
 
 namespace WinAppNiñitosEnAccion
@@ -20,7 +20,6 @@ namespace WinAppNiñitosEnAccion
 
         private Bitmap myBitmap;
         private SoundPlayer player;
-
         #endregion
 
         #region Properties (Set & Get)
@@ -40,6 +39,12 @@ namespace WinAppNiñitosEnAccion
         {
             get { return aciertos; }
             set { aciertos = value; }
+        }
+
+        public Bitmap MyBitmap
+        {
+            get { return myBitmap; }
+            set { myBitmap = value; }
         }
 
         public SoundPlayer Player
@@ -62,6 +67,7 @@ namespace WinAppNiñitosEnAccion
         public void ValidateDragDrop(List<PictureBox> ListaUse, PictureBox picComparate, PictureBox picAux, DragEventArgs e)
         {
             int i;
+
             switch (picComparate.Name.ToString())
             {
                 #region Autoevaluacion 1:
@@ -74,8 +80,8 @@ namespace WinAppNiñitosEnAccion
                             if (ListaUse[i].Name == "Cama" || ListaUse[i].Name == "Lampara")
                             {
                                 puntaje++;
-                                e.Effect = DragDropEffects.Copy;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picComparate.BackgroundImage= new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
@@ -83,6 +89,8 @@ namespace WinAppNiñitosEnAccion
                             }
                             else
                             {
+                                ListaUse[i].Enabled = true;
+                                picComparate.Enabled = true;
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Incorrecto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
                                 playSound("Incorrecto");
@@ -100,8 +108,8 @@ namespace WinAppNiñitosEnAccion
                             if (ListaUse[i].Name == "Silla" || ListaUse[i].Name == "Escritorio")
                             {
                                 puntaje++;
-                                e.Effect = DragDropEffects.Copy;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picComparate.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
@@ -109,6 +117,8 @@ namespace WinAppNiñitosEnAccion
                             }
                             else
                             {
+                                ListaUse[i].Enabled = true;
+                                picComparate.Enabled = true;
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Incorrecto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
                                 playSound("Incorrecto");
@@ -126,8 +136,8 @@ namespace WinAppNiñitosEnAccion
                             if (ListaUse[i].Name == "TinadeBaño" || ListaUse[i].Name == "Lavavo")
                             {
                                 puntaje++;
-                                e.Effect = DragDropEffects.Copy;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picComparate.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
@@ -135,6 +145,8 @@ namespace WinAppNiñitosEnAccion
                             }
                             else
                             {
+                                ListaUse[i].Enabled = true;
+                                picComparate.Enabled = true;
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Incorrecto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
                                 playSound("Incorrecto");
@@ -152,8 +164,8 @@ namespace WinAppNiñitosEnAccion
                             if (ListaUse[i].Name == "Sofa" || ListaUse[i].Name == "Comedor")
                             {
                                 puntaje++;
-                                e.Effect = DragDropEffects.Copy;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picComparate.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
@@ -161,6 +173,8 @@ namespace WinAppNiñitosEnAccion
                             }
                             else
                             {
+                                ListaUse[i].Enabled = true;
+                                picComparate.Enabled = true;
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Incorrecto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
                                 playSound("Incorrecto");
@@ -178,8 +192,8 @@ namespace WinAppNiñitosEnAccion
                             if (ListaUse[i].Name == "Olla" || ListaUse[i].Name == "Refrigeradora")
                             {
                                 puntaje++;
-                                e.Effect = DragDropEffects.Copy;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picComparate.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
@@ -187,6 +201,8 @@ namespace WinAppNiñitosEnAccion
                             }
                             else
                             {
+                                ListaUse[i].Enabled = true;
+                                picComparate.Enabled = true;
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Incorrecto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
                                 playSound("Incorrecto");
@@ -434,10 +450,11 @@ namespace WinAppNiñitosEnAccion
                     #endregion
             }
         }
-        public void ValidateDragDrop(List<PictureBox> ListaUse, PictureBox picComparate, PictureBox picResult, PictureBox picAux, DragEventArgs e)
+        public void ValidateDragDrop(List<PictureBox> ListaUse, PictureBox picComparate, PictureBox picResult, PictureBox picAux,DragEventArgs e)
         {
             int i;
-            switch (picComparate.Name.ToString())
+            
+            switch (picComparate.Name)
             {
                 #region Autoevaluacion 4:
                 case "Costa":
@@ -451,18 +468,17 @@ namespace WinAppNiñitosEnAccion
                                 puntaje++;
                                 aciertos++;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picResult.Visible = true;
-                                picResult.Location = new Point(picComparate.Location.X+7, picComparate.Location.Y-75);
-                                picResult.Parent = picComparate;
                                 picResult.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
-                                myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Acierto.png");
+                                myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
                                 playSound("Acierto");
-
                             }
                             else
                             {
-                                myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Incorrecto.png");
+                                picComparate.Enabled = true;
+                                myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name + "Incorrecto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
                                 playSound("Incorrecto");
                             }
@@ -481,9 +497,8 @@ namespace WinAppNiñitosEnAccion
                                 puntaje++;
                                 aciertos++;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picResult.Visible = true;
-                                picResult.Location = new Point(picComparate.Location.X + 7, picComparate.Location.Y - 75);
-                                picResult.Parent = picComparate;
                                 picResult.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
@@ -510,9 +525,8 @@ namespace WinAppNiñitosEnAccion
                                 puntaje++;
                                 aciertos++;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picResult.Visible = true;
-                                picResult.Location = new Point(picComparate.Location.X + 7, picComparate.Location.Y - 75);
-                                picResult.Parent = picComparate;
                                 picResult.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
@@ -539,9 +553,8 @@ namespace WinAppNiñitosEnAccion
                                 puntaje++;
                                 aciertos++;
                                 ListaUse[i].Enabled = false;
+                                picComparate.Enabled = false;
                                 picResult.Visible = true;
-                                picResult.Location = new Point(picComparate.Location.X + 7, picComparate.Location.Y - 75);
-                                picResult.Parent = picComparate;
                                 picResult.BackgroundImage = new Bitmap(Application.StartupPath + @"/Image/" + ListaUse[i].Name + ".png");
                                 myBitmap = new Bitmap(Application.StartupPath + @"/ImageResults/" + ListaUse[i].Name.ToString() + "Acierto.png");
                                 ListaUse[i].BackgroundImage = myBitmap;
@@ -787,7 +800,6 @@ namespace WinAppNiñitosEnAccion
                 ListaUse[0].Visible = true;
             }
         }
-
         #endregion
 
     }

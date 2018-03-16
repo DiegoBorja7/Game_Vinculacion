@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Drawing;
 using RegiAnimal;
 using WinAppProyectoFinal.Forms;
-
 
 /**
   * @Autor: Diego Borja.
@@ -16,19 +16,35 @@ namespace WinAppNiñitosEnAccion
         private CInitializeThings ObjInitialize = new CInitializeThings();
         private CInstructions ObjInstruction = new CInstructions();
         private CPictureSounds sound = new CPictureSounds();
-
-
+        
         public frmSelectGame()
         {
             InitializeComponent();
             ObjInitialize.CloseAll();
         }
 
+        private void picTuCasaoTuEscuelaGame_Click(object sender, EventArgs e)
+        {
+            frmMenuPrincipal menuc = new frmMenuPrincipal();
+            menuc.Show();
+            Dispose();
+            ObjInstruction.Player.Stop();
+        }
+
+        private void picRegiAnimalGame_Click(object sender, EventArgs e)
+        {
+            frmMenu menu = new frmMenu();
+            menu.Show();
+            Dispose();
+            ObjInstruction.Player.Stop();
+            sound.playIntro();
+        }
+
         private void picAutoevaluacion_Click(object sender, EventArgs e)
         {
             frmAutoevaluacion1 ObjFormularioAutoevaluacion1 = new frmAutoevaluacion1();
             ObjFormularioAutoevaluacion1.Show();
-            Dispose();
+            Hide();
             ObjInstruction.Player.Stop();
         }
 
@@ -40,7 +56,8 @@ namespace WinAppNiñitosEnAccion
         private void frmSelectGame_MouseEnter(object sender, EventArgs e)
         {
             Cursor = Cursors.Default;
-            picAutoevaluacion.BorderStyle = BorderStyle.None;
+            picAutoevaluacion.Size=new Size (150, 130);
+            picAutoevaluacion.Location = new Point(845, 525);
             picExit.BorderStyle = BorderStyle.None;
             picTuCasaoTuEscuelaGame.BorderStyle = BorderStyle.None;
             picRegiAnimalGame.BorderStyle = BorderStyle.None;
@@ -48,7 +65,9 @@ namespace WinAppNiñitosEnAccion
 
         private void picAutoevaluacion_MouseEnter(object sender, EventArgs e)
         {
-            ObjInitialize.Seleccionar(this, picAutoevaluacion);
+            Cursor = Cursors.Hand;
+            picAutoevaluacion.Location = new Point(840, 520);
+            picAutoevaluacion.Size = new Size(165, 145);
         }
 
         private void picExit_MouseEnter(object sender, EventArgs e)
@@ -64,23 +83,6 @@ namespace WinAppNiñitosEnAccion
         private void picRegiAnimalGame_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picRegiAnimalGame);
-        }
-        private void picRegiAnimalGame_Click(object sender, EventArgs e)
-        {
-            frmMenu menu = new frmMenu();
-            menu.Show();
-            Dispose();
-            ObjInstruction.Player.Stop();
-            sound.playIntro();
-
-
-        }
-        private void picTuCasaoTuEscuelaGame_Click(object sender, EventArgs e)
-        {
-            frmMenuPrincipal menuc = new frmMenuPrincipal();
-            menuc.Show();
-            Dispose();
-            ObjInstruction.Player.Stop();
         }
 
         private void frmSelectGame_Load(object sender, EventArgs e)

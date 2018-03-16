@@ -60,9 +60,9 @@
             this.picAutoevaluacion.BackColor = System.Drawing.Color.Transparent;
             this.picAutoevaluacion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picAutoevaluacion.BackgroundImage")));
             this.picAutoevaluacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picAutoevaluacion.Location = new System.Drawing.Point(844, 524);
+            this.picAutoevaluacion.Location = new System.Drawing.Point(845, 525);
             this.picAutoevaluacion.Name = "picAutoevaluacion";
-            this.picAutoevaluacion.Size = new System.Drawing.Size(147, 126);
+            this.picAutoevaluacion.Size = new System.Drawing.Size(150, 130);
             this.picAutoevaluacion.TabIndex = 5;
             this.picAutoevaluacion.TabStop = false;
             this.toolTip1.SetToolTip(this.picAutoevaluacion, "Autoevaluación");
@@ -119,9 +119,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picRegiAnimalGame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTuCasaoTuEscuelaGame)).EndInit();
             this.ResumeLayout(false);
-
         }
-
         #endregion
 
         private System.Windows.Forms.PictureBox picExit;

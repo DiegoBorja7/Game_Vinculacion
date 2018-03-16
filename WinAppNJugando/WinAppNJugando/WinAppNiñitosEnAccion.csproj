@@ -147,6 +147,12 @@
     <Compile Include="frmHelp.Designer.cs">
       <DependentUpon>frmHelp.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHelpAutoevaluacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelpAutoevaluacion.Designer.cs">
+      <DependentUpon>frmHelpAutoevaluacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -256,6 +262,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmHelp.resx">
       <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelpAutoevaluacion.resx">
+      <DependentUpon>frmHelpAutoevaluacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>

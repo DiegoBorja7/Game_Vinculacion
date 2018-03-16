@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using System.IO;
 using WinAppProyectoFinal.Clases;
 using System.Media;
+using System.Runtime.InteropServices;
 
 namespace WinAppProyectoFinal.Forms
 {
@@ -20,6 +21,16 @@ namespace WinAppProyectoFinal.Forms
         List<PictureBox> lienzo, casa, escuela;
         CDragNDrop drag;
         int contador=-1;
+
+        #region Variables Volumen
+        private const int APPCOMMAND_VOLUMEN_UP = 0xA0000;
+        private const int APPCOMMAND_VOLUMEN_DOWN = 0x90000;
+        private const int WM_APPCOMMAND = 0x319;
+
+        [DllImport("user32.dll")]
+
+        public static extern IntPtr SendMessageW(IntPtr hWnd, int Msg, IntPtr wParam, IntPtr lParam);
+        #endregion
 
         private void picLienzo()
         {
@@ -201,6 +212,8 @@ namespace WinAppProyectoFinal.Forms
         {
             btnHomeGame.Size = new Size(79, 79);
             btnReturnGame.Size = new Size(79, 79);
+            btnDownVolume.Size = new Size(75, 75);
+            btnUpVolume.Size = new Size(75, 75);
         }
         #endregion
 
@@ -214,7 +227,6 @@ namespace WinAppProyectoFinal.Forms
 
                 objfrm2.StartPosition = FormStartPosition.CenterScreen;
                 objfrm2.Show();
-
             }
         }
 
@@ -225,6 +237,7 @@ namespace WinAppProyectoFinal.Forms
             objfrm.ShowDialog();
         }
 
+        #region Audio Obj
         private void picCanvas1_MouseHover(object sender, EventArgs e)
         {
             juego.PicImages.reproducirAudio((PictureBox)sender);
@@ -254,11 +267,35 @@ namespace WinAppProyectoFinal.Forms
         {
             juego.PicImages.reproducirAudio((PictureBox)sender);
         }
+        #endregion
 
         private void picCanvas1_MouseUp(object sender, MouseEventArgs e)
         {
             picCanvas1.Visible = true;
         }
+
+        #region Control Volumen
+
+        private void btnUpVolume_Click(object sender, EventArgs e)
+        {
+            SendMessageW(this.Handle, WM_APPCOMMAND, this.Handle, (IntPtr)APPCOMMAND_VOLUMEN_UP);
+        }
+
+        private void btnDownVolume_Click(object sender, EventArgs e)
+        {
+            SendMessageW(this.Handle, WM_APPCOMMAND, this.Handle, (IntPtr)APPCOMMAND_VOLUMEN_DOWN);
+        }
+
+        private void btnDownVolume_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnDownVolume.Size = new Size(85,85);
+        }
+
+        private void btnUpVolume_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnUpVolume.Size = new Size(85,85);
+        }
+        #endregion
 
         private void timer1_Tick(object sender, EventArgs e)
         {
