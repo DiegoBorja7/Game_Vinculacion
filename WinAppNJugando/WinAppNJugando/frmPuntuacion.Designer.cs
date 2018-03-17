@@ -99,6 +99,7 @@
             this.Controls.Add(this.picFestejo);
             this.Controls.Add(this.btnRepeatGame);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPuntuacion";
             this.Text = "frmPuntuacion";
             this.Load += new System.EventHandler(this.frmPuntuacion_Load);

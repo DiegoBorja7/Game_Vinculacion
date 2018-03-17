@@ -602,6 +602,7 @@
             this.Controls.Add(this.picBtnPlay);
             this.Controls.Add(this.grbClock);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Regianimal";
             this.Text = "RegiAnimal";

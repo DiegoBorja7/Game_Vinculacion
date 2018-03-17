@@ -45,26 +45,28 @@
             // 
             this.picMedio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picMedio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picMedio.Location = new System.Drawing.Point(125, 115);
+            this.picMedio.Location = new System.Drawing.Point(50, 115);
             this.picMedio.Name = "picMedio";
-            this.picMedio.Size = new System.Drawing.Size(150, 150);
+            this.picMedio.Size = new System.Drawing.Size(200, 200);
             this.picMedio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picMedio.TabIndex = 2;
             this.picMedio.TabStop = false;
             this.picMedio.Click += new System.EventHandler(this.picMedio_Click);
+            this.picMedio.MouseEnter += new System.EventHandler(this.picMedio_MouseEnter);
             this.picMedio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picMedio_MouseMove);
             // 
             // picDificil
             // 
             this.picDificil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picDificil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picDificil.Location = new System.Drawing.Point(525, 115);
+            this.picDificil.Location = new System.Drawing.Point(555, 115);
             this.picDificil.Name = "picDificil";
-            this.picDificil.Size = new System.Drawing.Size(150, 150);
+            this.picDificil.Size = new System.Drawing.Size(200, 200);
             this.picDificil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picDificil.TabIndex = 3;
             this.picDificil.TabStop = false;
             this.picDificil.Click += new System.EventHandler(this.picDificil_Click);
+            this.picDificil.MouseEnter += new System.EventHandler(this.picDificil_MouseEnter);
             this.picDificil.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picDificil_MouseMove);
             // 
             // picFacil
@@ -72,13 +74,14 @@
             this.picFacil.BackColor = System.Drawing.SystemColors.Control;
             this.picFacil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picFacil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picFacil.Location = new System.Drawing.Point(275, 233);
+            this.picFacil.Location = new System.Drawing.Point(300, 265);
             this.picFacil.Name = "picFacil";
-            this.picFacil.Size = new System.Drawing.Size(250, 250);
+            this.picFacil.Size = new System.Drawing.Size(200, 200);
             this.picFacil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picFacil.TabIndex = 4;
             this.picFacil.TabStop = false;
             this.picFacil.Click += new System.EventHandler(this.picFacil_Click);
+            this.picFacil.MouseEnter += new System.EventHandler(this.picFacil_MouseEnter);
             this.picFacil.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picFacil_MouseMove);
             // 
             // btnReturnGame
@@ -121,10 +124,14 @@
             this.Controls.Add(this.picFacil);
             this.Controls.Add(this.picDificil);
             this.Controls.Add(this.picMedio);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMenuLevel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMenuLevel";
             this.Load += new System.EventHandler(this.frmMenuLevel_Load);
+            this.MouseEnter += new System.EventHandler(this.frmMenuLevel_MouseEnter);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmMenuLevel_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.picMedio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDificil)).EndInit();

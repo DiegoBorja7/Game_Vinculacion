@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
 using System.IO;
 using System.Media;
 using WinAppProyectoFinal.Clases;
@@ -69,57 +63,17 @@ namespace WinAppProyectoFinal.Forms
 
         private void picFacil_MouseMove(object sender, MouseEventArgs e)
         {
-            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\facil.wav");
-            try
-            {
-                player.Play();
             
-            picFacil.Size = new Size(265, 265);
-            picFacil.Location = new Point(275, 233);
-
-            picMedio.Size = new Size(140, 140);
-            picMedio.Location = new Point(125, 115);
-            picDificil.Size = new Size(140, 140);
-            picDificil.Location = new Point(525, 115);
-            }
-            catch { }
         }
 
         private void picMedio_MouseMove(object sender, MouseEventArgs e)
         {
-            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\medio.wav");
-            try
-            {
-                player.Play();
             
-            picMedio.Size = new Size(265, 265);
-            picMedio.Location = new Point(75, 115);
-
-            picFacil.Size = new Size(140, 140);
-            picFacil.Location = new Point(325, 233);
-            picDificil.Size = new Size(140, 140);
-            picDificil.Location = new Point(525, 115);
-
-            }
-            catch { }
         }
 
         private void picDificil_MouseMove(object sender, MouseEventArgs e)
         {
-            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\dificil.wav");
-            try
-            {
-                player.Play();
-
-            picDificil.Size = new Size(265, 265);
-            picDificil.Location = new Point(475, 115);
-
-            picFacil.Size = new Size(140, 140);
-            picFacil.Location = new Point(325, 233);
-            picMedio.Size = new Size(140, 140);
-            picMedio.Location = new Point(125, 115);
-            }
-            catch { }
+            
 
         }
 
@@ -144,6 +98,70 @@ namespace WinAppProyectoFinal.Forms
             this.Close();
             ObjForm.StartPosition = FormStartPosition.CenterScreen;
             ObjForm.Show();
+        }
+
+        private void picMedio_MouseEnter(object sender, EventArgs e)
+        {
+            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\medio.wav");
+            try
+            {
+                player.Play();
+
+                picMedio.Size = new Size(250, 250);
+                picMedio.Location = new Point(25, 100);
+
+                picFacil.Size = new Size(180, 180);
+                picFacil.Location = new Point(310, 275);
+                picDificil.Size = new Size(180, 180);
+                picDificil.Location = new Point(565, 125);
+            }
+            catch { }
+        }
+
+        private void picFacil_MouseEnter(object sender, EventArgs e)
+        {
+            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\facil.wav");
+            try
+            {
+                player.Play();
+
+                picFacil.Size = new Size(250, 250);
+                picFacil.Location = new Point(275, 250);
+
+                picMedio.Size = new Size(180, 180);
+                picMedio.Location = new Point(60, 125);
+                picDificil.Size = new Size(180, 180);
+                picDificil.Location = new Point(565, 125);
+            }
+            catch { }
+        }
+
+        private void picDificil_MouseEnter(object sender, EventArgs e)
+        {
+            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\dificil.wav");
+            try
+            {
+                player.Play();
+
+                picDificil.Size = new Size(250, 250);
+                picDificil.Location = new Point(525, 100);
+
+                picFacil.Size = new Size(180, 180);
+                picFacil.Location = new Point(310, 275);
+                picMedio.Size = new Size(180, 180);
+                picMedio.Location = new Point(60, 125);
+            }
+            catch { }
+        }
+
+        private void frmMenuLevel_MouseEnter(object sender, EventArgs e)
+        {
+            picFacil.Size = new Size(200, 200);
+            picFacil.Location = new Point(300, 265);
+            picMedio.Size = new Size(200, 200);
+            picMedio.Location = new Point(50, 115);
+            picDificil.Size = new Size(200, 200);
+            picDificil.Location = new Point(555, 115);
         }
     }
 }

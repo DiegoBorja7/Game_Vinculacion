@@ -54,7 +54,7 @@
             // 
             // lblResult
             // 
-            this.lblResult.Font = new System.Drawing.Font("Oswald", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResult.Location = new System.Drawing.Point(12, 11);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(395, 44);
@@ -66,7 +66,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(425, 399);
+            this.ClientSize = new System.Drawing.Size(425, 400);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.picResult);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

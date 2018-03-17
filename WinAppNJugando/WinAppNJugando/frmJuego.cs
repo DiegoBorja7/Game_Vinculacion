@@ -1,17 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
 using System.Windows.Forms;
-using System.IO;
-using WinAppProyectoFinal.Clases;
-using System.Media;
 using System.Runtime.InteropServices;
+using WinAppProyectoFinal.Clases;
+using WinAppNiñitosEnAccion;
 
 namespace WinAppProyectoFinal.Forms
 {
@@ -183,17 +176,18 @@ namespace WinAppProyectoFinal.Forms
         #region clic buttons
         private void btnHomeGame_Click(object sender, EventArgs e)
         {
-            frmMenuPrincipal objfrm = new frmMenuPrincipal();
-            Close();
-            objfrm.Visible = true;
+            new frmSelectGame().Show();
+            Hide();
+            timeJuego.Enabled = false;
         }
 
         private void btnReturnGame_Click(object sender, EventArgs e)
         {
-            frmMenuLevel objfrm = new Forms.frmMenuLevel();
+            frmMenuLevel objfrm = new frmMenuLevel();
             objfrm.StartPosition = FormStartPosition.CenterScreen;
             objfrm.Show();
-            this.Close();
+            Close();
+            timeJuego.Enabled = false;
         }
         #endregion
 
@@ -232,7 +226,7 @@ namespace WinAppProyectoFinal.Forms
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            frmInstrucciones objfrm = new Forms.frmInstrucciones();
+            frmInstrucciones objfrm = new frmInstrucciones();
             objfrm.StartPosition = FormStartPosition.CenterScreen;
             objfrm.ShowDialog();
         }
@@ -314,7 +308,7 @@ namespace WinAppProyectoFinal.Forms
         {
             Image image1 = null;
             picTime.Image = image1;
-            frmFinTime objfrm = new Forms.frmFinTime(this);
+            frmFinTime objfrm = new frmFinTime(this);
             objfrm.StartPosition = FormStartPosition.CenterScreen;
             objfrm.Show();
 
