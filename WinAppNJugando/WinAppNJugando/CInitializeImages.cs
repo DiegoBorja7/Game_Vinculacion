@@ -20,7 +20,7 @@ namespace RegiAnimal
         private Bitmap myBitmap1;
         private Bitmap myBitmap2;
 
-        private string[] ecuadorianAnimal = new string[] {"OsoHormigueroCosta","CangrejoCosta","GaviotaCosta","LangostaCosta","CaimanCosta",
+        private string[] ecuadorianAnimal = new string[] {"OsoHormigueroCosta","CangrejoCosta","GaviotaCosta","LangostaCosta","JaguarCosta",
                                                           "DelfinGalapagos","PinguinoGalapagos","TiburonGalapagos","TortugaGalapagos","BallenaGalapagos",
                                                           "MonoOriente","OsoPerezosoOriente","RanaOriente","SerpienteOriente","DelfinOriente",
                                                           "CondorSierra","ConejoSierra","PatoSierra","RatonSierra","ZorroSierra"};
