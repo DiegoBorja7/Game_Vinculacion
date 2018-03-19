@@ -39,10 +39,6 @@ namespace WinAppProyectoFinal.Clases
             }
         }
 
-        /*
-        public List<PictureBox> Destinos { get => Destinos; set => Destinos = value; }
-        public int Indice { get => indice; set => indice = value; }*/
-
 
 
         public CDestino(List<PictureBox> destinos)

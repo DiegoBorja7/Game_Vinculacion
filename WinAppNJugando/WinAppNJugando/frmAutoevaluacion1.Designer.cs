@@ -49,6 +49,7 @@
             this.picSala = new System.Windows.Forms.PictureBox();
             this.picCocina = new System.Windows.Forms.PictureBox();
             this.picBtnAudioHelp = new System.Windows.Forms.PictureBox();
+            this.Sound = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).BeginInit();
@@ -285,8 +286,15 @@
             this.picBtnAudioHelp.Size = new System.Drawing.Size(75, 75);
             this.picBtnAudioHelp.TabIndex = 21;
             this.picBtnAudioHelp.TabStop = false;
+            this.toolTip1.SetToolTip(this.picBtnAudioHelp, "Instrucción");
             this.picBtnAudioHelp.Click += new System.EventHandler(this.picBtnAudioHelp_Click);
             this.picBtnAudioHelp.MouseEnter += new System.EventHandler(this.picBtnAudioHelp_MouseEnter);
+            // 
+            // Sound
+            // 
+            this.Sound.Enabled = true;
+            this.Sound.Interval = 1000;
+            this.Sound.Tick += new System.EventHandler(this.Sound_Tick);
             // 
             // frmAutoevaluacion1
             // 
@@ -340,6 +348,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picCocina)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -363,5 +372,6 @@
         private System.Windows.Forms.PictureBox picSala;
         private System.Windows.Forms.PictureBox picCocina;
         private System.Windows.Forms.PictureBox picBtnAudioHelp;
+        private System.Windows.Forms.Timer Sound;
     }
 }

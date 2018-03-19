@@ -54,7 +54,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(212)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(265, 232);
             this.Controls.Add(this.picError);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

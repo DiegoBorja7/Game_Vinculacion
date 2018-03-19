@@ -525,7 +525,6 @@ C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion 
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
@@ -634,3 +633,5 @@ C:\Users\jhony\Desktop\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\
 C:\Users\jhony\Desktop\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CopyComplete
 C:\Users\jhony\Desktop\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
 C:\Users\jhony\Desktop\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CopyComplete
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache

@@ -45,44 +45,44 @@
             // 
             this.picMedio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picMedio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picMedio.Location = new System.Drawing.Point(50, 115);
+            this.picMedio.Location = new System.Drawing.Point(125, 115);
             this.picMedio.Name = "picMedio";
-            this.picMedio.Size = new System.Drawing.Size(200, 200);
+            this.picMedio.Size = new System.Drawing.Size(150, 150);
             this.picMedio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picMedio.TabIndex = 2;
             this.picMedio.TabStop = false;
+            this.picMedio.Tag = "Medio";
             this.picMedio.Click += new System.EventHandler(this.picMedio_Click);
-            this.picMedio.MouseEnter += new System.EventHandler(this.picMedio_MouseEnter);
-            this.picMedio.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picMedio_MouseMove);
+            this.picMedio.MouseHover += new System.EventHandler(this.picMedio_MouseHover);
             // 
             // picDificil
             // 
             this.picDificil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picDificil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picDificil.Location = new System.Drawing.Point(555, 115);
+            this.picDificil.Location = new System.Drawing.Point(525, 115);
             this.picDificil.Name = "picDificil";
-            this.picDificil.Size = new System.Drawing.Size(200, 200);
+            this.picDificil.Size = new System.Drawing.Size(150, 150);
             this.picDificil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picDificil.TabIndex = 3;
             this.picDificil.TabStop = false;
+            this.picDificil.Tag = "Dificil";
             this.picDificil.Click += new System.EventHandler(this.picDificil_Click);
-            this.picDificil.MouseEnter += new System.EventHandler(this.picDificil_MouseEnter);
-            this.picDificil.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picDificil_MouseMove);
+            this.picDificil.MouseHover += new System.EventHandler(this.picDificil_MouseHover);
             // 
             // picFacil
             // 
             this.picFacil.BackColor = System.Drawing.SystemColors.Control;
             this.picFacil.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picFacil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picFacil.Location = new System.Drawing.Point(300, 265);
+            this.picFacil.Location = new System.Drawing.Point(275, 233);
             this.picFacil.Name = "picFacil";
-            this.picFacil.Size = new System.Drawing.Size(200, 200);
+            this.picFacil.Size = new System.Drawing.Size(250, 250);
             this.picFacil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picFacil.TabIndex = 4;
             this.picFacil.TabStop = false;
+            this.picFacil.Tag = "Facil";
             this.picFacil.Click += new System.EventHandler(this.picFacil_Click);
-            this.picFacil.MouseEnter += new System.EventHandler(this.picFacil_MouseEnter);
-            this.picFacil.MouseMove += new System.Windows.Forms.MouseEventHandler(this.picFacil_MouseMove);
+            this.picFacil.MouseHover += new System.EventHandler(this.picFacil_MouseHover);
             // 
             // btnReturnGame
             // 
@@ -95,7 +95,9 @@
             this.btnReturnGame.Size = new System.Drawing.Size(74, 74);
             this.btnReturnGame.TabIndex = 7;
             this.btnReturnGame.TabStop = false;
+            this.btnReturnGame.Tag = "Regresar";
             this.btnReturnGame.Click += new System.EventHandler(this.btnReturnGame_Click_1);
+            this.btnReturnGame.MouseHover += new System.EventHandler(this.btnReturnGame_MouseHover);
             this.btnReturnGame.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnReturnGame_MouseMove);
             // 
             // btnHelp
@@ -109,6 +111,7 @@
             this.btnHelp.Size = new System.Drawing.Size(74, 74);
             this.btnHelp.TabIndex = 8;
             this.btnHelp.TabStop = false;
+            this.btnHelp.Tag = "Ayuda";
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             this.btnHelp.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnHelp_MouseMove);
             // 
@@ -128,10 +131,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMenuLevel";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMenuLevel";
             this.Load += new System.EventHandler(this.frmMenuLevel_Load);
-            this.MouseEnter += new System.EventHandler(this.frmMenuLevel_MouseEnter);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmMenuLevel_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.picMedio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDificil)).EndInit();

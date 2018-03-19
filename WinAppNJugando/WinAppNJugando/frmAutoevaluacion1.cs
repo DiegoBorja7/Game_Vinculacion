@@ -27,7 +27,7 @@ namespace WinAppNiñitosEnAccion
             InsertarDatosLista();
             ObjInitialize.CosasdelaCasa(ListaPictureBoxObjetos);
             ObjInitialize.AllowDropAll(ListaPictureBoxLugares);
-            ObjInstruction.playSound("Introduccion1");
+            ObjInstruction.playSound("Autoevaluacion1");
         }
 
         //Insertar todos los PictureBox en una lista.
@@ -51,12 +51,14 @@ namespace WinAppNiñitosEnAccion
 
         private void picHome_Click(object sender, EventArgs e)
         {
+            Sound.Enabled = false;
             frmAlerta ObjFormulario = new frmAlerta();
             ObjFormulario.ShowDialog(this);
         }
 
         private void picNext_Click(object sender, EventArgs e)
         {
+            Sound.Enabled = false;
             frmAutoevaluacion2 ObjFormulario = new frmAutoevaluacion2();
             ObjFormulario.Show();
             Hide();
@@ -65,7 +67,14 @@ namespace WinAppNiñitosEnAccion
         private void picHelp_Click(object sender, EventArgs e)
         {
             ObjInstruction.Player.Stop();
+            Sound.Enabled = false;
             new frmHelpAutoevaluacion("Autoevaluacion1").ShowDialog();
+        }
+
+        private void Sound_Tick(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound("Autoevaluacion1");
+            Sound.Enabled = false;
         }
 
         private void picBtnAudioHelp_Click(object sender, EventArgs e)

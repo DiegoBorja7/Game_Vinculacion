@@ -13,12 +13,11 @@ namespace WinAppProyectoFinal.Forms
         List<PictureBox> pictures;
         CMenuLevel menuLevel;
         frmJuego ObjForm;
-        SoundPlayer player;
 
         public frmMenuLevel()
         {
             InitializeComponent();
-
+            this.DoubleBuffered = true;
             pictures = new List<PictureBox>();
             menuLevel = new CMenuLevel();
             ObjForm = new frmJuego();
@@ -40,7 +39,7 @@ namespace WinAppProyectoFinal.Forms
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            frmInstrucciones objfrm = new Forms.frmInstrucciones("Haz clic sobre el nivel que quieras jugar");
+            frmInstrucciones objfrm = new frmInstrucciones("Haz clic sobre el nivel que quieras jugar");
             objfrm.StartPosition = FormStartPosition.CenterScreen;
             objfrm.ShowDialog();
         }
@@ -61,22 +60,6 @@ namespace WinAppProyectoFinal.Forms
             btnHelp.Size = new Size(74, 74);
         }
 
-        private void picFacil_MouseMove(object sender, MouseEventArgs e)
-        {
-            
-        }
-
-        private void picMedio_MouseMove(object sender, MouseEventArgs e)
-        {
-            
-        }
-
-        private void picDificil_MouseMove(object sender, MouseEventArgs e)
-        {
-            
-
-        }
-
         private void picFacil_Click(object sender, EventArgs e)
         {
             iniciarGame(1);
@@ -95,73 +78,34 @@ namespace WinAppProyectoFinal.Forms
         public void iniciarGame(int Leve)
         {
             ObjForm = new frmJuego(Leve);
-            this.Close();
+            Close();
             ObjForm.StartPosition = FormStartPosition.CenterScreen;
             ObjForm.Show();
         }
 
-        private void picMedio_MouseEnter(object sender, EventArgs e)
+        private void picMedio_MouseHover(object sender, EventArgs e)
         {
-            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\medio.wav");
+            menuLevel.ImgSeleccion(picMedio, "medio");
+        }
+
+        private void picDificil_MouseHover(object sender, EventArgs e)
+        {
+            menuLevel.ImgSeleccion(picDificil, "dificil");
+        }
+
+        private void picFacil_MouseHover(object sender, EventArgs e)
+        {
+            menuLevel.ImgSeleccion(picFacil, "facil");
+        }
+
+        private void btnReturnGame_MouseHover(object sender, EventArgs e)
+        {
+            SoundPlayer player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\regresar.wav");
             try
             {
                 player.Play();
-
-                picMedio.Size = new Size(250, 250);
-                picMedio.Location = new Point(25, 100);
-
-                picFacil.Size = new Size(180, 180);
-                picFacil.Location = new Point(310, 275);
-                picDificil.Size = new Size(180, 180);
-                picDificil.Location = new Point(565, 125);
             }
             catch { }
-        }
-
-        private void picFacil_MouseEnter(object sender, EventArgs e)
-        {
-            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\facil.wav");
-            try
-            {
-                player.Play();
-
-                picFacil.Size = new Size(250, 250);
-                picFacil.Location = new Point(275, 250);
-
-                picMedio.Size = new Size(180, 180);
-                picMedio.Location = new Point(60, 125);
-                picDificil.Size = new Size(180, 180);
-                picDificil.Location = new Point(565, 125);
-            }
-            catch { }
-        }
-
-        private void picDificil_MouseEnter(object sender, EventArgs e)
-        {
-            player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\dificil.wav");
-            try
-            {
-                player.Play();
-
-                picDificil.Size = new Size(250, 250);
-                picDificil.Location = new Point(525, 100);
-
-                picFacil.Size = new Size(180, 180);
-                picFacil.Location = new Point(310, 275);
-                picMedio.Size = new Size(180, 180);
-                picMedio.Location = new Point(60, 125);
-            }
-            catch { }
-        }
-
-        private void frmMenuLevel_MouseEnter(object sender, EventArgs e)
-        {
-            picFacil.Size = new Size(200, 200);
-            picFacil.Location = new Point(300, 265);
-            picMedio.Size = new Size(200, 200);
-            picMedio.Location = new Point(50, 115);
-            picDificil.Size = new Size(200, 200);
-            picDificil.Location = new Point(555, 115);
         }
     }
 }

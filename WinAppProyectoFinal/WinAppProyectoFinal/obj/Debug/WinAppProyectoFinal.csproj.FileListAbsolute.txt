@@ -113,3 +113,4 @@ C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion 
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppProyectoFinal\WinAppProyectoFinal\obj\Debug\WinAppProyectoFinal.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppProyectoFinal\WinAppProyectoFinal\obj\Debug\WinAppProyectoFinal.exe
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppProyectoFinal\WinAppProyectoFinal\obj\Debug\WinAppProyectoFinal.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppProyectoFinal\WinAppProyectoFinal\obj\Debug\WinAppProyectoFinal.csproj.CopyComplete

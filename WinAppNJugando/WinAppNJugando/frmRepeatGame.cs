@@ -20,19 +20,13 @@ namespace WinAppProyectoFinal.Forms
             frm.Enabled = false;
         }
 
-        private void frmRepeatGame_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnRepeatGame_Click(object sender, EventArgs e)
         {
             frmMenuLevel objfrm = new frmMenuLevel();
+            objfrm.StartPosition = FormStartPosition.CenterScreen;
+            objfrm.ShowDialog();
             Close();
             frm.Close();
-
-            objfrm.StartPosition = FormStartPosition.CenterScreen;
-            objfrm.Show();
         }
 
         private void btnRepeatGame_MouseMove(object sender, MouseEventArgs e)

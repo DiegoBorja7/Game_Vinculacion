@@ -48,9 +48,13 @@ namespace WinAppProyectoFinal.Forms
 
         private void tmrError_Tick(object sender, EventArgs e)
         {
-            try { tmrError.Stop(); }
+            try
+            {
+                tmrError.Stop();
+            }
             catch { }
-            Dispose();
+
+            this.Dispose();
         }
     }
 }

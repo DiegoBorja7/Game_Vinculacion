@@ -34,6 +34,7 @@
             this.picNext = new System.Windows.Forms.PictureBox();
             this.picHome = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.picBtnAudioHelp = new System.Windows.Forms.PictureBox();
             this.picVowel = new System.Windows.Forms.PictureBox();
             this.picImage1 = new System.Windows.Forms.PictureBox();
             this.picImage2 = new System.Windows.Forms.PictureBox();
@@ -44,11 +45,11 @@
             this.picImage8 = new System.Windows.Forms.PictureBox();
             this.picImage9 = new System.Windows.Forms.PictureBox();
             this.picImage6 = new System.Windows.Forms.PictureBox();
-            this.picBtnAudioHelp = new System.Windows.Forms.PictureBox();
             this.Timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVowel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage2)).BeginInit();
@@ -59,7 +60,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picImage8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // picHelp
@@ -103,6 +103,20 @@
             this.toolTip1.SetToolTip(this.picHome, "Elección del Juego");
             this.picHome.Click += new System.EventHandler(this.picHome_Click);
             this.picHome.MouseEnter += new System.EventHandler(this.picHome_MouseEnter);
+            // 
+            // picBtnAudioHelp
+            // 
+            this.picBtnAudioHelp.BackColor = System.Drawing.Color.Transparent;
+            this.picBtnAudioHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBtnAudioHelp.BackgroundImage")));
+            this.picBtnAudioHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBtnAudioHelp.Location = new System.Drawing.Point(10, 10);
+            this.picBtnAudioHelp.Name = "picBtnAudioHelp";
+            this.picBtnAudioHelp.Size = new System.Drawing.Size(75, 75);
+            this.picBtnAudioHelp.TabIndex = 28;
+            this.picBtnAudioHelp.TabStop = false;
+            this.toolTip1.SetToolTip(this.picBtnAudioHelp, "Instrucción");
+            this.picBtnAudioHelp.Click += new System.EventHandler(this.picBtnAudioHelp_Click);
+            this.picBtnAudioHelp.MouseEnter += new System.EventHandler(this.picBtnAudioHelp_MouseEnter);
             // 
             // picVowel
             // 
@@ -222,23 +236,10 @@
             this.picImage6.MouseEnter += new System.EventHandler(this.picImage6_MouseEnter);
             this.picImage6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picImage6_MouseUp);
             // 
-            // picBtnAudioHelp
-            // 
-            this.picBtnAudioHelp.BackColor = System.Drawing.Color.Transparent;
-            this.picBtnAudioHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBtnAudioHelp.BackgroundImage")));
-            this.picBtnAudioHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBtnAudioHelp.Location = new System.Drawing.Point(10, 10);
-            this.picBtnAudioHelp.Name = "picBtnAudioHelp";
-            this.picBtnAudioHelp.Size = new System.Drawing.Size(75, 75);
-            this.picBtnAudioHelp.TabIndex = 28;
-            this.picBtnAudioHelp.TabStop = false;
-            this.picBtnAudioHelp.Click += new System.EventHandler(this.picBtnAudioHelp_Click);
-            this.picBtnAudioHelp.MouseEnter += new System.EventHandler(this.picBtnAudioHelp_MouseEnter);
-            // 
             // Timer
             // 
             this.Timer.Enabled = true;
-            this.Timer.Interval = 4500;
+            this.Timer.Interval = 4000;
             this.Timer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmAutoevaluacion3
@@ -272,6 +273,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVowel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage2)).EndInit();
@@ -282,7 +284,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picImage8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).EndInit();
             this.ResumeLayout(false);
 
         }

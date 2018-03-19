@@ -59,6 +59,7 @@
             this.Text = "Ayuda";
             this.TransparencyKey = System.Drawing.Color.Transparent;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmHelpAutoevaluacion_FormClosed);
+            this.MouseEnter += new System.EventHandler(this.frmHelpAutoevaluacion_MouseEnter);
             ((System.ComponentModel.ISupportInitialize)(this.HelpVideo)).EndInit();
             this.ResumeLayout(false);
 

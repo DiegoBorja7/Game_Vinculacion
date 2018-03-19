@@ -35,18 +35,21 @@ namespace WinAppProyectoFinal.Forms
 
         private void timeEnd_Tick(object sender, EventArgs e)
         {
-            try{endTime();}
-            catch { }
-            this.Dispose();
+            try{
+                endTime();
+                timeEnd.Enabled = false;
+            }
+            catch { }           
         }
 
         public void endTime()
         {
-            timeEnd.Stop();
+            
+            Dispose();
             frmRepeatGame objfrm = new frmRepeatGame(frm);
-            this.Dispose();
             objfrm.StartPosition = FormStartPosition.CenterScreen;
             objfrm.Show();
+            
         }
 
     }

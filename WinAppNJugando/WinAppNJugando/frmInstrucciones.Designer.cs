@@ -74,6 +74,7 @@
             this.lblButtonJugarAyuda.Size = new System.Drawing.Size(214, 68);
             this.lblButtonJugarAyuda.TabIndex = 8;
             this.lblButtonJugarAyuda.Click += new System.EventHandler(this.lblButtonJugarAyuda_Click);
+            this.lblButtonJugarAyuda.MouseHover += new System.EventHandler(this.lblButtonJugarAyuda_MouseHover);
             // 
             // frmInstrucciones
             // 
@@ -93,7 +94,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmInstrucciones";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmInstrucciones";
             this.Load += new System.EventHandler(this.frmInstrucciones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picMouse)).EndInit();

@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
+using System.IO;
 using WinAppProyectoFinal.Clases;
+using System.Media;
+using System.Runtime.InteropServices;
 using WinAppNiñitosEnAccion;
 
 namespace WinAppProyectoFinal.Forms
@@ -92,6 +94,7 @@ namespace WinAppProyectoFinal.Forms
         private void frmJuego_Load(object sender, EventArgs e)
         { 
             juego.mostrarImagenes();
+            this.DoubleBuffered = true;
         }
 
         #region DESPLAZAMIENTO
@@ -226,8 +229,9 @@ namespace WinAppProyectoFinal.Forms
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            frmInstrucciones objfrm = new frmInstrucciones();
+            frmInstrucciones objfrm = new Forms.frmInstrucciones();
             objfrm.StartPosition = FormStartPosition.CenterScreen;
+            objfrm.obtenerTimer(this.timeJuego);
             objfrm.ShowDialog();
         }
 
@@ -291,6 +295,16 @@ namespace WinAppProyectoFinal.Forms
         }
         #endregion
 
+        private void btnReturnGame_MouseHover(object sender, EventArgs e)
+        {
+            SoundPlayer player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\regresar.wav");
+            try
+            {
+                player.Play();
+            }
+            catch { }
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (contador > 0)
@@ -311,6 +325,7 @@ namespace WinAppProyectoFinal.Forms
             frmFinTime objfrm = new frmFinTime(this);
             objfrm.StartPosition = FormStartPosition.CenterScreen;
             objfrm.Show();
+            Hide();
 
             timeJuego.Enabled = false;
         }

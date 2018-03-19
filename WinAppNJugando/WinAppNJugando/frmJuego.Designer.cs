@@ -294,6 +294,7 @@
             this.btnReturnGame.TabIndex = 23;
             this.btnReturnGame.TabStop = false;
             this.btnReturnGame.Click += new System.EventHandler(this.btnReturnGame_Click);
+            this.btnReturnGame.MouseHover += new System.EventHandler(this.btnReturnGame_MouseHover);
             this.btnReturnGame.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnReturnGame_MouseMove);
             // 
             // btnHelp

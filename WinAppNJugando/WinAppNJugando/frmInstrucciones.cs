@@ -16,6 +16,7 @@ namespace WinAppProyectoFinal.Forms
     {
         string instruction;
         SoundPlayer player;
+        Timer timer;
 
         public frmInstrucciones()
         {
@@ -43,6 +44,14 @@ namespace WinAppProyectoFinal.Forms
 
         private void lblButtonJugarAyuda_Click(object sender, EventArgs e)
         {
+            if (instruction == "Haz clic sobre el objeto y arrastralo hacia la casa o escuela donde tu creas que sea correcto")
+            {
+                try
+                {
+                    timer.Start();
+                }
+                catch { }
+            }
             Close();
         }
 
@@ -51,5 +60,23 @@ namespace WinAppProyectoFinal.Forms
             lblInstructions.Text = instruction;
         }
 
+        private void lblButtonJugarAyuda_MouseHover(object sender, EventArgs e)
+        {
+            if(instruction == "Haz clic sobre el objeto y arrastralo hacia la casa o escuela donde tu creas que sea correcto")
+            {
+                SoundPlayer player = new SoundPlayer(Directory.GetCurrentDirectory() + "\\Resources\\audios\\jugar.wav");
+                try
+                {
+                    player.Play();
+                }
+                catch { }
+            }
+        }
+
+        public void obtenerTimer(Timer tim)
+        {
+            timer = tim;
+            timer.Stop();
+        }
     }
 }

@@ -65,10 +65,6 @@ namespace WinAppProyectoFinal.Clases
             }
         }
 
-
-
-        //internal CPictures PicImages { get => picImages; set => picImages = value; }
-
         public CJuego(List<PictureBox> Pictures)
         {
             PicImages = new CPictures(Pictures);

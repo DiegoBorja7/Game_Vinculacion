@@ -15,7 +15,6 @@ namespace WinAppProyectoFinal.Clases
         private PictureBox picAux;
         private CDestino destinoCasa, destinoEscuela;
 
-
         public List<PictureBox> MImages
         {
             get

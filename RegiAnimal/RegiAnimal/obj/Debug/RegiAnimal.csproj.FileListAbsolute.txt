@@ -315,3 +315,4 @@ C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion 
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.exe
 C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\RegiAnimal\RegiAnimal\obj\Debug\RegiAnimal.csproj.CopyComplete

@@ -89,7 +89,7 @@ namespace WinAppNiñitosEnAccion
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            ObjInstruction.playSound("Clic");
+            ObjInstruction.playSound(vocal);
             Timer.Enabled = false;
         }
 

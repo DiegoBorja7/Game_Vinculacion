@@ -345,6 +345,7 @@
             this.picBtnAudioHelp.Size = new System.Drawing.Size(75, 75);
             this.picBtnAudioHelp.TabIndex = 27;
             this.picBtnAudioHelp.TabStop = false;
+            this.toolTip1.SetToolTip(this.picBtnAudioHelp, "Instrucción");
             this.picBtnAudioHelp.Click += new System.EventHandler(this.picBtnAudioHelp_Click);
             this.picBtnAudioHelp.MouseEnter += new System.EventHandler(this.picBtnAudioHelp_MouseEnter);
             // 

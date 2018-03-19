@@ -56,12 +56,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(184)))), ((int)(((byte)(154)))));
             this.ClientSize = new System.Drawing.Size(505, 423);
             this.ControlBox = false;
             this.Controls.Add(this.picImage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmFinTime";
             this.Text = "frmFinTime";
             this.Load += new System.EventHandler(this.frmFinTime_Load);

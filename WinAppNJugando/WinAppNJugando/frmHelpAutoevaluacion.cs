@@ -10,6 +10,8 @@ namespace WinAppNiñitosEnAccion
 {
     public partial class frmHelpAutoevaluacion : Form
     {
+        private CInitializeThings ObjInitialize = new CInitializeThings();
+
         public frmHelpAutoevaluacion(String Name)
         {
             InitializeComponent();
@@ -42,6 +44,11 @@ namespace WinAppNiñitosEnAccion
         private void frmHelpAutoevaluacion_FormClosed(object sender, FormClosedEventArgs e)
         {
             HelpVideo.Ctlcontrols.stop();
+        }
+
+        private void frmHelpAutoevaluacion_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Mouse(this, 1);
         }
     }
 }
