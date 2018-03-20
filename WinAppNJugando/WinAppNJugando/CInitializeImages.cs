@@ -20,20 +20,20 @@ namespace RegiAnimal
         private Bitmap myBitmap1;
         private Bitmap myBitmap2;
 
-        private string[] ecuadorianAnimal = new string[] {"OsoHormigueroCosta","CangrejoCosta","GaviotaCosta","LangostaCosta","JaguarCosta",
+        private string[] ecuadorianAnimal = new string[] {"OsoHormigueroCosta","CangrejoCosta","GaviotaCosta","LangostaCosta","LoroCosta",
                                                           "DelfinGalapagos","PinguinoGalapagos","TiburonGalapagos","TortugaGalapagos","BallenaGalapagos",
-                                                          "MonoOriente","OsoPerezosoOriente","RanaOriente","SerpienteOriente","DelfinOriente",
+                                                          "MonoOriente","OsoPerezosoOriente","RanaOriente","SerpienteOriente","JaguarOriente",
                                                           "CondorSierra","ConejoSierra","PatoSierra","RatonSierra","ZorroSierra"};
         private string[] button = new string[] { "play","home","refresh","nivel"};
 
         public void animalesCosta(PictureBox pic, PictureBox pic1)
         {
             Random random = new Random();
-            image1 = random.Next(5);
-            image2 = random.Next(5);
+            image1 = random.Next(4);
+            image2 = random.Next(4);
             while(image1==image2)
             {
-                image2 = random.Next(5);
+                image2 = random.Next(4);
             }
 
             myBitmap = new Bitmap(Application.StartupPath + @"/Costa/" + ecuadorianAnimal[image1] + ".png");
