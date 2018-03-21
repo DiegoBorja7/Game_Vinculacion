@@ -35,10 +35,12 @@
             this.picAutoevaluacion = new System.Windows.Forms.PictureBox();
             this.picRegiAnimalGame = new System.Windows.Forms.PictureBox();
             this.picTuCasaoTuEscuelaGame = new System.Windows.Forms.PictureBox();
+            this.SoundAutoevaluacion = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAutoevaluacion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picRegiAnimalGame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTuCasaoTuEscuelaGame)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoundAutoevaluacion)).BeginInit();
             this.SuspendLayout();
             // 
             // picExit
@@ -95,6 +97,16 @@
             this.picTuCasaoTuEscuelaGame.Click += new System.EventHandler(this.picTuCasaoTuEscuelaGame_Click);
             this.picTuCasaoTuEscuelaGame.MouseEnter += new System.EventHandler(this.picTuCasaoTuEscuelaGame_MouseEnter);
             // 
+            // SoundAutoevaluacion
+            // 
+            this.SoundAutoevaluacion.Enabled = true;
+            this.SoundAutoevaluacion.Location = new System.Drawing.Point(845, 661);
+            this.SoundAutoevaluacion.Name = "SoundAutoevaluacion";
+            this.SoundAutoevaluacion.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("SoundAutoevaluacion.OcxState")));
+            this.SoundAutoevaluacion.Size = new System.Drawing.Size(75, 23);
+            this.SoundAutoevaluacion.TabIndex = 9;
+            this.SoundAutoevaluacion.Visible = false;
+            // 
             // frmSelectGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -103,6 +115,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 720);
             this.ControlBox = false;
+            this.Controls.Add(this.SoundAutoevaluacion);
             this.Controls.Add(this.picTuCasaoTuEscuelaGame);
             this.Controls.Add(this.picRegiAnimalGame);
             this.Controls.Add(this.picAutoevaluacion);
@@ -118,7 +131,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picAutoevaluacion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picRegiAnimalGame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTuCasaoTuEscuelaGame)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SoundAutoevaluacion)).EndInit();
             this.ResumeLayout(false);
+
         }
         #endregion
 
@@ -127,5 +142,6 @@
         private System.Windows.Forms.PictureBox picAutoevaluacion;
         private System.Windows.Forms.PictureBox picRegiAnimalGame;
         private System.Windows.Forms.PictureBox picTuCasaoTuEscuelaGame;
+        private AxWMPLib.AxWindowsMediaPlayer SoundAutoevaluacion;
     }
 }

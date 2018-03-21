@@ -84,6 +84,25 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInstruction.playSound("Autoevaluacion4");
         }
+        private void picRegion1_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound(picRegion1.Name);
+        }
+
+        private void picRegion2_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound(picRegion2.Name);
+        }
+
+        private void picRegion3_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound(picRegion3.Name);
+        }
+
+        private void picRegion4_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.playSound(picRegion4.Name);
+        }
 
         #region Puntero Mouse
         private void frmAutoevaluacion4_MouseEnter(object sender, EventArgs e)

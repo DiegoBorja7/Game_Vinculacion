@@ -108,10 +108,12 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInitialize.Seleccionar(this, picHome);
         }
+
         private void picNext_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picNext);
         }
+
         private void picHelp_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picHelp);
@@ -120,51 +122,62 @@ namespace WinAppNiñitosEnAccion
         private void picImage1_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage1);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[0].Name);
+
         }
 
         private void picImage2_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage2);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[1].Name);
         }
 
         private void picImage3_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage3);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[2].Name);
         }
 
         private void picImage4_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage4);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[3].Name);
         }
 
         private void picImage5_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage5);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[4].Name);
         }
 
         private void picImage6_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage6);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[5].Name);
         }
 
         private void picImage7_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage7);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[6].Name);
         }
 
         private void picImage8_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage8);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[7].Name);
         }
 
         private void picImage9_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage9);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[8].Name);
         }
 
         private void picImage10_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picImage10);
+            ObjInstruction.playSound(ListaPictureBoxObjetos[9].Name);
         }
         #endregion
 

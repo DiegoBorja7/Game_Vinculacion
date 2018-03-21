@@ -61,6 +61,7 @@ namespace WinAppNiñitosEnAccion
             picExit.BorderStyle = BorderStyle.None;
             picTuCasaoTuEscuelaGame.BorderStyle = BorderStyle.None;
             picRegiAnimalGame.BorderStyle = BorderStyle.None;
+            picExit.BackColor = Color.Transparent;
         }
 
         private void picAutoevaluacion_MouseEnter(object sender, EventArgs e)
@@ -68,11 +69,14 @@ namespace WinAppNiñitosEnAccion
             Cursor = Cursors.Hand;
             picAutoevaluacion.Location = new Point(840, 520);
             picAutoevaluacion.Size = new Size(165, 145);
+            SoundAutoevaluacion.URL = Application.StartupPath + @"/Sound/Autoevaluacion.wav";
+            SoundAutoevaluacion.Ctlcontrols.play();
         }
 
         private void picExit_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picExit);
+            picExit.BackColor = Color.Bisque;
         }
 
         private void picTuCasaoTuEscuelaGame_MouseEnter(object sender, EventArgs e)

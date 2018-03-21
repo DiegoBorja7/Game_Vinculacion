@@ -674,3 +674,4 @@ C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Vinculacion\Game
 C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Vinculacion\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CopyComplete
 C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Vinculacion\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
 C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Vinculacion\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Usuario\OneDrive - Escuela Politécnica del Ejército\ESPE\Vinculacion Con La Sociedad\Game_Code\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmVideoCreditos.resources

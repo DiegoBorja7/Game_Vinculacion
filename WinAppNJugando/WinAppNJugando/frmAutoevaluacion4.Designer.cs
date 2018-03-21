@@ -34,6 +34,7 @@
             this.picHelp = new System.Windows.Forms.PictureBox();
             this.picNext = new System.Windows.Forms.PictureBox();
             this.picHome = new System.Windows.Forms.PictureBox();
+            this.picBtnAudioHelp = new System.Windows.Forms.PictureBox();
             this.picImage1 = new System.Windows.Forms.PictureBox();
             this.picImage5 = new System.Windows.Forms.PictureBox();
             this.picImage2 = new System.Windows.Forms.PictureBox();
@@ -51,10 +52,10 @@
             this.picResult2 = new System.Windows.Forms.PictureBox();
             this.picResult3 = new System.Windows.Forms.PictureBox();
             this.picResult4 = new System.Windows.Forms.PictureBox();
-            this.picBtnAudioHelp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage2)).BeginInit();
@@ -72,7 +73,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picResult2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResult3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResult4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // picHelp
@@ -116,6 +116,20 @@
             this.toolTip1.SetToolTip(this.picHome, "Elección del Juego");
             this.picHome.Click += new System.EventHandler(this.picHome_Click);
             this.picHome.MouseEnter += new System.EventHandler(this.picHome_MouseEnter);
+            // 
+            // picBtnAudioHelp
+            // 
+            this.picBtnAudioHelp.BackColor = System.Drawing.Color.Transparent;
+            this.picBtnAudioHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBtnAudioHelp.BackgroundImage")));
+            this.picBtnAudioHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBtnAudioHelp.Location = new System.Drawing.Point(10, 10);
+            this.picBtnAudioHelp.Name = "picBtnAudioHelp";
+            this.picBtnAudioHelp.Size = new System.Drawing.Size(75, 75);
+            this.picBtnAudioHelp.TabIndex = 30;
+            this.picBtnAudioHelp.TabStop = false;
+            this.toolTip1.SetToolTip(this.picBtnAudioHelp, "Instrucción");
+            this.picBtnAudioHelp.Click += new System.EventHandler(this.picBtnAudioHelp_Click);
+            this.picBtnAudioHelp.MouseEnter += new System.EventHandler(this.picBtnAudioHelp_MouseEnter);
             // 
             // picImage1
             // 
@@ -235,6 +249,7 @@
             this.picRegion1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRegion1.TabIndex = 22;
             this.picRegion1.TabStop = false;
+            this.picRegion1.Click += new System.EventHandler(this.picRegion1_Click);
             this.picRegion1.DragEnter += new System.Windows.Forms.DragEventHandler(this.picRegion1_DragEnter_1);
             // 
             // picRegion2
@@ -247,6 +262,7 @@
             this.picRegion2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRegion2.TabIndex = 23;
             this.picRegion2.TabStop = false;
+            this.picRegion2.Click += new System.EventHandler(this.picRegion2_Click);
             this.picRegion2.DragEnter += new System.Windows.Forms.DragEventHandler(this.picRegion2_DragEnter_1);
             // 
             // picRegion3
@@ -259,6 +275,7 @@
             this.picRegion3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRegion3.TabIndex = 24;
             this.picRegion3.TabStop = false;
+            this.picRegion3.Click += new System.EventHandler(this.picRegion3_Click);
             this.picRegion3.DragEnter += new System.Windows.Forms.DragEventHandler(this.picRegion3_DragEnter_1);
             // 
             // picRegion4
@@ -271,6 +288,7 @@
             this.picRegion4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRegion4.TabIndex = 25;
             this.picRegion4.TabStop = false;
+            this.picRegion4.Click += new System.EventHandler(this.picRegion4_Click);
             this.picRegion4.DragEnter += new System.Windows.Forms.DragEventHandler(this.picRegion4_DragEnter_1);
             // 
             // picResult1
@@ -317,20 +335,6 @@
             this.picResult4.TabStop = false;
             this.picResult4.Visible = false;
             // 
-            // picBtnAudioHelp
-            // 
-            this.picBtnAudioHelp.BackColor = System.Drawing.Color.Transparent;
-            this.picBtnAudioHelp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBtnAudioHelp.BackgroundImage")));
-            this.picBtnAudioHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBtnAudioHelp.Location = new System.Drawing.Point(10, 10);
-            this.picBtnAudioHelp.Name = "picBtnAudioHelp";
-            this.picBtnAudioHelp.Size = new System.Drawing.Size(75, 75);
-            this.picBtnAudioHelp.TabIndex = 30;
-            this.picBtnAudioHelp.TabStop = false;
-            this.toolTip1.SetToolTip(this.picBtnAudioHelp, "Instrucción");
-            this.picBtnAudioHelp.Click += new System.EventHandler(this.picBtnAudioHelp_Click);
-            this.picBtnAudioHelp.MouseEnter += new System.EventHandler(this.picBtnAudioHelp_MouseEnter);
-            // 
             // frmAutoevaluacion4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -369,6 +373,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picNext)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picImage2)).EndInit();
@@ -386,7 +391,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picResult2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResult3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResult4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBtnAudioHelp)).EndInit();
             this.ResumeLayout(false);
 
         }

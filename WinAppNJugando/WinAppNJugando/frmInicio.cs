@@ -37,20 +37,33 @@ namespace WinAppNiñitosEnAccion
         {
             Cursor = Cursors.Default;
             picBtnPlay.Size = new Size(335, 140); 
-            picBtnPlay.Location = new Point(480, 315);
+            picBtnPlay.Location = new Point(490, 310);
+            picVideo.BorderStyle = BorderStyle.None;
             picExit.BorderStyle = BorderStyle.None;
         }
 
         private void picBtnPlay_MouseEnter(object sender, EventArgs e)
         {
             Cursor = Cursors.Hand;
-            picBtnPlay.Location = new Point(470, 305);
+            picBtnPlay.Location = new Point(480, 300);
             picBtnPlay.Size = new Size(365, 170);
         }
 
         private void picExit_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picExit);
+        }
+
+        private void picVideo_MouseEnter(object sender, EventArgs e)
+        {
+            ObjInitialize.Seleccionar(this, picVideo);
+        }
+
+        private void picVideo_Click(object sender, EventArgs e)
+        {
+            ObjInstruction.Player.Stop();
+            new frmVideoCreditos().Show();
+            Hide();
         }
     }
 }
