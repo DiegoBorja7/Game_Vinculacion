@@ -95,6 +95,11 @@ namespace WinAppProyectoFinal.Forms
         { 
             juego.mostrarImagenes();
             this.DoubleBuffered = true;
+            // size
+            Cresize resize = new Cresize();
+            resize.Resolution(this);
+
+            resize.resizeEncasa(lienzo, casa, escuela);
         }
 
         #region DESPLAZAMIENTO

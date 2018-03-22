@@ -123,5 +123,32 @@ namespace WinAppNiñitosEnAccion
 
         }
 
+        public void resizeEncasa(List<PictureBox> lienzo, List<PictureBox> casa, List<PictureBox> escuela)
+        {
+
+            if ((NewResolutionH != ResolutionH) || (NewResolutionW != ResolutionW))
+            {
+                for (int k = 0; k < 6; k++)
+                {
+                    lienzo[k].Width = (int)(lienzo[k].Width * NewWidth);
+                    lienzo[k].Height = (int)(lienzo[k].Height * NewHeight);
+                }
+                for (int k = 0; k < 3; k++)
+                {
+                    casa[k].Width = (int)(casa[k].Width * NewWidth);
+                    casa[k].Height = (int)(casa[k].Height * NewHeight);
+                }
+                for (int k = 0; k < 3; k++)
+                {
+                    escuela[k].Width = (int)(escuela[k].Width * NewWidth);
+                    escuela[k].Height = (int)(escuela[k].Height * NewHeight);
+                }
+
+            }
+
+
+
+        }
+
     }
 }

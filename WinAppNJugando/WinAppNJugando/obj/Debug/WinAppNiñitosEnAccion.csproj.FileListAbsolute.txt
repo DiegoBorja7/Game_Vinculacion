@@ -715,3 +715,41 @@ C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Vinculacion\Nuev
 C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Vinculacion\Nueva carpeta\Game_Vinculacion\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
 C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Vinculacion\Nueva carpeta\Game_Vinculacion\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\jhony\Google Drive\Ing. Sistemas\3º semestre sistemas\Vinculacion\Nueva carpeta\Game_Vinculacion\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.CopyComplete
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe.config
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\Interop.WMPLib.dll
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.ResolveComReference.cache
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.exe
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNJugando.pdb
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.exe
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\bin\Debug\WinAppNJugando.pdb
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\bin\Debug\Control.Draggable.dll
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\bin\Debug\Interop.WMPLib.dll
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csprojResolveAssemblyReference.cache
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAlerta.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion1.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion2.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion3.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion4.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmAutoevaluacion5.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProyectoFinal.Forms.frmFinTime.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmHelp.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmHelpAutoevaluacion.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmInicio.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProyectoFinal.Forms.frmInstrucciones.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProyectoFinal.Forms.frmJuego.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmLevelSelection.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProyectoFinal.Forms.frmMensaje.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.frmMenu.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProyectoFinal.Forms.frmMenuLevel.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProyectoFinal.Forms.frmMenuPrincipal.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmMessageAutoevaluacion.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmPuntajeAutoevaluacion.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProyectoFinal.Forms.frmPuntuacion.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\RegiAnimal.Regianimal.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppProyectoFinal.Forms.frmRepeatGame.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmSelectGame.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.frmVideoCreditos.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.Properties.Resources.resources
+C:\Users\Kevin Taday\Source\Repos\Game_Vinculacion2\WinAppNJugando\WinAppNJugando\obj\Debug\WinAppNiñitosEnAccion.csproj.GenerateResource.Cache
