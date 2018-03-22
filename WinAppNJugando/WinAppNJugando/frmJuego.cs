@@ -96,7 +96,7 @@ namespace WinAppProyectoFinal.Forms
             juego.mostrarImagenes();
             this.DoubleBuffered = true;
             // size
-            Cresize resize = new Cresize();
+            CResize resize = new CResize();
             resize.Resolution(this);
 
             resize.resizeEncasa(lienzo, casa, escuela);

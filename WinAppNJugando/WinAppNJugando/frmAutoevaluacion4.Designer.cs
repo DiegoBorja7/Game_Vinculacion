@@ -113,7 +113,7 @@
             this.picHome.Size = new System.Drawing.Size(65, 50);
             this.picHome.TabIndex = 6;
             this.picHome.TabStop = false;
-            this.toolTip1.SetToolTip(this.picHome, "Elección del Juego");
+            this.toolTip1.SetToolTip(this.picHome, "Elección de Juego");
             this.picHome.Click += new System.EventHandler(this.picHome_Click);
             this.picHome.MouseEnter += new System.EventHandler(this.picHome_MouseEnter);
             // 
@@ -130,6 +130,7 @@
             this.toolTip1.SetToolTip(this.picBtnAudioHelp, "Instrucción");
             this.picBtnAudioHelp.Click += new System.EventHandler(this.picBtnAudioHelp_Click);
             this.picBtnAudioHelp.MouseEnter += new System.EventHandler(this.picBtnAudioHelp_MouseEnter);
+            this.picBtnAudioHelp.MouseLeave += new System.EventHandler(this.picBtnAudioHelp_MouseLeave);
             // 
             // picImage1
             // 

@@ -40,7 +40,7 @@
             this.HelpVideo.Location = new System.Drawing.Point(0, 0);
             this.HelpVideo.Name = "HelpVideo";
             this.HelpVideo.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("HelpVideo.OcxState")));
-            this.HelpVideo.Size = new System.Drawing.Size(784, 461);
+            this.HelpVideo.Size = new System.Drawing.Size(1008, 681);
             this.HelpVideo.TabIndex = 0;
             // 
             // frmHelpAutoevaluacion
@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.ClientSize = new System.Drawing.Size(1008, 681);
             this.Controls.Add(this.HelpVideo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

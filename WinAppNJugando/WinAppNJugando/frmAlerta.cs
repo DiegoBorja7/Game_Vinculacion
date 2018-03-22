@@ -12,10 +12,14 @@ namespace WinAppNiñitosEnAccion
     {
         private CInitializeThings ObjInitialize = new CInitializeThings();
         private CInstructions ObjInstruction = new CInstructions();
+        private CResize ObjResize = new CResize();
+
 
         public frmAlerta()
         {
             InitializeComponent();
+            ObjResize.ResolutionAlert(this);
+            ObjResize.ResizeComponentsAlert(picBtnYes, picBtnNo);
         }
 
         private void frmAlerta_Load(object sender, EventArgs e)

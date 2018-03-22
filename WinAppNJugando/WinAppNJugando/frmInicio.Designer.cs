@@ -66,6 +66,7 @@
             this.toolTip1.SetToolTip(this.picBtnPlay, "Comencemos el Juego");
             this.picBtnPlay.Click += new System.EventHandler(this.picBtnPlay_Click);
             this.picBtnPlay.MouseEnter += new System.EventHandler(this.picBtnPlay_MouseEnter);
+            this.picBtnPlay.MouseLeave += new System.EventHandler(this.picBtnPlay_MouseLeave);
             // 
             // picVideo
             // 

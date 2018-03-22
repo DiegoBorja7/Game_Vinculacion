@@ -92,7 +92,7 @@ namespace RegiAnimal
 
         private void frmLevelSelection_Load_1(object sender, EventArgs e)
         {
-            Cresize resize = new Cresize();
+            CResize resize = new CResize();
             resize.Resolution(this);
             resize.ResizeComponentsMenu(picLvlEasy, picLvlMedium, picLvlHard);
         }

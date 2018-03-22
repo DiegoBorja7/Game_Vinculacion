@@ -40,7 +40,7 @@ namespace RegiAnimal
 
         private void frmHelp_Load(object sender, EventArgs e)
         {
-            Cresize resize = new Cresize();
+            CResize resize = new CResize();
 
             resize.Resolution(this);
 

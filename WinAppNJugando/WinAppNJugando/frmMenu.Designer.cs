@@ -39,9 +39,9 @@
             // 
             // picBtnPlay
             // 
-            this.picBtnPlay.Location = new System.Drawing.Point(626, 344);
+            this.picBtnPlay.Location = new System.Drawing.Point(517, 320);
             this.picBtnPlay.Name = "picBtnPlay";
-            this.picBtnPlay.Size = new System.Drawing.Size(204, 169);
+            this.picBtnPlay.Size = new System.Drawing.Size(263, 220);
             this.picBtnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBtnPlay.TabIndex = 1;
             this.picBtnPlay.TabStop = false;
@@ -81,6 +81,7 @@
             this.Controls.Add(this.picRegianimal);
             this.Controls.Add(this.picBtnHome);
             this.Controls.Add(this.picBtnPlay);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;

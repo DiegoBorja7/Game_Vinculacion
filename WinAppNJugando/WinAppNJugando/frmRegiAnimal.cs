@@ -462,7 +462,7 @@ namespace RegiAnimal
 
             initializePictureBox.PointsReturn(ref back);
 
-            Cresize resize = new Cresize();
+            CResize resize = new CResize();
 
             resize.Resolution(this);
 

@@ -757,7 +757,7 @@ namespace WinAppNiñitosEnAccion
         }
 
         //Asiganacion de el puntaje en el frmPuntajeAutoevaluacion.
-        public void Puntuacion(PictureBox picUse, List<PictureBox> ListaUse)
+        public void Puntuacion(Form frm,PictureBox picUse, List<PictureBox> ListaUse)
         {
             if (puntaje >= 20)
             { 
@@ -774,9 +774,9 @@ namespace WinAppNiñitosEnAccion
                 picUse.BackgroundImage = myBitmap;
                 picUse.Name = "PuntuacionMedia";
                 playSound("MuyBien");
-                ListaUse[0].Location = new Point(160, 285);
-                ListaUse[1].Location = new Point(240, 285); ;
-                ListaUse[2].Location = new Point(320, 285); ;
+                ListaUse[0].Location = new Point((int)(frm.Width /2.75 - ListaUse[0].Width / 2), ListaUse[0].Location.Y);
+                ListaUse[1].Location = new Point(frm.Width/2 - ListaUse[0].Width/2, ListaUse[0].Location.Y); 
+                ListaUse[2].Location = new Point((int)(frm.Width / 1.7), ListaUse[0].Location.Y);
                 ListaUse[0].Visible = true;
                 ListaUse[1].Visible = true;
                 ListaUse[2].Visible = true;
@@ -796,11 +796,10 @@ namespace WinAppNiñitosEnAccion
                 picUse.BackgroundImage = myBitmap;
                 picUse.Name = "PuntuacionCero";
                 playSound("IntentaloNuevamente");
-                ListaUse[0].Location = new Point(240, 285);
+                ListaUse[0].Location = new Point(frm.Width / 2 - ListaUse[0].Width / 2, ListaUse[0].Location.Y);
                 ListaUse[0].Visible = true;
             }
         }
         #endregion
-
     }
 }

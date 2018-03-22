@@ -370,6 +370,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmJuego";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Juego";
             this.Load += new System.EventHandler(this.frmJuego_Load);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmJuego_MouseMove);

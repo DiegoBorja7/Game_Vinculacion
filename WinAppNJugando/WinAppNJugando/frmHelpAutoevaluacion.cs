@@ -11,12 +11,16 @@ namespace WinAppNiñitosEnAccion
     public partial class frmHelpAutoevaluacion : Form
     {
         private CInitializeThings ObjInitialize = new CInitializeThings();
+        private CResize ObjResize = new CResize();
 
         public frmHelpAutoevaluacion(String Name)
         {
             InitializeComponent();
+            ObjResize.ResolutionHelpAutoevaluation(this);
+            ObjResize.ResizeComponentsVideo(HelpVideo);
             InicializacionVideo(Name);
             HelpVideo.Ctlcontrols.play();
+            
         }
 
         public void InicializacionVideo(String Name)

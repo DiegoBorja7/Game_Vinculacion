@@ -13,11 +13,14 @@ namespace WinAppNiñitosEnAccion
     {
         private CInitializeThings ObjInitialize = new CInitializeThings();
         private CInstructions ObjInstruction = new CInstructions();
-
+        private CResize ObjResize = new CResize();
+      
         public frmInicio()
         {
             InitializeComponent();
             ObjInstruction.playSound("Introduccion1");
+            ObjResize.ResolutionInicio(this);
+            ObjResize.ResizeComponentsInicio(picBtnPlay, picVideo, picExit);
         }
 
         private void picBtnPlay_Click(object sender, EventArgs e)
@@ -36,8 +39,6 @@ namespace WinAppNiñitosEnAccion
         private void frmInicio_MouseEnter(object sender, EventArgs e)
         {
             Cursor = Cursors.Default;
-            picBtnPlay.Size = new Size(335, 140); 
-            picBtnPlay.Location = new Point(490, 310);
             picVideo.BorderStyle = BorderStyle.None;
             picExit.BorderStyle = BorderStyle.None;
         }
@@ -45,8 +46,16 @@ namespace WinAppNiñitosEnAccion
         private void picBtnPlay_MouseEnter(object sender, EventArgs e)
         {
             Cursor = Cursors.Hand;
-            picBtnPlay.Location = new Point(480, 300);
-            picBtnPlay.Size = new Size(365, 170);
+            picBtnPlay.Width = (picBtnPlay.Width + 20);
+            picBtnPlay.Height = (picBtnPlay.Height + 20);
+            picBtnPlay.Location = new Point((picBtnPlay.Location.X  - 10),(picBtnPlay.Location.Y - 10));
+        }
+
+        private void picBtnPlay_MouseLeave(object sender, EventArgs e)
+        {
+            picBtnPlay.Width = (picBtnPlay.Width - 20);
+            picBtnPlay.Height = (picBtnPlay.Height - 20);
+            picBtnPlay.Location = new Point((picBtnPlay.Location.X + 10), (picBtnPlay.Location.Y + 10));
         }
 
         private void picExit_MouseEnter(object sender, EventArgs e)

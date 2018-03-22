@@ -73,7 +73,7 @@ namespace RegiAnimal
 
         private void frmMenu_Load(object sender, EventArgs e)
         {
-            Cresize resize = new Cresize();
+            CResize resize = new CResize();
             
             resize.Resolution(this);
             resize.ResizeComponentsMenu(picBtnHome, picRegianimal, picBtnPlay);

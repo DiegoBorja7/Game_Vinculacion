@@ -14,8 +14,10 @@ namespace WinAppNiñitosEnAccion
     {
         private CInitializeThings ObjInitialize = new CInitializeThings();
         private CInstructions ObjInstruction = new CInstructions();
+        private CResize ObjResize = new CResize();
 
         private List<PictureBox> ListaPictureBoxObjetos = new List<PictureBox>();
+        private List<PictureBox> ListaPictureBotones = new List<PictureBox>();
         private PictureBox picAux = new PictureBox();
         private string vocal;
 
@@ -25,6 +27,8 @@ namespace WinAppNiñitosEnAccion
             InsertarDatosLista();
             vocal = ObjInitialize.Vocales(ListaPictureBoxObjetos);
             ObjInstruction.playSound("Autoevaluacion3");
+            ObjResize.ResolutionAutoevaluation(this);
+            ObjResize.ResizeComponentsAutoevaluation(ListaPictureBoxObjetos, ListaPictureBotones);
         }
 
         //Insertar todos los PictureBox en una lista.
@@ -40,6 +44,10 @@ namespace WinAppNiñitosEnAccion
             ListaPictureBoxObjetos.Add(picImage7);
             ListaPictureBoxObjetos.Add(picImage8);
             ListaPictureBoxObjetos.Add(picImage9);
+            ListaPictureBotones.Add(picHome);
+            ListaPictureBotones.Add(picNext);
+            ListaPictureBotones.Add(picHelp);
+            ListaPictureBotones.Add(picBtnAudioHelp);
         }
 
         //Calificacion
@@ -97,24 +105,30 @@ namespace WinAppNiñitosEnAccion
         private void frmAutoevaluacion3_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Mouse(this,1);
+            Calificacion();
             picHome.BorderStyle = BorderStyle.None;
             picNext.BorderStyle = BorderStyle.None;
             picHelp.BorderStyle = BorderStyle.None;
-            picBtnAudioHelp.Location = new Point(10, 10);
-            picBtnAudioHelp.Size = new Size(75, 75);
 
             for (int i = 0; i < ListaPictureBoxObjetos.Count; i++)
                 ListaPictureBoxObjetos[i].BorderStyle = BorderStyle.None;
-
-            Calificacion();
         }
 
         private void picBtnAudioHelp_MouseEnter(object sender, EventArgs e)
         {
             Cursor = Cursors.Hand;
-            picBtnAudioHelp.Location = new Point(5, 5);
-            picBtnAudioHelp.Size = new Size(85, 85);
+            picBtnAudioHelp.Width = (picBtnAudioHelp.Width + 10);
+            picBtnAudioHelp.Height = (picBtnAudioHelp.Height + 10);
+            picBtnAudioHelp.Location = new Point((picBtnAudioHelp.Location.X - 5), (picBtnAudioHelp.Location.Y - 5));
         }
+
+        private void picBtnAudioHelp_MouseLeave(object sender, EventArgs e)
+        {
+            picBtnAudioHelp.Width = (picBtnAudioHelp.Width - 10);
+            picBtnAudioHelp.Height = (picBtnAudioHelp.Height - 10);
+            picBtnAudioHelp.Location = new Point((picBtnAudioHelp.Location.X + 5), (picBtnAudioHelp.Location.Y + 5));
+        }
+
         private void picHome_MouseEnter(object sender, EventArgs e)
         {
             ObjInitialize.Seleccionar(this, picHome);

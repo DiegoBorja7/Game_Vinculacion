@@ -99,7 +99,7 @@
     <Compile Include="CPictures.cs" />
     <Compile Include="CPictureSounds.cs" />
     <Compile Include="CPuntuacion.cs" />
-    <Compile Include="Cresize.cs" />
+    <Compile Include="CResize.cs" />
     <Compile Include="CTranslation.cs" />
     <Compile Include="frmAlerta.cs">
       <SubType>Form</SubType>

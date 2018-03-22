@@ -13,13 +13,17 @@ namespace WinAppNiñitosEnAccion
     {
         private CInitializeThings ObjInitialize = new CInitializeThings();
         private CInstructions ObjInstruction = new CInstructions();
+        private CResize ObjResize = new CResize();
 
         private List<PictureBox> ListaEstrellas = new List<PictureBox>();
+        private List<PictureBox> ListaPictureBotones = new List<PictureBox>();
 
         public frmPuntajeAutoevaluacion()
         {
             InitializeComponent();
             InsertarDatosLista();
+            ObjResize.ResolutionAutoevaluationScore(this);
+            ObjResize.ResizeComponentsAutoevaluationScore(ListaEstrellas, ListaPictureBotones);
         }
 
         private void InsertarDatosLista()
@@ -28,11 +32,13 @@ namespace WinAppNiñitosEnAccion
             ListaEstrellas.Add(picStar2);
             ListaEstrellas.Add(picStar3);
             ListaEstrellas.Add(picStar4);
+            ListaPictureBotones.Add(picCalification);
+            ListaPictureBotones.Add(picHome);
         }
 
         private void frmPuntajeAutoevaluacion_Load(object sender, EventArgs e)
         {
-            ObjInstruction.Puntuacion(picCalification, ListaEstrellas);
+            ObjInstruction.Puntuacion(this,picCalification, ListaEstrellas);
         }
 
         private void frmPuntajeAutoevaluacion_MouseEnter(object sender, EventArgs e)

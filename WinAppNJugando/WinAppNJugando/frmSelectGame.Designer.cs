@@ -70,6 +70,7 @@
             this.toolTip1.SetToolTip(this.picAutoevaluacion, "Autoevaluación");
             this.picAutoevaluacion.Click += new System.EventHandler(this.picAutoevaluacion_Click);
             this.picAutoevaluacion.MouseEnter += new System.EventHandler(this.picAutoevaluacion_MouseEnter);
+            this.picAutoevaluacion.MouseLeave += new System.EventHandler(this.picAutoevaluacion_MouseLeave);
             // 
             // picRegiAnimalGame
             // 
@@ -125,6 +126,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSelectGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmSelectGame_FormClosed);
             this.Load += new System.EventHandler(this.frmSelectGame_Load);
             this.MouseEnter += new System.EventHandler(this.frmSelectGame_MouseEnter);
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).EndInit();

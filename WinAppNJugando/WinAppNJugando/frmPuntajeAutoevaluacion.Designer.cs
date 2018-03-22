@@ -50,12 +50,12 @@
             this.picHome.BackColor = System.Drawing.Color.Transparent;
             this.picHome.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picHome.BackgroundImage")));
             this.picHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picHome.Location = new System.Drawing.Point(448, 368);
+            this.picHome.Location = new System.Drawing.Point(448, 370);
             this.picHome.Name = "picHome";
             this.picHome.Size = new System.Drawing.Size(70, 55);
             this.picHome.TabIndex = 4;
             this.picHome.TabStop = false;
-            this.toolTip1.SetToolTip(this.picHome, "Elección del Juego");
+            this.toolTip1.SetToolTip(this.picHome, "Elección de Juego");
             this.picHome.Click += new System.EventHandler(this.picHome_Click);
             this.picHome.MouseEnter += new System.EventHandler(this.picHome_MouseEnter);
             // 
@@ -124,7 +124,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(550, 447);
+            this.ClientSize = new System.Drawing.Size(550, 450);
             this.Controls.Add(this.picStar4);
             this.Controls.Add(this.picStar3);
             this.Controls.Add(this.picStar2);
