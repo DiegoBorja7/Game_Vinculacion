@@ -35,6 +35,7 @@ namespace RegiAnimal
         private PictureBox[] destination = new PictureBox[13];
         private PictureBox[] back = new PictureBox[8];
         private PictureBox[] images = new PictureBox[8];
+        private PictureBox[] buttons = new PictureBox[10];
         private frmHelp help = new frmHelp();
         private CPictureSounds sound = new CPictureSounds();
         private CInitializeImages pictures = new CInitializeImages();
@@ -329,14 +330,14 @@ namespace RegiAnimal
         }       
         private void picBtnPlay_MouseHover(object sender, EventArgs e)
         {
-            picBtnPlay.BorderStyle = BorderStyle.Fixed3D;
-            pictures.menuButtonshover(picBtnPlay, 2);
+            picBtnRefresh.BorderStyle = BorderStyle.Fixed3D;
+            pictures.menuButtonshover(picBtnRefresh, 2);
         }
 
         private void picBtnPlay_MouseLeave(object sender, EventArgs e)
         {
-            picBtnPlay.BorderStyle = BorderStyle.None;
-            pictures.menuButtonsleave(picBtnPlay, 2);
+            picBtnRefresh.BorderStyle = BorderStyle.None;
+            pictures.menuButtonsleave(picBtnRefresh, 2);
         }
 
         private void picBtnHome_MouseHover(object sender, EventArgs e)
@@ -350,6 +351,16 @@ namespace RegiAnimal
             picBtnHome.BorderStyle = BorderStyle.None;
             pictures.menuButtonsleave(picBtnHome, 1);
         }
+        private void picHelp_MouseLeave(object sender, EventArgs e)
+        {
+            picHelp.BorderStyle = BorderStyle.None;
+        }
+        private void picHelp_MouseHover(object sender, EventArgs e)
+        {
+            picHelp.BorderStyle = BorderStyle.Fixed3D;
+
+        }
+
         private void savePictures()
         {
             this.destination[0] = picDestinoCosta1;
@@ -383,9 +394,20 @@ namespace RegiAnimal
             this.images[6] = picOriente1;
             this.images[7] = picOriente2;
 
-            picClockes1.BackColor = Color.Transparent;
-            
-            grbClock.BackColor = Color.Transparent;
+            this.buttons[0] = picBtnHome;
+            this.buttons[1] = picBtnRefresh;
+            this.buttons[2] = picVolDown;
+            this.buttons[3] = picVolUp;
+            this.buttons[4] = picHelp;
+            this.buttons[5] = picClock;
+            this.buttons[6] = picLblScore;
+            this.buttons[7] = picOk;
+            this.buttons[8] = picTime;
+            this.buttons[9] = picScore;
+
+
+            picClock.BackColor = Color.Transparent;            
+           
         }
         private void picHelp_Click(object sender, EventArgs e)
         {
@@ -397,6 +419,8 @@ namespace RegiAnimal
         #region Tiempo
         private void clockHelp_Tick(object sender, EventArgs e)
         {
+            if (timeHelp == 18)
+                initilize();
             timeHelp--;
             
             if (timeHelp < 4 && timeHelp > 0)
@@ -429,21 +453,40 @@ namespace RegiAnimal
 
         private void Regianimal_Load(object sender, EventArgs e)
         {
+            this.CenterToScreen();
+
             picVolDown.BackColor = Color.Transparent;
             picVolUp.BackColor = Color.Transparent;
+
+            savePictures();
+
+            initializePictureBox.PointsReturn(ref back);
+
+            Cresize resize = new Cresize();
+
+            resize.Resolution(this);
+
+            resize.ResizeReturn(picRetorno1, picRetorno2, picRetorno3 ,picRetorno4);
+
+            resize.ResizeReturn(picRetorno5, picRetorno6, picRetorno7, picRetorno8);
+
+            resize.ResizeComponentsRegianimal(destination, back, images, buttons, lblSeconds, lblScore, lblBegin);
+
+            savePictures();
+
+            initializePictureBox.PointsReturn(ref back);            
+
         }
 
         private void initilize()
         {
             Stopwatch sw = Stopwatch.StartNew();
 
-            savePictures();
-
             CenterToScreen();
 
-            Mouse();
+            savePictures();
 
-            initializePictureBox.Style(ref back, ref grbClock);
+            Mouse();
 
             initializePictureBox.RefreshPictureBox(ref images, ref destination, ref hitsok, ref hits, ref lblScore);
 
@@ -451,7 +494,7 @@ namespace RegiAnimal
 
             initializePictureBox.VisibilityReturn(ref back);
 
-            initializePictureBox.PositionReturn(ref back);
+            //initializePictureBox.PositionReturn(ref back);
 
             initializePictureBox.PositionImages(ref back, ref images);
 
@@ -460,7 +503,7 @@ namespace RegiAnimal
             pictures.animalesOriente(picOriente1, picOriente2);
             pictures.animalesSierra(picSierra1, picSierra2);
 
-            pictures.buttons(picBtnPlay, picBtnHome);
+            pictures.buttons(picBtnRefresh, picBtnHome);
 
             sw.Stop();
 
@@ -468,6 +511,8 @@ namespace RegiAnimal
 
             lblDificutl();
             this.hits = 0;
+
+
         }
         #endregion
 
@@ -503,6 +548,6 @@ namespace RegiAnimal
             picVolUp.BorderStyle = BorderStyle.None;
         }
         #endregion
-        
+
     }
 }

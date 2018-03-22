@@ -1,4 +1,5 @@
 ﻿using System;
+using WinAppNiñitosEnAccion;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +35,16 @@ namespace RegiAnimal
                 this.Dispose();
                 players.playSound("go");
             }
+
+        }
+
+        private void frmHelp_Load(object sender, EventArgs e)
+        {
+            Cresize resize = new Cresize();
+
+            resize.Resolution(this);
+
+            this.CenterToScreen();
 
         }
     }

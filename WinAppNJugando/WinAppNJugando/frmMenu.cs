@@ -70,5 +70,13 @@ namespace RegiAnimal
             im.menuButtonshover(picBtnHome, 1);
             picBtnHome.BorderStyle = BorderStyle.Fixed3D;
         }
+
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+            Cresize resize = new Cresize();
+            
+            resize.Resolution(this);
+            resize.ResizeComponentsMenu(picBtnHome, picRegianimal, picBtnPlay);
+        }
     }
 }

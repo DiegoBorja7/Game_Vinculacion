@@ -39,9 +39,9 @@
             // 
             // picBtnPlay
             // 
-            this.picBtnPlay.Location = new System.Drawing.Point(500, 289);
+            this.picBtnPlay.Location = new System.Drawing.Point(626, 344);
             this.picBtnPlay.Name = "picBtnPlay";
-            this.picBtnPlay.Size = new System.Drawing.Size(300, 261);
+            this.picBtnPlay.Size = new System.Drawing.Size(204, 169);
             this.picBtnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBtnPlay.TabIndex = 1;
             this.picBtnPlay.TabStop = false;
@@ -87,6 +87,7 @@
             this.Name = "frmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.frmMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picBtnPlay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBtnHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picRegianimal)).EndInit();

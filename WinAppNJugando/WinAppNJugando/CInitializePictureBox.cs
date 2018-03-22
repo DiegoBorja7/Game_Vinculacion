@@ -18,13 +18,19 @@ namespace RegiAnimal
         private SoundPlayer player;
         private CPictureSounds sound = new CPictureSounds();
 
-        private Point[] position = new Point[8] {new Point(12, 39), new Point(12, 201), new Point(12, 362),
-                                                 new Point(12, 523), new Point(1172, 39), new Point(1172, 189),
-                                                 new Point(1172, 351), new Point(1172, 501)};
+        private Point[] position = new Point[8];
 
         private string[] scoreImages = new string[3] { "PuntuacionBaja", "PuntuacionMedia", "PuntuacionAlta" };
 
         private Random random = new Random();
+
+        public void PointsReturn(ref PictureBox[] back)
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                position[i] = back[i].Location;
+            }
+        }
 
         public void PositionReturn(ref PictureBox[] retornos)
         {
@@ -68,17 +74,8 @@ namespace RegiAnimal
                 retornos[h].Location =position[randomNum[h]];
             }
 
-        }
-        
-        public void Style(ref PictureBox[] back, ref GroupBox score)
-        {
-            for (int i = 0; i < 8; i++)
-            {
-                back[i].Enabled = true;
-                back[i].BorderStyle = BorderStyle.Fixed3D;
-            }
-            score.ForeColor = Color.Blue;
-        }
+        }       
+
         public void RefreshPictureBox(ref PictureBox[] images, ref PictureBox[] destinos, ref int hitsok, ref int hits, ref Label score)
         {
             for (int i= 0;i<8;i++)

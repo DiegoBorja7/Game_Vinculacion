@@ -59,7 +59,7 @@
             this.picDestinoGalapagos1 = new System.Windows.Forms.PictureBox();
             this.picDestinoGalapagos2 = new System.Windows.Forms.PictureBox();
             this.lblSeconds = new System.Windows.Forms.Label();
-            this.picBtnPlay = new System.Windows.Forms.PictureBox();
+            this.picBtnRefresh = new System.Windows.Forms.PictureBox();
             this.picBtnHome = new System.Windows.Forms.PictureBox();
             this.clock = new System.Windows.Forms.Timer(this.components);
             this.picScore = new System.Windows.Forms.PictureBox();
@@ -67,11 +67,10 @@
             this.lblBegin = new System.Windows.Forms.Label();
             this.picVolDown = new System.Windows.Forms.PictureBox();
             this.picVolUp = new System.Windows.Forms.PictureBox();
-            this.picClockes1 = new System.Windows.Forms.PictureBox();
-            this.grbClock = new System.Windows.Forms.GroupBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picClock = new System.Windows.Forms.PictureBox();
+            this.picTime = new System.Windows.Forms.PictureBox();
+            this.picOk = new System.Windows.Forms.PictureBox();
+            this.picLblScore = new System.Windows.Forms.PictureBox();
             this.lblScore = new System.Windows.Forms.Label();
             this.picHelp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picCost2)).BeginInit();
@@ -102,16 +101,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.picDestinoOriente3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDestinoGalapagos1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDestinoGalapagos2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBtnPlay)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnRefresh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBtnHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picScore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVolDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVolUp)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picClockes1)).BeginInit();
-            this.grbClock.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picClock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLblScore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).BeginInit();
             this.SuspendLayout();
             // 
@@ -214,7 +212,8 @@
             // picRetorno2
             // 
             this.picRetorno2.BackColor = System.Drawing.Color.Transparent;
-            this.picRetorno2.Location = new System.Drawing.Point(12, 201);
+            this.picRetorno2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picRetorno2.Location = new System.Drawing.Point(12, 195);
             this.picRetorno2.Name = "picRetorno2";
             this.picRetorno2.Size = new System.Drawing.Size(120, 115);
             this.picRetorno2.TabIndex = 9;
@@ -247,7 +246,8 @@
             // picRetorno1
             // 
             this.picRetorno1.BackColor = System.Drawing.Color.Transparent;
-            this.picRetorno1.Location = new System.Drawing.Point(12, 39);
+            this.picRetorno1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picRetorno1.Location = new System.Drawing.Point(12, 40);
             this.picRetorno1.Name = "picRetorno1";
             this.picRetorno1.Size = new System.Drawing.Size(120, 115);
             this.picRetorno1.TabIndex = 13;
@@ -256,7 +256,8 @@
             // picRetorno3
             // 
             this.picRetorno3.BackColor = System.Drawing.Color.Transparent;
-            this.picRetorno3.Location = new System.Drawing.Point(12, 351);
+            this.picRetorno3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picRetorno3.Location = new System.Drawing.Point(12, 350);
             this.picRetorno3.Name = "picRetorno3";
             this.picRetorno3.Size = new System.Drawing.Size(120, 115);
             this.picRetorno3.TabIndex = 14;
@@ -265,7 +266,8 @@
             // picRetorno4
             // 
             this.picRetorno4.BackColor = System.Drawing.Color.Transparent;
-            this.picRetorno4.Location = new System.Drawing.Point(12, 523);
+            this.picRetorno4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picRetorno4.Location = new System.Drawing.Point(12, 505);
             this.picRetorno4.Name = "picRetorno4";
             this.picRetorno4.Size = new System.Drawing.Size(120, 115);
             this.picRetorno4.TabIndex = 15;
@@ -274,6 +276,8 @@
             // picRetorno5
             // 
             this.picRetorno5.BackColor = System.Drawing.Color.Transparent;
+            this.picRetorno5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picRetorno5.Cursor = System.Windows.Forms.Cursors.Default;
             this.picRetorno5.Location = new System.Drawing.Point(1172, 39);
             this.picRetorno5.Name = "picRetorno5";
             this.picRetorno5.Size = new System.Drawing.Size(120, 115);
@@ -283,6 +287,7 @@
             // picRetorno7
             // 
             this.picRetorno7.BackColor = System.Drawing.Color.Transparent;
+            this.picRetorno7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picRetorno7.Location = new System.Drawing.Point(1172, 351);
             this.picRetorno7.Name = "picRetorno7";
             this.picRetorno7.Size = new System.Drawing.Size(120, 115);
@@ -292,6 +297,7 @@
             // picRetorno6
             // 
             this.picRetorno6.BackColor = System.Drawing.Color.Transparent;
+            this.picRetorno6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picRetorno6.Location = new System.Drawing.Point(1173, 201);
             this.picRetorno6.Name = "picRetorno6";
             this.picRetorno6.Size = new System.Drawing.Size(120, 115);
@@ -301,6 +307,7 @@
             // picRetorno8
             // 
             this.picRetorno8.BackColor = System.Drawing.Color.Transparent;
+            this.picRetorno8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picRetorno8.Location = new System.Drawing.Point(1172, 505);
             this.picRetorno8.Name = "picRetorno8";
             this.picRetorno8.Size = new System.Drawing.Size(120, 115);
@@ -383,26 +390,26 @@
             // 
             this.lblSeconds.AutoSize = true;
             this.lblSeconds.BackColor = System.Drawing.Color.Transparent;
-            this.lblSeconds.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSeconds.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSeconds.ForeColor = System.Drawing.Color.Black;
-            this.lblSeconds.Location = new System.Drawing.Point(67, 10);
+            this.lblSeconds.Location = new System.Drawing.Point(201, 413);
             this.lblSeconds.Name = "lblSeconds";
-            this.lblSeconds.Size = new System.Drawing.Size(80, 55);
+            this.lblSeconds.Size = new System.Drawing.Size(66, 46);
             this.lblSeconds.TabIndex = 29;
             this.lblSeconds.Text = "00";
             // 
-            // picBtnPlay
+            // picBtnRefresh
             // 
-            this.picBtnPlay.BackColor = System.Drawing.Color.Transparent;
-            this.picBtnPlay.Location = new System.Drawing.Point(209, 562);
-            this.picBtnPlay.Name = "picBtnPlay";
-            this.picBtnPlay.Size = new System.Drawing.Size(103, 86);
-            this.picBtnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBtnPlay.TabIndex = 30;
-            this.picBtnPlay.TabStop = false;
-            this.picBtnPlay.Click += new System.EventHandler(this.picBtnPlay_Click);
-            this.picBtnPlay.MouseLeave += new System.EventHandler(this.picBtnPlay_MouseLeave);
-            this.picBtnPlay.MouseHover += new System.EventHandler(this.picBtnPlay_MouseHover);
+            this.picBtnRefresh.BackColor = System.Drawing.Color.Transparent;
+            this.picBtnRefresh.Location = new System.Drawing.Point(209, 562);
+            this.picBtnRefresh.Name = "picBtnRefresh";
+            this.picBtnRefresh.Size = new System.Drawing.Size(103, 86);
+            this.picBtnRefresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBtnRefresh.TabIndex = 30;
+            this.picBtnRefresh.TabStop = false;
+            this.picBtnRefresh.Click += new System.EventHandler(this.picBtnPlay_Click);
+            this.picBtnRefresh.MouseLeave += new System.EventHandler(this.picBtnPlay_MouseLeave);
+            this.picBtnRefresh.MouseHover += new System.EventHandler(this.picBtnPlay_MouseHover);
             // 
             // picBtnHome
             // 
@@ -478,71 +485,59 @@
             this.picVolUp.MouseLeave += new System.EventHandler(this.picVolUp_MouseLeave);
             this.picVolUp.MouseHover += new System.EventHandler(this.picVolUp_MouseHover);
             // 
-            // picClockes1
+            // picClock
             // 
-            this.picClockes1.Image = ((System.Drawing.Image)(resources.GetObject("picClockes1.Image")));
-            this.picClockes1.Location = new System.Drawing.Point(19, 10);
-            this.picClockes1.Name = "picClockes1";
-            this.picClockes1.Size = new System.Drawing.Size(42, 54);
-            this.picClockes1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picClockes1.TabIndex = 38;
-            this.picClockes1.TabStop = false;
+            this.picClock.BackColor = System.Drawing.Color.Transparent;
+            this.picClock.Image = ((System.Drawing.Image)(resources.GetObject("picClock.Image")));
+            this.picClock.Location = new System.Drawing.Point(153, 412);
+            this.picClock.Name = "picClock";
+            this.picClock.Size = new System.Drawing.Size(42, 54);
+            this.picClock.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picClock.TabIndex = 38;
+            this.picClock.TabStop = false;
             // 
-            // grbClock
+            // picTime
             // 
-            this.grbClock.BackColor = System.Drawing.Color.Transparent;
-            this.grbClock.Controls.Add(this.pictureBox3);
-            this.grbClock.Controls.Add(this.pictureBox2);
-            this.grbClock.Controls.Add(this.pictureBox1);
-            this.grbClock.Controls.Add(this.lblScore);
-            this.grbClock.Controls.Add(this.picClockes1);
-            this.grbClock.Controls.Add(this.lblSeconds);
-            this.grbClock.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.grbClock.Location = new System.Drawing.Point(146, 418);
-            this.grbClock.Name = "grbClock";
-            this.grbClock.Size = new System.Drawing.Size(332, 119);
-            this.grbClock.TabIndex = 40;
-            this.grbClock.TabStop = false;
+            this.picTime.BackColor = System.Drawing.Color.Transparent;
+            this.picTime.Image = ((System.Drawing.Image)(resources.GetObject("picTime.Image")));
+            this.picTime.Location = new System.Drawing.Point(152, 494);
+            this.picTime.Name = "picTime";
+            this.picTime.Size = new System.Drawing.Size(148, 38);
+            this.picTime.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTime.TabIndex = 43;
+            this.picTime.TabStop = false;
             // 
-            // pictureBox3
+            // picOk
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(6, 75);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(148, 38);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 43;
-            this.pictureBox3.TabStop = false;
+            this.picOk.BackColor = System.Drawing.Color.Transparent;
+            this.picOk.Image = ((System.Drawing.Image)(resources.GetObject("picOk.Image")));
+            this.picOk.Location = new System.Drawing.Point(319, 412);
+            this.picOk.Name = "picOk";
+            this.picOk.Size = new System.Drawing.Size(42, 46);
+            this.picOk.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picOk.TabIndex = 42;
+            this.picOk.TabStop = false;
             // 
-            // pictureBox2
+            // picLblScore
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(186, 11);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(42, 46);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 42;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(171, 75);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 38);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 41;
-            this.pictureBox1.TabStop = false;
+            this.picLblScore.BackColor = System.Drawing.Color.Transparent;
+            this.picLblScore.Image = ((System.Drawing.Image)(resources.GetObject("picLblScore.Image")));
+            this.picLblScore.Location = new System.Drawing.Point(306, 494);
+            this.picLblScore.Name = "picLblScore";
+            this.picLblScore.Size = new System.Drawing.Size(155, 38);
+            this.picLblScore.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picLblScore.TabIndex = 41;
+            this.picLblScore.TabStop = false;
             // 
             // lblScore
             // 
             this.lblScore.AutoSize = true;
             this.lblScore.BackColor = System.Drawing.Color.Transparent;
-            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.ForeColor = System.Drawing.Color.Black;
-            this.lblScore.Location = new System.Drawing.Point(246, 9);
+            this.lblScore.Location = new System.Drawing.Point(376, 414);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(80, 55);
+            this.lblScore.Size = new System.Drawing.Size(66, 46);
             this.lblScore.TabIndex = 40;
             this.lblScore.Text = "00";
             // 
@@ -557,6 +552,8 @@
             this.picHelp.TabIndex = 41;
             this.picHelp.TabStop = false;
             this.picHelp.Click += new System.EventHandler(this.picHelp_Click);
+            this.picHelp.MouseLeave += new System.EventHandler(this.picHelp_MouseLeave);
+            this.picHelp.MouseHover += new System.EventHandler(this.picHelp_MouseHover);
             // 
             // Regianimal
             // 
@@ -565,8 +562,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1300, 660);
+            this.Controls.Add(this.lblScore);
+            this.Controls.Add(this.picOk);
+            this.Controls.Add(this.picTime);
             this.Controls.Add(this.picHelp);
+            this.Controls.Add(this.lblSeconds);
+            this.Controls.Add(this.picClock);
             this.Controls.Add(this.picScore);
+            this.Controls.Add(this.picLblScore);
             this.Controls.Add(this.lblBegin);
             this.Controls.Add(this.picCost2);
             this.Controls.Add(this.picCost1);
@@ -599,8 +602,7 @@
             this.Controls.Add(this.picVolDown);
             this.Controls.Add(this.picVolUp);
             this.Controls.Add(this.picBtnHome);
-            this.Controls.Add(this.picBtnPlay);
-            this.Controls.Add(this.grbClock);
+            this.Controls.Add(this.picBtnRefresh);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -635,17 +637,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.picDestinoOriente3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDestinoGalapagos1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDestinoGalapagos2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBtnPlay)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBtnRefresh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBtnHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picScore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVolDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVolUp)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picClockes1)).EndInit();
-            this.grbClock.ResumeLayout(false);
-            this.grbClock.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picClock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picOk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLblScore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -682,7 +682,7 @@
         private System.Windows.Forms.PictureBox picDestinoGalapagos1;
         private System.Windows.Forms.PictureBox picDestinoGalapagos2;
         private System.Windows.Forms.Label lblSeconds;
-        private System.Windows.Forms.PictureBox picBtnPlay;
+        private System.Windows.Forms.PictureBox picBtnRefresh;
         private System.Windows.Forms.PictureBox picBtnHome;
         private System.Windows.Forms.Timer clock;
         private System.Windows.Forms.PictureBox picScore;
@@ -690,11 +690,10 @@
         private System.Windows.Forms.Label lblBegin;
         private System.Windows.Forms.PictureBox picVolDown;
         private System.Windows.Forms.PictureBox picVolUp;
-        private System.Windows.Forms.PictureBox picClockes1;
-        private System.Windows.Forms.GroupBox grbClock;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picClock;
+        private System.Windows.Forms.PictureBox picTime;
+        private System.Windows.Forms.PictureBox picOk;
+        private System.Windows.Forms.PictureBox picLblScore;
         private System.Windows.Forms.Label lblScore;
         private System.Windows.Forms.PictureBox picHelp;
     }

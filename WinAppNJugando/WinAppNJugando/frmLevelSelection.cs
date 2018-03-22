@@ -17,17 +17,16 @@ namespace RegiAnimal
         private Regianimal regiAnimal;
         private CPictureSounds sound = new CPictureSounds();
         private CInitializeThings ms = new CInitializeThings();
+
         public frmLevelSelection()
         {
+            
             InitializeComponent();
             CenterToScreen();
             Mouse();
             picLvlEasy.BackColor = Color.Transparent;
             picLvlMedium.BackColor = Color.Transparent;
             picLvlHard.BackColor = Color.Transparent;
-            grbeasy.BackColor = Color.Transparent;
-            grbmedium.BackColor = Color.Transparent;
-            grbHard.BackColor = Color.Transparent;
             sound.playIntruction();
         }
 
@@ -89,6 +88,13 @@ namespace RegiAnimal
         private void picLvlHard_MouseLeave(object sender, EventArgs e)
         {
             picLvlHard.BorderStyle = BorderStyle.None;
+        }
+
+        private void frmLevelSelection_Load_1(object sender, EventArgs e)
+        {
+            Cresize resize = new Cresize();
+            resize.Resolution(this);
+            resize.ResizeComponentsMenu(picLvlEasy, picLvlMedium, picLvlHard);
         }
     }
 }

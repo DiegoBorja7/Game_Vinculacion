@@ -30,10 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHelp));
-            this.wmpHelp = new AxWMPLib.AxWindowsMediaPlayer();
             this.clock = new System.Windows.Forms.Timer(this.components);
+            this.wmpHelp = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.wmpHelp)).BeginInit();
             this.SuspendLayout();
+            // 
+            // clock
+            // 
+            this.clock.Interval = 1000;
+            this.clock.Tick += new System.EventHandler(this.clock_Tick);
             // 
             // wmpHelp
             // 
@@ -44,11 +49,6 @@
             this.wmpHelp.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("wmpHelp.OcxState")));
             this.wmpHelp.Size = new System.Drawing.Size(1300, 660);
             this.wmpHelp.TabIndex = 0;
-            // 
-            // clock
-            // 
-            this.clock.Interval = 1000;
-            this.clock.Tick += new System.EventHandler(this.clock_Tick);
             // 
             // frmHelp
             // 
@@ -61,14 +61,14 @@
             this.Name = "frmHelp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Help";
+            this.Load += new System.EventHandler(this.frmHelp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.wmpHelp)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private AxWMPLib.AxWindowsMediaPlayer wmpHelp;
         private System.Windows.Forms.Timer clock;
+        private AxWMPLib.AxWindowsMediaPlayer wmpHelp;
     }
 }
