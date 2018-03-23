@@ -133,24 +133,50 @@ namespace WinAppNiñitosEnAccion
 
         }
 
-        public void resizeEncasa(List<PictureBox> lienzo, List<PictureBox> casa, List<PictureBox> escuela, List<PictureBox> buttons,Label lbltime)
+        public void resolutionCasa(Form frm)
         {
+            ResolutionW = 1920;
+            ResolutionH = 1080;
+            RWidth = 1362;
+            RHeight = 701;
+            NewResolutionH = Screen.PrimaryScreen.Bounds.Height;
+            NewResolutionW = Screen.PrimaryScreen.Bounds.Width;
+
             if ((NewResolutionH != ResolutionH) || (NewResolutionW != ResolutionW))
             {
-                for (int k = 0; k < 6; k++)
+                mNewHeight = (NewResolutionH) / ResolutionH;
+                mNewWidth = (NewResolutionW) / ResolutionW;
+
+                frm.Width = (int)(RWidth * mNewWidth);
+                frm.Height = (int)(RHeight * mNewHeight);
+            }
+        }
+
+        public void resizeEncasa(List<PictureBox> lienzo, List<PictureBox> casa, List<PictureBox> escuela, List<PictureBox> buttons,Label lbltime)
+        {
+            ResolutionW = 1920;
+            ResolutionH = 1080;
+            if ((NewResolutionH != ResolutionH) || (NewResolutionW != ResolutionW))
+            {
+                /*
+                for (int k = 0; k < 3; k++)
                 {
                     lienzo[k].Width = (int)(lienzo[k].Width * mNewWidth);
                     lienzo[k].Height = (int)(lienzo[k].Height * mNewHeight);
-                }
+                    lienzo[k].Location = new Point((int)(lienzo[k].Location.X * mNewWidth), (int)(lienzo[k].Location.Y * mNewHeight));
+                }*/
+
                 for (int k = 0; k < 3; k++)
                 {
                     casa[k].Width = (int)(casa[k].Width * mNewWidth);
                     casa[k].Height = (int)(casa[k].Height * mNewHeight);
+                    casa[k].Location = new Point((int)(casa[k].Location.X * mNewWidth), (int)(casa[k].Location.Y * mNewHeight));
                 }
                 for (int k = 0; k < 3; k++)
                 {
                     escuela[k].Width = (int)(escuela[k].Width * mNewWidth);
                     escuela[k].Height = (int)(escuela[k].Height * mNewHeight);
+                    escuela[k].Location = new Point((int)(escuela[k].Location.X * mNewWidth), (int)(escuela[k].Location.Y * mNewHeight));
                 }
 
                 for (int i = 0; i < 6; i++)
@@ -163,6 +189,47 @@ namespace WinAppNiñitosEnAccion
                 lbltime.Width = (int)(lbltime.Width * mNewWidth);
                 lbltime.Height = (int)(lbltime.Height * mNewHeight);
                 lbltime.Location = new Point((int)(lbltime.Location.X * mNewWidth), (int)(lbltime.Location.Y * mNewHeight));
+            }
+        }
+
+        public void picCasa(PictureBox pic1, PictureBox pic2, PictureBox pic3, PictureBox pic4, PictureBox pic5, PictureBox pic6, PictureBox pic7, PictureBox pic8)
+        {
+            ResolutionW = 1920;
+            ResolutionH = 1080;
+            if ((NewResolutionH != ResolutionH) || (NewResolutionW != ResolutionW))
+            {
+                pic1.Width = (int)(pic1.Width * mNewWidth);
+                pic1.Height = (int)(pic1.Height * mNewHeight);
+                pic1.Location = new Point((int)(pic1.Location.X * mNewWidth), (int)(pic1.Location.Y * mNewHeight));
+
+                pic2.Width = (int)(pic2.Width * mNewWidth);
+                pic2.Height = (int)(pic2.Height * mNewHeight);
+                pic2.Location = new Point((int)(pic2.Location.X * mNewWidth), (int)(pic2.Location.Y * mNewHeight));
+
+                pic3.Width = (int)(pic3.Width * mNewWidth);
+                pic3.Height = (int)(pic3.Height * mNewHeight);
+                pic3.Location = new Point((int)(pic3.Location.X * mNewWidth), (int)(pic3.Location.Y * mNewHeight));
+
+                pic4.Width = (int)(pic4.Width * mNewWidth);
+                pic4.Height = (int)(pic4.Height * mNewHeight);
+                pic4.Location = new Point((int)(pic4.Location.X * mNewWidth), (int)(pic4.Location.Y * mNewHeight));
+
+                pic5.Width = (int)(pic5.Width * mNewWidth);
+                pic5.Height = (int)(pic5.Height * mNewHeight);
+                pic5.Location = new Point((int)(pic5.Location.X * mNewWidth), (int)(pic5.Location.Y * mNewHeight));
+
+                pic6.Width = (int)(pic6.Width * mNewWidth);
+                pic6.Height = (int)(pic6.Height * mNewHeight);
+                pic6.Location = new Point((int)(pic6.Location.X * mNewWidth), (int)(pic6.Location.Y * mNewHeight));
+
+                pic7.Width = (int)(pic7.Width * mNewWidth);
+                pic7.Height = (int)(pic7.Height * mNewHeight);
+                pic7.Location = new Point((int)(pic7.Location.X * mNewWidth), (int)(pic7.Location.Y * mNewHeight));
+
+                pic8.Width = (int)(pic8.Width * mNewWidth);
+                pic8.Height = (int)(pic8.Height * mNewHeight);
+                pic8.Location = new Point((int)(pic8.Location.X * mNewWidth), (int)(pic8.Location.Y * mNewHeight));
+
 
             }
         }

@@ -260,11 +260,11 @@
             // lblTime
             // 
             this.lblTime.BackColor = System.Drawing.Color.Transparent;
-            this.lblTime.Font = new System.Drawing.Font("Rockwell", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.Font = new System.Drawing.Font("Rockwell", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTime.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblTime.Location = new System.Drawing.Point(86, 610);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(123, 65);
+            this.lblTime.Size = new System.Drawing.Size(157, 65);
             this.lblTime.TabIndex = 21;
             this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 

@@ -17,6 +17,7 @@ namespace WinAppProyectoFinal.Forms
         List<PictureBox> buttons;
 
         CDragNDrop drag;
+        CResize objresize = new CResize();
         int contador=-1;
 
         #region Variables Volumen
@@ -68,7 +69,8 @@ namespace WinAppProyectoFinal.Forms
             llenarListas();
             drag = new CDragNDrop(lienzo,casa,escuela);
             juego = new CJuego(lienzo);
-
+            //
+            objresize.resolutionCasa(this);
         }
 
         public frmJuego(int level)
@@ -79,6 +81,9 @@ namespace WinAppProyectoFinal.Forms
             juego = new CJuego(lienzo,level);
 
             segundos(juego.Level);
+
+            //
+            objresize.resolutionCasa(this);
         }
 
         public void segundos(int level)
@@ -101,12 +106,9 @@ namespace WinAppProyectoFinal.Forms
         { 
             juego.mostrarImagenes();
             this.DoubleBuffered = true;
-            // size
-            CResize resize = new CResize();
-            resize.Resolution(this);
 
-            resize.resizeEncasa(lienzo, casa, escuela,buttons,lblTime);
-
+            objresize.resizeEncasa(lienzo,casa, escuela, buttons, lblTime);
+            objresize.picCasa(picCanvas1, picCanvas2, picCanvas3, picCanvas4, picCanvas5, picCanvas6,picCanvasCasa,picCanvasEscuela);
         }
 
         #region DESPLAZAMIENTO
@@ -209,20 +211,21 @@ namespace WinAppProyectoFinal.Forms
         #region zoomin and zoomout buttons
         private void btnHomeGame_MouseMove(object sender, MouseEventArgs e)
         {
-            btnHomeGame.Size = new Size(89, 89);
+            //btnHomeGame.Size = new Size(89, 89);
         }
 
         private void btnReturnGame_MouseMove(object sender, MouseEventArgs e)
         {
-            btnReturnGame.Size = new Size(89, 89);
+            //btnReturnGame.Size = new Size(89, 89);
         }
 
         private void frmJuego_MouseMove(object sender, MouseEventArgs e)
         {
-            btnHomeGame.Size = new Size(79, 79);
-            btnReturnGame.Size = new Size(79, 79);
-            btnDownVolume.Size = new Size(75, 75);
-            btnUpVolume.Size = new Size(75, 75);
+            
+            //btnHomeGame.Size = new Size(79, 79);
+            //btnReturnGame.Size = new Size(79, 79);
+            //btnDownVolume.Size = new Size(75, 75);
+            //btnUpVolume.Size = new Size(75, 75);
         }
         #endregion
 
@@ -298,12 +301,12 @@ namespace WinAppProyectoFinal.Forms
 
         private void btnDownVolume_MouseMove(object sender, MouseEventArgs e)
         {
-            btnDownVolume.Size = new Size(85,85);
+            //btnDownVolume.Size = new Size(85,85);
         }
 
         private void btnUpVolume_MouseMove(object sender, MouseEventArgs e)
         {
-            btnUpVolume.Size = new Size(85,85);
+            //btnUpVolume.Size = new Size(85,85);
         }
         #endregion
 
