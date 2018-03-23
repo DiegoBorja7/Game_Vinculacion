@@ -102,6 +102,7 @@ namespace WinAppNiñitosEnAccion
         {
             ObjInstruction.playSound("Introduccion2");
             ObjResize.ResizeComponentsSelectGame(picTuCasaoTuEscuelaGame, picRegiAnimalGame, picAutoevaluacion, picExit);
+            CenterToScreen();
         }
 
         private void frmSelectGame_FormClosed(object sender, FormClosedEventArgs e)

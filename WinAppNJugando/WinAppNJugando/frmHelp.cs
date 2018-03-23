@@ -40,6 +40,8 @@ namespace RegiAnimal
 
         private void frmHelp_Load(object sender, EventArgs e)
         {
+            lblInstruccion.BackColor = Color.Transparent;
+
             CResize resize = new CResize();
 
             resize.Resolution(this);

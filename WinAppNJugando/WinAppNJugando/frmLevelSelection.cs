@@ -95,6 +95,7 @@ namespace RegiAnimal
             CResize resize = new CResize();
             resize.Resolution(this);
             resize.ResizeComponentsMenu(picLvlEasy, picLvlMedium, picLvlHard);
+            CenterToScreen();
         }
     }
 }

@@ -18,12 +18,18 @@ namespace WinAppNiñitosEnAccion
             ObjResize.ResizeComponentsVideo(VideoCreditos);
             VideoCreditos.URL = Application.StartupPath + @"/Video/Creditos.mp4";
             VideoCreditos.Ctlcontrols.play();
+            CenterToScreen();
         }
 
         private void frmVideoCreditos_FormClosed(object sender, FormClosedEventArgs e)
         {
             Hide();
             new frmInicio().Show();
+        }
+
+        private void frmVideoCreditos_Load(object sender, System.EventArgs e)
+        {
+
         }
     }
 }

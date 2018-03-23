@@ -55,6 +55,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Créditos.";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmVideoCreditos_FormClosed);
+            this.Load += new System.EventHandler(this.frmVideoCreditos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.VideoCreditos)).EndInit();
             this.ResumeLayout(false);
 
