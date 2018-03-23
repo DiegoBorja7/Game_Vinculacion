@@ -14,6 +14,8 @@ namespace WinAppProyectoFinal.Forms
     {
         CJuego juego;
         List<PictureBox> lienzo, casa, escuela;
+        List<PictureBox> buttons;
+
         CDragNDrop drag;
         int contador=-1;
 
@@ -33,6 +35,10 @@ namespace WinAppProyectoFinal.Forms
             lienzo = new List<PictureBox>();
             lienzo.Add(this.picCanvas1); lienzo.Add(this.picCanvas2); lienzo.Add(picCanvas3); lienzo.Add(picCanvas4);
             lienzo.Add(picCanvas5); lienzo.Add(picCanvas6);
+            // AGREGACION DE LOS BOTONES
+            buttons = new List<PictureBox>();
+            buttons.Add(btnHomeGame);buttons.Add(btnReturnGame);buttons.Add(btnDownVolume);
+            buttons.Add(btnUpVolume);buttons.Add(picTime);buttons.Add(btnHelp);
         }
 
         private void picCasa()
@@ -99,7 +105,8 @@ namespace WinAppProyectoFinal.Forms
             CResize resize = new CResize();
             resize.Resolution(this);
 
-            resize.resizeEncasa(lienzo, casa, escuela);
+            resize.resizeEncasa(lienzo, casa, escuela,buttons,lblTime);
+
         }
 
         #region DESPLAZAMIENTO

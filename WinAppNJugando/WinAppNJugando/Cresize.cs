@@ -133,7 +133,7 @@ namespace WinAppNiñitosEnAccion
 
         }
 
-        public void resizeEncasa(List<PictureBox> lienzo, List<PictureBox> casa, List<PictureBox> escuela)
+        public void resizeEncasa(List<PictureBox> lienzo, List<PictureBox> casa, List<PictureBox> escuela, List<PictureBox> buttons,Label lbltime)
         {
             if ((NewResolutionH != ResolutionH) || (NewResolutionW != ResolutionW))
             {
@@ -152,6 +152,17 @@ namespace WinAppNiñitosEnAccion
                     escuela[k].Width = (int)(escuela[k].Width * mNewWidth);
                     escuela[k].Height = (int)(escuela[k].Height * mNewHeight);
                 }
+
+                for (int i = 0; i < 6; i++)
+                {
+                    buttons[i].Width = (int)(buttons[i].Width * mNewWidth);
+                    buttons[i].Height = (int)(buttons[i].Height * mNewHeight);
+                    buttons[i].Location = new Point((int)(buttons[i].Location.X * mNewWidth), (int)(buttons[i].Location.Y * mNewHeight));
+                }
+
+                lbltime.Width = (int)(lbltime.Width * mNewWidth);
+                lbltime.Height = (int)(lbltime.Height * mNewHeight);
+                lbltime.Location = new Point((int)(lbltime.Location.X * mNewWidth), (int)(lbltime.Location.Y * mNewHeight));
 
             }
         }
