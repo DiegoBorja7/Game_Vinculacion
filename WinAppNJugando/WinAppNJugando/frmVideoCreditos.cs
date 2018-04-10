@@ -26,10 +26,5 @@ namespace WinAppNiñitosEnAccion
             Hide();
             new frmInicio().Show();
         }
-
-        private void frmVideoCreditos_Load(object sender, System.EventArgs e)
-        {
-
-        }
     }
 }

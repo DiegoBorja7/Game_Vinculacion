@@ -77,6 +77,7 @@ namespace RegiAnimal
             
             resize.Resolution(this);
             resize.ResizeComponentsMenu(picBtnHome, picRegianimal, picBtnPlay);
+            CenterToScreen();
         }
     }
 }

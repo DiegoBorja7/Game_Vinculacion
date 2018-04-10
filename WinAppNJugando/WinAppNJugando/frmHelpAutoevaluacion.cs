@@ -18,9 +18,9 @@ namespace WinAppNiñitosEnAccion
             InitializeComponent();
             ObjResize.ResolutionHelpAutoevaluation(this);
             ObjResize.ResizeComponentsVideo(HelpVideo);
+            CenterToScreen();
             InicializacionVideo(Name);
-            HelpVideo.Ctlcontrols.play();
-            
+            HelpVideo.Ctlcontrols.play();            
         }
 
         public void InicializacionVideo(String Name)

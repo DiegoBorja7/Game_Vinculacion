@@ -450,6 +450,7 @@ namespace WinAppNiñitosEnAccion
                     #endregion
             }
         }
+
         public void ValidateDragDrop(List<PictureBox> ListaUse, PictureBox picComparate, PictureBox picResult, PictureBox picAux,DragEventArgs e)
         {
             int i;
@@ -573,6 +574,7 @@ namespace WinAppNiñitosEnAccion
                 #endregion
             }
         }
+        
         //Compara los PictureBox de la Autoevaluacion3
         public void CompararPictureBox1(PictureBox PicComparate, MouseEventArgs e)
         {
